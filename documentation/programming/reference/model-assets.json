@@ -1,0 +1,83 @@
+[
+  {
+    "path": "Raspberry Pi/GUI/best.onnx",
+    "bytes": 12255568,
+    "sha256": "f84cb460fd293d4f535b9091bec541e64c88cd5ffc416270ff20b10555618070",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/best.pt",
+    "bytes": 12334463,
+    "sha256": "da310de5fd700b3cd0a53aeeb42739a8c9bb411694dd4cf4e3d99ebd1e1e37d6",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestv2.onnx",
+    "bytes": 12257499,
+    "sha256": "337dda2d424c2dc245e415ac91b025abdf7c3dee8ec5b70e2ccb363e2aefa99a",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestv2.pt",
+    "bytes": 6235690,
+    "sha256": "ef1b79db35d049052e94c3084d4675e02dc4c75d0271851832e96a320aff3649",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestv3.pt",
+    "bytes": 6235690,
+    "sha256": "87c36a815ee6a0efdde2bcb71bec5b6cb1b8855a4958646df56f4afdc8ef9f19",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestV42.onnx",
+    "bytes": 12257515,
+    "sha256": "78d3d2a88381a65ab246edeecbf85e64725ca74b3934800293990de6c9d2d6df",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestV42.pt",
+    "bytes": 6225514,
+    "sha256": "944cd91b019d4292f6579b737f23b5a27e60bd1d457d685f1ff41e7279045e37",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestv5.pt",
+    "bytes": 6235690,
+    "sha256": "87c36a815ee6a0efdde2bcb71bec5b6cb1b8855a4958646df56f4afdc8ef9f19",
+    "included_in_programming_zip": true,
+    "role": "Active source-selected model",
+    "included_in_this_handover": true,
+    "local_resource": "../../../source%20code/Raspberry%20Pi/GUI/bestv5.pt"
+  },
+  {
+    "path": "Raspberry Pi/GUI/bestv7.pt",
+    "bytes": 6229354,
+    "sha256": "bfe0c5beb6a20affd0f1dce6a0721fddedb71c9c78110e67c2030fb783c6637d",
+    "included_in_programming_zip": false,
+    "role": "Retained alternative/historical model",
+    "included_in_this_handover": false,
+    "package_note": "Historical asset metadata only; this alternative is excluded from the selected current source."
+  }
+]

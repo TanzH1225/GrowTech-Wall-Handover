@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/TanzH1225/GrowTech-Wall-Handover/releases/download/handover-v1.0.0/GrowTech-Wall-CAD-Library.zip",
+  "sha256": "61cc755033e68791a1c739660a1b9afdf5c258d7430d92fb46409dfea501af94",
+  "bytes": 273995519,
+  "files": 113,
+  "extract_into": "repository root; archive contains CAD library/",
+  "included": "Current owner-arranged Assembly, FAB and Standard, extra EB files, print exports, and retained GTW003C.zip. Session lock files excluded."
+}

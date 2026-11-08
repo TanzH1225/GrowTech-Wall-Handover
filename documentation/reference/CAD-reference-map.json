@@ -1,0 +1,27 @@
+{
+  "CAD_library_mode": "owner-arranged-native",
+  "status": "Owner-arranged Assembly, FAB and Standard with the completed catalogue answers applied. Unused EB001A removed at owner request; GTW001A retained as a native file but hidden in the catalogue. Both mirrored Y plates and both arm bases are retained for their different uses.",
+  "root_assembly": "CAD library/Assembly/GTW003C.SLDASM",
+  "catalogue": "documentation/Mechanical catalog/Mechanical-CAD-Review.html",
+  "native_model_count": 102,
+  "catalogue_model_count": 101,
+  "EB_parts": [
+    "FAB/Electronics Box EB/EB002A.SLDPRT",
+    "FAB/Electronics Box EB/EB003A.SLDPRT",
+    "FAB/Electronics Box EB/EB004A.SLDPRT",
+    "FAB/Electronics Box EB/EB005A.SLDPRT",
+    "FAB/Electronics Box EB/EB006A.SLDPRT",
+    "FAB/Electronics Box EB/EB007A.SLDPRT"
+  ],
+  "Pack_and_Go": {
+    "path": "CAD library/GTW003C.zip",
+    "sha256": "ebfce4a69f8f30a633d21f7176c86435125dc35b3f986299d9e7e54b78c0ddd7",
+    "bytes": 133457690,
+    "file_count": 95,
+    "assemblies": 13,
+    "parts": 82,
+    "root_assembly_inside_archive": "Assembly/GTW003C.SLDASM",
+    "CRC_checked": true,
+    "owner_report": "All CAD references repaired; owner will open the archive manually later."
+  }
+}

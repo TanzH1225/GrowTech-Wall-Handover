@@ -1,0 +1,3766 @@
+{
+  "date": "2026-11-08",
+  "entries": [
+    {
+      "id": "m001",
+      "code": "GTW001E",
+      "filename": "GTW001E.SLDASM",
+      "cadPath": "Assembly/GTW001E.SLDASM",
+      "category": "Assembly",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "GTW001",
+      "title": "Robotic arm",
+      "description": "Rotary base and articulated links position the gripper, camera and spray nozzle.",
+      "method": "Assemble",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-001-GTW001E-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-001-GTW001E-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-001-GTW001E-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m005",
+        "m059",
+        "m097",
+        "m100",
+        "m085",
+        "m051",
+        "m035",
+        "m040",
+        "m038",
+        "m039",
+        "m057",
+        "m053",
+        "m083",
+        "m037",
+        "m084"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m002",
+      "code": "GTW002B",
+      "filename": "GTW002B.SLDASM",
+      "cadPath": "Assembly/GTW002B.SLDASM",
+      "category": "Assembly",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "GTW002",
+      "title": "Y gantry drive",
+      "description": "Paired motor and wheel carriages carry the horizontal beam along the vertical rails.",
+      "method": "Assemble",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-002-GTW002B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-002-GTW002B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-002-GTW002B-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m075",
+        "m093",
+        "m052",
+        "m056",
+        "m014",
+        "m013"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m003",
+      "code": "GTW003C",
+      "filename": "GTW003C.SLDASM",
+      "cadPath": "Assembly/GTW003C.SLDASM",
+      "category": "Assembly",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "GTW003",
+      "title": "Complete GrowTech Wall",
+      "description": "Integrates the frame, growing channels, moving gantry, robotic arm and tank module.",
+      "method": "Assemble",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "004-GTW003C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "004-GTW003C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "004-GTW003C-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m065",
+        "m061",
+        "m006",
+        "m001",
+        "m004",
+        "m002",
+        "m027",
+        "m080",
+        "m026",
+        "m015",
+        "m063",
+        "m064",
+        "m047",
+        "m055",
+        "m070",
+        "m028",
+        "m076",
+        "m029",
+        "m098",
+        "m023",
+        "m016"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m004",
+      "code": "GTW005C",
+      "filename": "GTW005C.SLDASM",
+      "cadPath": "Assembly/GTW005C.SLDASM",
+      "category": "Assembly",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "GTW005",
+      "title": "X carriage and arm platform",
+      "description": "Travels across the horizontal rail and supports the cantilevered robotic arm and harvest basket.",
+      "method": "Assemble",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-005-GTW005C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-005-GTW005C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-005-GTW005C-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m075",
+        "m093",
+        "m022",
+        "m020",
+        "m021",
+        "m052",
+        "m036",
+        "m024",
+        "m025",
+        "m056",
+        "m019",
+        "m018",
+        "m017"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m005",
+      "code": "GTW006B",
+      "filename": "GTW006B.SLDASM",
+      "cadPath": "Assembly/GTW006B.SLDASM",
+      "category": "Assembly",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "GTW006",
+      "title": "Gripper",
+      "description": "Opposed sliding racks and fingers grip the collar fitted to each net pot.",
+      "method": "Assemble",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-006-GTW006B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-006-GTW006B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-006-GTW006B-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m085",
+        "m049",
+        "m077",
+        "m041",
+        "m045",
+        "m046",
+        "m042",
+        "m043",
+        "m044",
+        "m069",
+        "m058",
+        "m094"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m006",
+      "code": "GTW007A",
+      "filename": "GTW007A.SLDASM",
+      "cadPath": "Assembly/GTW007A.SLDASM",
+      "category": "Assembly",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "GTW007",
+      "title": "Reservoir and dosing module",
+      "description": "Combines the reservoir, circulation pump, reagent bottles, dosing pumps and probe holders.",
+      "method": "Assemble",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-007-GTW007A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-007-GTW007A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-007-GTW007A-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m048",
+        "m030",
+        "m054",
+        "m032",
+        "m050",
+        "m078",
+        "m101",
+        "m079",
+        "m082",
+        "m086",
+        "m033",
+        "m031",
+        "m099"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m007",
+      "code": "EB002A",
+      "filename": "EB002A.SLDPRT",
+      "cadPath": "FAB/Electronics Box EB/EB002A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Electronics Box EB",
+      "isAssembly": false,
+      "latest": true,
+      "family": "EB002",
+      "title": "Electrical box backplate",
+      "description": "Main equipment backplate inside the electrical enclosure. The internal equipment mounts onto this plate.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "042-EB002A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "042-EB002A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [
+        "FAB/Electronics Box EB/STL/EB002A-Split1.STL",
+        "FAB/Electronics Box EB/STL/EB002A.3mf",
+        "FAB/Electronics Box EB/STL/EB002A.STL",
+        "FAB/Electronics Box EB/STL/EB002A_2.stl"
+      ],
+      "note": ""
+    },
+    {
+      "id": "m008",
+      "code": "EB003A",
+      "filename": "EB003A.SLDPRT",
+      "cadPath": "FAB/Electronics Box EB/EB003A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Electronics Box EB",
+      "isAssembly": false,
+      "latest": true,
+      "family": "EB003",
+      "title": "Stepper driver mounting plate",
+      "description": "Mounts the stepper motor drivers onto the electrical box backplate.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "043-EB003A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "043-EB003A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [
+        "FAB/Electronics Box EB/STL/EB003A.STL"
+      ],
+      "note": ""
+    },
+    {
+      "id": "m009",
+      "code": "EB004A",
+      "filename": "EB004A.SLDPRT",
+      "cadPath": "FAB/Electronics Box EB/EB004A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Electronics Box EB",
+      "isAssembly": false,
+      "latest": true,
+      "family": "EB004",
+      "title": "Raspberry Pi 5 mounting plate",
+      "description": "Mounts the Raspberry Pi 5 onto the electrical box backplate.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "044-EB004A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "044-EB004A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [
+        "FAB/Electronics Box EB/STL/EB004A.STL"
+      ],
+      "note": ""
+    },
+    {
+      "id": "m010",
+      "code": "EB005A",
+      "filename": "EB005A.SLDPRT",
+      "cadPath": "FAB/Electronics Box EB/EB005A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Electronics Box EB",
+      "isAssembly": false,
+      "latest": true,
+      "family": "EB005",
+      "title": "Buck converter mounting plate",
+      "description": "Mounts the buck converters onto the electrical box backplate.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "045-EB005A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "045-EB005A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [
+        "FAB/Electronics Box EB/STL/EB005A.STL"
+      ],
+      "note": ""
+    },
+    {
+      "id": "m011",
+      "code": "EB006A",
+      "filename": "EB006A.SLDPRT",
+      "cadPath": "FAB/Electronics Box EB/EB006A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Electronics Box EB",
+      "isAssembly": false,
+      "latest": true,
+      "family": "EB006",
+      "title": "Electrical box bottom vent cover",
+      "description": "Covers the ventilation opening at the bottom of the electrical enclosure.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "046-EB006A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "046-EB006A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [
+        "FAB/Electronics Box EB/STL/EB006A.STL"
+      ],
+      "note": ""
+    },
+    {
+      "id": "m012",
+      "code": "EB007A",
+      "filename": "EB007A.SLDPRT",
+      "cadPath": "FAB/Electronics Box EB/EB007A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Electronics Box EB",
+      "isAssembly": false,
+      "latest": true,
+      "family": "EB007",
+      "title": "Touchscreen back cover",
+      "description": "Rear cover for the Raspberry Pi touchscreen.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "047-EB007A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "047-EB007A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [
+        "FAB/Electronics Box EB/STL/EB007A.3mf",
+        "FAB/Electronics Box EB/STL/EB007A.STL"
+      ],
+      "note": ""
+    },
+    {
+      "id": "m013",
+      "code": "FGA001B",
+      "filename": "FGA001B.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA001B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA001",
+      "title": "Y-carriage plate",
+      "description": "One of the two opposing carriage plates used on the Y1 and Y2 axes. Both mirrored versions are required.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM PETG",
+      "images": [],
+      "children": [],
+      "variants": [
+        "m014"
+      ],
+      "stl": [],
+      "note": "",
+      "variantHeading": "Matching mirrored plate",
+      "variantPurpose": "Both versions are used on the machine"
+    },
+    {
+      "id": "m014",
+      "code": "FGA001C",
+      "filename": "FGA001C.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA001C.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA001",
+      "title": "Mirrored Y-carriage plate",
+      "description": "One of the two opposing carriage plates used on the Y1 and Y2 axes. Both mirrored versions are required.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM PETG",
+      "images": [
+        {
+          "file": "rechecked-008-FGA001C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-008-FGA001C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [
+        "m013"
+      ],
+      "stl": [],
+      "note": "",
+      "variantHeading": "Matching mirrored plate",
+      "variantPurpose": "Both versions are used on the machine"
+    },
+    {
+      "id": "m015",
+      "code": "FGA002A",
+      "filename": "FGA002A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA002A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA002",
+      "title": "Gantry Rail (X Cross-Beam)",
+      "description": "Horizontal extruded linear guide beam carried by the two Y-carriages.",
+      "method": "Buy and cut / assemble",
+      "supplier": "Focus Aluminium (Shopee)",
+      "material": "2040 aluminium extrusion",
+      "images": [
+        {
+          "file": "049-FGA002A-iso.png",
+          "configuration": "Default<As Machined>",
+          "view": "iso"
+        },
+        {
+          "file": "049-FGA002A-rotated.png",
+          "configuration": "Default<As Machined>",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m016",
+      "code": "FGA004A",
+      "filename": "FGA004A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA004A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA004",
+      "title": "X Limit Switch Plate",
+      "description": "Positions the homing microswitches relative to the moving carriages.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "051-FGA004A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "051-FGA004A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m017",
+      "code": "FGA012A",
+      "filename": "FGA012A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA012A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA012",
+      "title": "X_Plate1 (X Carriage Side Plate)",
+      "description": "Connects the X-carriage motor mount and 16 dual-plane roller axles.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM PETG",
+      "images": [
+        {
+          "file": "059-FGA012A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "059-FGA012A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m018",
+      "code": "FGA013B",
+      "filename": "FGA013B.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA013B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA013",
+      "title": "Platform Truss (Triangular Brace)",
+      "description": "Triangular truss bracing the cantilevered arm platform against bending.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "060-FGA013B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "060-FGA013B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m019",
+      "code": "FGA015B",
+      "filename": "FGA015B.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA015B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA015",
+      "title": "Platform Support",
+      "description": "Structural support bracket connecting the arm platform to X-carriage.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "062-FGA015B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "062-FGA015B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m020",
+      "code": "FGA016A",
+      "filename": "FGA016A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA016A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA016",
+      "title": "4.5 mm Spacer",
+      "description": "Maintains precise axle spacing in the X-gantry wheel mounting stack.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "PETG",
+      "images": [
+        {
+          "file": "063-FGA016A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "063-FGA016A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m021",
+      "code": "FGA017A",
+      "filename": "FGA017A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA017A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA017",
+      "title": "9 mm Spacer",
+      "description": "9 mm gantry spacer retained as an available spare for the mounting stack.",
+      "method": "Fabricate",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "064-FGA017A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "064-FGA017A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m022",
+      "code": "FGA018A",
+      "filename": "FGA018A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA018A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA018",
+      "title": "23 mm Spacer",
+      "description": "Maintains precise standoff spacing in the X-gantry mounting stack.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "PETG",
+      "images": [
+        {
+          "file": "065-FGA018A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "065-FGA018A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m023",
+      "code": "FGA019A",
+      "filename": "FGA019A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA019A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA019",
+      "title": "X Chain Bracket",
+      "description": "Anchors the moving cable-chain/harness connection to the X-carriage.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "066-FGA019A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "066-FGA019A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m024",
+      "code": "FGA021B",
+      "filename": "FGA021B.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA021B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA021",
+      "title": "Basket Hook (Left/Right)",
+      "description": "Rear hook on X-carriage supporting the harvesting collection basket.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "068-FGA021B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "068-FGA021B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m025",
+      "code": "FGA022A",
+      "filename": "FGA022A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA022A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA022",
+      "title": "Basket Hook (Opposing)",
+      "description": "Second rear hook on X-carriage supporting the collection basket.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "069-FGA022A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "069-FGA022A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m026",
+      "code": "FGA023A",
+      "filename": "FGA023A.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FGA023A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FGA023",
+      "title": "Gantry mounting block",
+      "description": "Mounting block used in the gantry. FGA023A is the selected version; the other saved variants differ in length.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m027",
+      "code": "FRAM001D",
+      "filename": "FRAM001D.SLDPRT",
+      "cadPath": "FAB/Gantry GA/FRAM001D.SLDPRT",
+      "category": "Fabrication",
+      "group": "Gantry GA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRAM001",
+      "title": "Aluminium Frame Assembly",
+      "description": "Main structural frame supporting growing channels and XY gantry.",
+      "method": "Buy and cut / assemble",
+      "supplier": "Focus Aluminium (Shopee)",
+      "material": "2040 aluminium extrusion",
+      "images": [
+        {
+          "file": "071-FRAM001D-iso.png",
+          "configuration": "Default<As Machined>",
+          "view": "iso"
+        },
+        {
+          "file": "071-FRAM001D-rotated.png",
+          "configuration": "Default<As Machined>",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m028",
+      "code": "FHA002A",
+      "filename": "FHA002A.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA002A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA002",
+      "title": "Net Pot Socket Adapter ('Cup')",
+      "description": "Ring-shaped collar fitted atop net pots; provides rigid gripping wall for robot.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "073-FHA002A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "073-FHA002A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m029",
+      "code": "FHA003B",
+      "filename": "FHA003B.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA003B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA003",
+      "title": "Slide V2 (13° Seedling Chute)",
+      "description": "Inclined seedling supply chute, printed in separate sections and glued together. It feeds net pots toward the transplant pickup point.",
+      "method": "3D print and glue sections",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "074-FHA003B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "074-FHA003B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m030",
+      "code": "FHA004A",
+      "filename": "FHA004A.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA004A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA004",
+      "title": "Auto-Dosing Module Housing",
+      "description": "White enclosure housing relays/wiring and mounting the 4 pumps on the tank.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "075-FHA004A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "075-FHA004A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m031",
+      "code": "FHA005A",
+      "filename": "FHA005A.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA005A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA005",
+      "title": "Tank-Edge Snap-Fit Bracket",
+      "description": "Clips over the rim of the 12 L reservoir to hold dosing box FHA004A without screws.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "076-FHA005A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "076-FHA005A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m032",
+      "code": "FHA008A",
+      "filename": "FHA008A.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA008A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA008",
+      "title": "Dosing Bottle Holder",
+      "description": "Three-compartment rack retaining the 250 ml Fertilizer A, B, and Acid bottles.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "079-FHA008A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "079-FHA008A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m033",
+      "code": "FHA009A",
+      "filename": "FHA009A.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA009A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA009",
+      "title": "Submerged Sensors Holder",
+      "description": "Bracket inside reservoir positioning the cylindrical pH, EC, and level probes.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "080-FHA009A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "080-FHA009A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m034",
+      "code": "FHA012A",
+      "filename": "FHA012A.SLDPRT",
+      "cadPath": "FAB/Hydroponics HA/FHA012A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Hydroponics HA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FHA012",
+      "title": "Channel Opening Lid ('LID')",
+      "description": "Caps the 2 unused holes on each of the 4 PVC channels to block light/algae.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "083-FHA012A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "083-FHA012A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m035",
+      "code": "FRA001B",
+      "filename": "FRA001B.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA001B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA001",
+      "title": "Arm tabletop test base",
+      "description": "Flat standalone base for supporting and testing the robotic arm on a tabletop.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [],
+      "children": [],
+      "variants": [
+        "m036"
+      ],
+      "stl": [],
+      "note": "",
+      "variantHeading": "Other arm mounting option",
+      "variantPurpose": "Different mounting use"
+    },
+    {
+      "id": "m036",
+      "code": "FRA001C",
+      "filename": "FRA001C.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA001C.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA001",
+      "title": "Arm mounting plate for X gantry",
+      "description": "Current mounting plate attaching the robotic arm to the X gantry platform.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "084-FRA001C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "084-FRA001C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [
+        "m035"
+      ],
+      "stl": [],
+      "note": "",
+      "variantHeading": "Other arm mounting option",
+      "variantPurpose": "Different mounting use"
+    },
+    {
+      "id": "m037",
+      "code": "FRA002B",
+      "filename": "FRA002B.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA002B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA002",
+      "title": "Rotary Base Plate",
+      "description": "Circular rotary mounting plate driven by the base 360° servo (HX-35M).",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM PETG",
+      "images": [
+        {
+          "file": "085-FRA002B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "085-FRA002B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m038",
+      "code": "FRA003C",
+      "filename": "FRA003C.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA003C.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA003",
+      "title": "Arm Joint Housing 1 (Shoulder)",
+      "description": "Supports the first pitch joint (shoulder) and HTS-35H servo interface.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG/PLA+",
+      "images": [
+        {
+          "file": "086-FRA003C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "086-FRA003C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m039",
+      "code": "FRA004B",
+      "filename": "FRA004B.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA004B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA004",
+      "title": "Arm Link Housing 1",
+      "description": "Primary structural arm link housing connecting shoulder and elbow joints.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM PETG",
+      "images": [
+        {
+          "file": "087-FRA004B-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "087-FRA004B-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m040",
+      "code": "FRA005D",
+      "filename": "FRA005D.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA005D.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA005",
+      "title": "Arm 2 (Second Link Housing)",
+      "description": "Distal arm link housing between elbow and wrist joints (Rev D).",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG/PLA+",
+      "images": [
+        {
+          "file": "088-FRA005D-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "088-FRA005D-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m041",
+      "code": "FRA010A",
+      "filename": "FRA010A.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA010A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA010",
+      "title": "End-Effector Actuator Housing",
+      "description": "Main gripper body carrying the HX-12H servo, guide shafts, and wrist mount.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM PETG",
+      "images": [
+        {
+          "file": "093-FRA010A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "093-FRA010A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m042",
+      "code": "FRA013A",
+      "filename": "FRA013A.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA013A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA013",
+      "title": "Gripper Pinion",
+      "description": "Central passive spur gear synchronizing the left and right gripper racks.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG/PLA+",
+      "images": [
+        {
+          "file": "096-FRA013A-iso.png",
+          "configuration": "PreviewCfg",
+          "view": "iso"
+        },
+        {
+          "file": "096-FRA013A-rotated.png",
+          "configuration": "PreviewCfg",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m043",
+      "code": "FRA014A",
+      "filename": "FRA014A.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA014A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA014",
+      "title": "Gripper Rack 1 (Driven Rack)",
+      "description": "Right linear rack driven directly by the 25T servo horn; carries Finger A.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG/PLA+",
+      "images": [
+        {
+          "file": "097-FRA014A-iso.png",
+          "configuration": "PreviewCfg",
+          "view": "iso"
+        },
+        {
+          "file": "097-FRA014A-rotated.png",
+          "configuration": "PreviewCfg",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m044",
+      "code": "FRA015B",
+      "filename": "FRA015B.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA015B.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA015",
+      "title": "Gripper Rack 2 (Opposing Rack)",
+      "description": "Left linear rack driven in reverse by central pinion FRA013A; carries Finger B.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG/PLA+",
+      "images": [
+        {
+          "file": "098-FRA015B-iso.png",
+          "configuration": "PreviewCfg",
+          "view": "iso"
+        },
+        {
+          "file": "098-FRA015B-rotated.png",
+          "configuration": "PreviewCfg",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m045",
+      "code": "FRA017C",
+      "filename": "FRA017C.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA017C.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA017",
+      "title": "Gripper Finger A",
+      "description": "Curved opposing finger bolted to Rack 1; grips PETG net-pot socket wall.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "100-FRA017C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "100-FRA017C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m046",
+      "code": "FRA018C",
+      "filename": "FRA018C.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA018C.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA018",
+      "title": "Gripper Finger B",
+      "description": "Opposing curved finger bolted to Rack 2; grips PETG net-pot socket wall.",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "101-FRA018C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "101-FRA018C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m047",
+      "code": "FRA019A",
+      "filename": "FRA019A.SLDPRT",
+      "cadPath": "FAB/Robotic Arm RA/FRA019A.SLDPRT",
+      "category": "Fabrication",
+      "group": "Robotic Arm RA",
+      "isAssembly": false,
+      "latest": true,
+      "family": "FRA019",
+      "title": "Local Control Box Enclosure",
+      "description": "Small enclosure with access openings (1x Arm Servo Box, 1x Rear LED Relay Box).",
+      "method": "3D print",
+      "supplier": "",
+      "material": "FDM Printed PETG",
+      "images": [
+        {
+          "file": "102-FRA019A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "102-FRA019A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": ""
+    },
+    {
+      "id": "m048",
+      "code": "250ml Bottle",
+      "filename": "250ml Bottle.SLDPRT",
+      "cadPath": "Standard/250ml Bottle.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "250ml Bottle",
+      "title": "250 ml dosing bottle",
+      "description": "Holds Fertilizer A, Fertilizer B, and Acid in bottle holder FHA008A",
+      "method": "Buy",
+      "supplier": "Labware / Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "103-250ml_Bottle-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "103-250ml_Bottle-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "250 ml clear plastic/glass reagent bottles",
+      "purchaseName": "Reagent Dosing Bottles (250 ml)"
+    },
+    {
+      "id": "m049",
+      "code": "3mmX80mm shaft",
+      "filename": "3mmX80mm shaft.SLDPRT",
+      "cadPath": "Standard/3mmX80mm shaft.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "3mmX80mm shaft",
+      "title": "3 × 80 mm gripper guide shaft",
+      "description": "Linear guide rails for opposing gripper fingers inside GTW006B",
+      "method": "Buy",
+      "supplier": "Standard 3 mm linear shaft",
+      "material": "",
+      "images": [
+        {
+          "file": "104-3mmX80mm_shaft-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "104-3mmX80mm_shaft-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "3 mm diameter x 80 mm length stainless steel linear rod",
+      "purchaseName": "Gripper Guide Shafts (3x80 mm)"
+    },
+    {
+      "id": "m050",
+      "code": "4ch optocoupler relay board",
+      "filename": "4ch optocoupler relay board.SLDPRT",
+      "cadPath": "Standard/4ch optocoupler relay board.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "4ch optocoupler relay board",
+      "title": "Four-channel relay board",
+      "description": "Mounted inside dosing box (FHA004A) for pump speed & switching",
+      "method": "Buy",
+      "supplier": "Electrica.my / Taobao",
+      "material": "",
+      "images": [
+        {
+          "file": "105-4ch_optocoupler_relay_board-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "105-4ch_optocoupler_relay_board-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Rotary knob PWM motor controller (1 pc) + 4-channel optocoupler relay board (1 pc)",
+      "purchaseName": "PWM Speed Controller & 4ch Relay"
+    },
+    {
+      "id": "m051",
+      "code": "6mm pneumatic fittings",
+      "filename": "6mm pneumatic fittings.sldprt",
+      "cadPath": "Standard/6mm pneumatic fittings.sldprt",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "6mm pneumatic fittings",
+      "title": "6mm pneumatic fittings",
+      "description": "Foliar pesticide/neem-oil spraying at robotic arm end-effector",
+      "method": "Buy",
+      "supplier": "Shopee / Blomker",
+      "material": "",
+      "images": [
+        {
+          "file": "106-6mm_pneumatic_fittings-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "106-6mm_pneumatic_fittings-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "12V mini diaphragm pump + Quick-Connector Spray Nozzle + 6 mm pneumatic fitting",
+      "purchaseName": "Spray Pump (12V) & Spray Nozzle"
+    },
+    {
+      "id": "m052",
+      "code": "Aluminium Round Spacer",
+      "filename": "Aluminium Round Spacer.SLDPRT",
+      "cadPath": "Standard/Aluminium Round Spacer.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Aluminium Round Spacer",
+      "title": "Aluminium Round Spacer",
+      "description": "Maintains wheel & motor standoff stack on X/Y carriages",
+      "method": "Buy",
+      "supplier": "Smith3D / Standard M5 hardware",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-009-Aluminium_Round_Spacer-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-009-Aluminium_Round_Spacer-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "5052-H34 Aluminum unthreaded M5 wheel/standoff spacer",
+      "purchaseName": "Aluminum Round Spacer"
+    },
+    {
+      "id": "m053",
+      "code": "C920 Webcam",
+      "filename": "C920 Webcam.SLDPRT",
+      "cadPath": "Standard/C920 Webcam.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "C920 Webcam",
+      "title": "Logitech C920 webcam",
+      "description": "Mounted on wrist/gripper for YOLOv8 AI crop/pest vision",
+      "method": "Buy",
+      "supplier": "Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "108-C920_Webcam-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "108-C920_Webcam-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Logitech C920 HD Pro USB webcam",
+      "purchaseName": "Webcam (Logitech C920)"
+    },
+    {
+      "id": "m054",
+      "code": "DP521 Water Pump",
+      "filename": "DP521 Water Pump.SLDPRT",
+      "cadPath": "Standard/DP521 Water Pump.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "DP521 Water Pump",
+      "title": "DP-521 circulation pump",
+      "description": "Circulates nutrient solution from 12 L tank to all 4 channels",
+      "method": "Buy",
+      "supplier": "Taobao (凌泰重工) / ElectricA",
+      "material": "",
+      "images": [
+        {
+          "file": "109-DP521_Water_Pump-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "109-DP521_Water_Pump-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "12V DC diaphragm pump, rated 3.5 L/min, with inlet filter & outlet check valve",
+      "purchaseName": "Main Water Pump (DP-521)"
+    },
+    {
+      "id": "m055",
+      "code": "Electrical Panel Box",
+      "filename": "Electrical Panel Box.SLDPRT",
+      "cadPath": "Standard/Electrical Panel Box.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Electrical Panel Box",
+      "title": "Main electrical enclosure",
+      "description": "Mounted on left side of frame; powers & coordinates full system",
+      "method": "Buy",
+      "supplier": "Taobao (迎欣旗舰店) / Cytron",
+      "material": "",
+      "images": [
+        {
+          "file": "110-Electrical_Panel_Box-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "110-Electrical_Panel_Box-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Electrical Panel Box + 24V 16.5A (396W) PSU + 2x SZBK07 Buck + Wheeltec P23C + Pi 5",
+      "purchaseName": "Main Electrical Enclosure & PSU"
+    },
+    {
+      "id": "m056",
+      "code": "GT2 Timing Pulley",
+      "filename": "GT2 Timing Pulley.SLDPRT",
+      "cadPath": "Standard/GT2 Timing Pulley.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "GT2 Timing Pulley",
+      "title": "GT2 Timing Pulley",
+      "description": "Motor shaft belt drive (30T stops Y belt skipping)",
+      "method": "Buy",
+      "supplier": "Robotronik (Shopee)",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-010-GT2_Timing_Pulley-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-010-GT2_Timing_Pulley-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Aluminum 6063-T1 GT2 pulleys: 2x 30-Tooth (Y-axis upgraded) + 1x 20-Tooth (X-axis)",
+      "purchaseName": "GT2 Timing Pulley (30T & 20T)"
+    },
+    {
+      "id": "m057",
+      "code": "240 Servo Motor HTS-35H",
+      "filename": "240 Servo Motor HTS-35H.SLDPRT",
+      "cadPath": "Standard/HTS-35H 240 35kg Servo/240 Servo Motor HTS-35H.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "240 Servo Motor HTS-35H",
+      "title": "HTS-35H joint servo",
+      "description": "Articulated arm joints (Shoulder, Elbow, Wrist)",
+      "method": "Buy",
+      "supplier": "Alibaba (一介布衣) / Hiwonder",
+      "material": "",
+      "images": [
+        {
+          "file": "112-240_Servo_Motor_HTS-35H-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "112-240_Servo_Motor_HTS-35H-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Hiwonder HTS-35H high-torque serial bus servo (35 kg·cm, 3-wire daisy chain)",
+      "purchaseName": "Hiwonder Joint Servo (HTS-35H)"
+    },
+    {
+      "id": "m058",
+      "code": "0_DS-LH8A_stp(2)",
+      "filename": "0_DS-LH8A_stp(2).SLDPRT",
+      "cadPath": "Standard/HX-12H Small Servo/0_DS-LH8A_stp(2).SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "0_DS-LH8A_stp(2)",
+      "title": "HX-12H gripper servo",
+      "description": "Drives rack-and-pinion gripper fingers (daisy-chained with HTS-35H)",
+      "method": "Buy",
+      "supplier": "Alibaba / Hiwonder",
+      "material": "",
+      "images": [
+        {
+          "file": "113-0_DS-LH8A_stp_2_-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "113-0_DS-LH8A_stp_2_-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Hiwonder HX-12H serial bus servo (11 kg·cm; CAD ref 0_DS-LH8A_stp)",
+      "purchaseName": "Hiwonder Gripper Servo (HX-12H)"
+    },
+    {
+      "id": "m059",
+      "code": "HX-35HM",
+      "filename": "HX-35HM.SLDASM",
+      "cadPath": "Standard/HX-35HM/HX-35HM三维图纸/HX-35HM.SLDASM",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "HX-35HM",
+      "title": "HX-35HM base servo",
+      "description": "Robotic arm base yaw rotation (Turntable)",
+      "method": "Buy",
+      "supplier": "Alibaba (一介布衣) / Hiwonder",
+      "material": "",
+      "images": [
+        {
+          "file": "009-HX-35HM-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "009-HX-35HM-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "009-HX-35HM-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Hiwonder HX-35M / HX-35HM 360° rotary servo (separate 3-black-wire lead)",
+      "purchaseName": "Hiwonder Base 360° Servo (HX-35M)"
+    },
+    {
+      "id": "m060",
+      "code": "Hydroponic Channel 1 Meter",
+      "filename": "Hydroponic Channel 1 Meter.SLDPRT",
+      "cadPath": "Standard/Hydroponic Channel/Hydroponic Channel 1 Meter.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Hydroponic Channel 1 Meter",
+      "title": "1 m NFT growing channel",
+      "description": "4 horizontal growing tiers (24 active plant sites total)",
+      "method": "Buy",
+      "supplier": "UH Agroponics",
+      "material": "",
+      "images": [
+        {
+          "file": "114-Hydroponic_Channel_1_Meter-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "114-Hydroponic_Channel_1_Meter-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Food-grade white PVC channel, 1000 x 109 x 58 mm (8 holes/row, 45 mm diameter)",
+      "purchaseName": "NFT Hydroponic PVC Channel (1 m)"
+    },
+    {
+      "id": "m061",
+      "code": "Hydroponic Channel Assembly 4inchX2inch",
+      "filename": "Hydroponic Channel Assembly 4inchX2inch.SLDASM",
+      "cadPath": "Standard/Hydroponic Channel/Hydroponic Channel Assembly 4inchX2inch.SLDASM",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "Hydroponic Channel Assembly 4inchX2inch",
+      "title": "NFT growing channel assembly",
+      "description": "4 horizontal growing tiers (24 active plant sites total)",
+      "method": "Buy",
+      "supplier": "UH Agroponics",
+      "material": "",
+      "images": [
+        {
+          "file": "010-Hydroponic_Channel_Assembly_4inchX2inch-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "010-Hydroponic_Channel_Assembly_4inchX2inch-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "010-Hydroponic_Channel_Assembly_4inchX2inch-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m060",
+        "m034",
+        "m064",
+        "m062",
+        "m028",
+        "m081"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Food-grade white PVC channel, 1000 x 109 x 58 mm (8 holes/row, 45 mm diameter)",
+      "purchaseName": "NFT Hydroponic PVC Channel (1 m)"
+    },
+    {
+      "id": "m062",
+      "code": "Hydroponic Channel End Cap",
+      "filename": "Hydroponic Channel End Cap.SLDPRT",
+      "cadPath": "Standard/Hydroponic Channel/Hydroponic Channel End Cap.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Hydroponic Channel End Cap",
+      "title": "NFT channel end cap",
+      "description": "Seals both ends of the 4 PVC channels",
+      "method": "Buy",
+      "supplier": "UH Agroponics (included in set)",
+      "material": "",
+      "images": [
+        {
+          "file": "115-Hydroponic_Channel_End_Cap-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "115-Hydroponic_Channel_End_Cap-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "PVC rectangular slip-on end cap (2 arranged for manual water refill)",
+      "purchaseName": "Hydroponic Channel End Cap"
+    },
+    {
+      "id": "m063",
+      "code": "IDP basket",
+      "filename": "IDP basket.SLDPRT",
+      "cadPath": "Standard/IDP basket.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "IDP basket",
+      "title": "Harvest collection basket",
+      "description": "Hangs on X-carriage hooks (FGA021B/022A) to catch harvested pots",
+      "method": "Buy",
+      "supplier": "Shopee / Blomker",
+      "material": "",
+      "images": [
+        {
+          "file": "116-IDP_basket-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "116-IDP_basket-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Slotted plastic harvesting collection crate",
+      "purchaseName": "Collection Basket (IDP Basket)"
+    },
+    {
+      "id": "m064",
+      "code": "IDP hydroponics netpot",
+      "filename": "IDP hydroponics netpot.SLDPRT",
+      "cadPath": "Standard/IDP hydroponics netpot.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "IDP hydroponics netpot",
+      "title": "Hydroponic net pot",
+      "description": "Plant holder (used with custom PETG socket adapter FHA002A)",
+      "method": "Buy",
+      "supplier": "Wellgrow / Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "117-IDP_hydroponics_netpot-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "117-IDP_hydroponics_netpot-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Standard slotted plastic net pot (42 mm base diameter)",
+      "purchaseName": "Hydroponic Net Pot"
+    },
+    {
+      "id": "m065",
+      "code": "LBSBL6-2028-SET",
+      "filename": "LBSBL6-2028-SET.sldasm",
+      "cadPath": "Standard/LBSBL6-2028-SET Profile L Bracket/LBSBL6-2028-SET.sldasm",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "LBSBL6-2028-SET",
+      "title": "LBSBL6-2028 frame bracket set",
+      "description": "Joining 2040 frame extrusions (70 purchased / 96 in CAD)",
+      "method": "Buy",
+      "supplier": "Taobao (铝型材配件销售) / Misumi",
+      "material": "",
+      "images": [
+        {
+          "file": "011-LBSBL6-2028-SET-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "011-LBSBL6-2028-SET-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "011-LBSBL6-2028-SET-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m066",
+        "m067",
+        "m068"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Misumi LBSBL6-2028-SET (with M5 T-nut LNCFM5 & M5x10 screw LTTB6-5-10)",
+      "purchaseName": "Cast L-Bracket Gusset (2028)"
+    },
+    {
+      "id": "m066",
+      "code": "LBSBL6-2028-SET_b",
+      "filename": "LBSBL6-2028-SET_b.sldprt",
+      "cadPath": "Standard/LBSBL6-2028-SET Profile L Bracket/LBSBL6-2028-SET_b.sldprt",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "LBSBL6-2028-SET_b",
+      "title": "LBSBL6-2028 bracket body",
+      "description": "Joining 2040 frame extrusions (70 purchased / 96 in CAD)",
+      "method": "Buy",
+      "supplier": "Taobao (铝型材配件销售) / Misumi",
+      "material": "",
+      "images": [
+        {
+          "file": "118-LBSBL6-2028-SET_b-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "118-LBSBL6-2028-SET_b-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Misumi LBSBL6-2028-SET (with M5 T-nut LNCFM5 & M5x10 screw LTTB6-5-10)",
+      "purchaseName": "Cast L-Bracket Gusset (2028)"
+    },
+    {
+      "id": "m067",
+      "code": "LNCFM5-100P",
+      "filename": "LNCFM5-100P.sldprt",
+      "cadPath": "Standard/LBSBL6-2028-SET Profile L Bracket/LNCFM5-100P.sldprt",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "LNCFM5-100P",
+      "title": "M5 profile T-nut",
+      "description": "Joining 2040 frame extrusions (70 purchased / 96 in CAD)",
+      "method": "Buy",
+      "supplier": "Taobao (铝型材配件销售) / Misumi",
+      "material": "",
+      "images": [
+        {
+          "file": "119-LNCFM5-100P-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "119-LNCFM5-100P-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Misumi LBSBL6-2028-SET (with M5 T-nut LNCFM5 & M5x10 screw LTTB6-5-10)",
+      "purchaseName": "Cast L-Bracket Gusset (2028)"
+    },
+    {
+      "id": "m068",
+      "code": "LTTB6-5-10",
+      "filename": "LTTB6-5-10.sldprt",
+      "cadPath": "Standard/LBSBL6-2028-SET Profile L Bracket/LTTB6-5-10.sldprt",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "LTTB6-5-10",
+      "title": "M5 × 10 bracket screw",
+      "description": "Joining 2040 frame extrusions (70 purchased / 96 in CAD)",
+      "method": "Buy",
+      "supplier": "Taobao (铝型材配件销售) / Misumi",
+      "material": "",
+      "images": [
+        {
+          "file": "120-LTTB6-5-10-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "120-LTTB6-5-10-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Misumi LBSBL6-2028-SET (with M5 T-nut LNCFM5 & M5x10 screw LTTB6-5-10)",
+      "purchaseName": "Cast L-Bracket Gusset (2028)"
+    },
+    {
+      "id": "m069",
+      "code": "Lineare_bearing_LM3UU",
+      "filename": "Lineare_bearing_LM3UU.SLDPRT",
+      "cadPath": "Standard/Lineare_bearing_LM3UU.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Lineare_bearing_LM3UU",
+      "title": "LM3UU linear bearing",
+      "description": "Linear bearing guiding the gripper mechanism on the 3 mm shaft.",
+      "method": "Buy",
+      "supplier": "Standard linear bearing",
+      "material": "",
+      "images": [
+        {
+          "file": "121-Lineare_bearing_LM3UU-iso.png",
+          "configuration": "LM6UU",
+          "view": "iso"
+        },
+        {
+          "file": "121-Lineare_bearing_LM3UU-rotated.png",
+          "configuration": "LM6UU",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "LM3UU linear bearing for a 3 mm shaft.",
+      "purchaseName": "Linear Bearing (LM3UU / LM6UU)"
+    },
+    {
+      "id": "m070",
+      "code": "Mounting L Bracket",
+      "filename": "Mounting L Bracket.SLDPRT",
+      "cadPath": "Standard/Mounting L Bracket.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Mounting L Bracket",
+      "title": "Mounting L Bracket",
+      "description": "Auxiliary bracket in CAD root",
+      "method": "Buy",
+      "supplier": "Standard hardware",
+      "material": "",
+      "images": [
+        {
+          "file": "122-Mounting_L_Bracket-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "122-Mounting_L_Bracket-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Standard 90° angle bracket",
+      "purchaseName": "Mounting L-Bracket (Small)"
+    },
+    {
+      "id": "m071",
+      "code": "476745 - Nema 23 Shaft End Plate",
+      "filename": "476745 - Nema 23 Shaft End Plate.SLDPRT",
+      "cadPath": "Standard/nema-23-57bygh56-401a-1.snapshot.4/476745 - Nema 23 Shaft End Plate.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "476745 - Nema 23 Shaft End Plate",
+      "title": "476745 - Nema 23 Shaft End Plate",
+      "description": "Internal component of the supplied NEMA 23 motor model; not a separate prototype purchase.",
+      "method": "Included in motor CAD",
+      "supplier": "Buy the complete NEMA 23 motor",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-012-476745_-_Nema_23_Shaft_End_Plate-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-012-476745_-_Nema_23_Shaft_End_Plate-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "57BYGH56-401A, 1.9 N·m holding torque, 4-lead (Blk/Grn/Blu/Red)",
+      "purchaseName": "NEMA 23 Stepper Motor (1.9 N·m)"
+    },
+    {
+      "id": "m072",
+      "code": "476746 - Nema 23 End Plate",
+      "filename": "476746 - Nema 23 End Plate.SLDPRT",
+      "cadPath": "Standard/nema-23-57bygh56-401a-1.snapshot.4/476746 - Nema 23 End Plate.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "476746 - Nema 23 End Plate",
+      "title": "476746 - Nema 23 End Plate",
+      "description": "Internal component of the supplied NEMA 23 motor model; not a separate prototype purchase.",
+      "method": "Included in motor CAD",
+      "supplier": "Buy the complete NEMA 23 motor",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-013-476746_-_Nema_23_End_Plate-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-013-476746_-_Nema_23_End_Plate-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "57BYGH56-401A, 1.9 N·m holding torque, 4-lead (Blk/Grn/Blu/Red)",
+      "purchaseName": "NEMA 23 Stepper Motor (1.9 N·m)"
+    },
+    {
+      "id": "m073",
+      "code": "476747 - Nema 23 Motor Body",
+      "filename": "476747 - Nema 23 Motor Body.SLDPRT",
+      "cadPath": "Standard/nema-23-57bygh56-401a-1.snapshot.4/476747 - Nema 23 Motor Body.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "476747 - Nema 23 Motor Body",
+      "title": "476747 - Nema 23 Motor Body",
+      "description": "Internal component of the supplied NEMA 23 motor model; not a separate prototype purchase.",
+      "method": "Included in motor CAD",
+      "supplier": "Buy the complete NEMA 23 motor",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-014-476747_-_Nema_23_Motor_Body-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-014-476747_-_Nema_23_Motor_Body-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "57BYGH56-401A, 1.9 N·m holding torque, 4-lead (Blk/Grn/Blu/Red)",
+      "purchaseName": "NEMA 23 Stepper Motor (1.9 N·m)"
+    },
+    {
+      "id": "m074",
+      "code": "476748 - Nema 23 Armature",
+      "filename": "476748 - Nema 23 Armature.SLDPRT",
+      "cadPath": "Standard/nema-23-57bygh56-401a-1.snapshot.4/476748 - Nema 23 Armature.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "476748 - Nema 23 Armature",
+      "title": "476748 - Nema 23 Armature",
+      "description": "Internal component of the supplied NEMA 23 motor model; not a separate prototype purchase.",
+      "method": "Included in motor CAD",
+      "supplier": "Buy the complete NEMA 23 motor",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-015-476748_-_Nema_23_Armature-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-015-476748_-_Nema_23_Armature-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "57BYGH56-401A, 1.9 N·m holding torque, 4-lead (Blk/Grn/Blu/Red)",
+      "purchaseName": "NEMA 23 Stepper Motor (1.9 N·m)"
+    },
+    {
+      "id": "m075",
+      "code": "Nema 23 - 57BYGH56-401A",
+      "filename": "Nema 23 - 57BYGH56-401A.SLDASM",
+      "cadPath": "Standard/nema-23-57bygh56-401a-1.snapshot.4/Nema 23 - 57BYGH56-401A.SLDASM",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "Nema 23 - 57BYGH56-401A",
+      "title": "NEMA 23 stepper motor",
+      "description": "Vertical Y-Axis Dual Drive (Y1 Left & Y2 Right)",
+      "method": "Buy",
+      "supplier": "Robotronik (Shopee)",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-016-Nema_23_-_57BYGH56-401A-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-016-Nema_23_-_57BYGH56-401A-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-016-Nema_23_-_57BYGH56-401A-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m071",
+        "m072",
+        "m073",
+        "m074"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": "This motor model represents the stepper envelope. The handover distinguishes 1.9 N·m Y motors and a 1.3 N·m X motor; check the intended axis when purchasing.",
+      "specification": "57BYGH56-401A, 1.9 N·m holding torque, 4-lead (Blk/Grn/Blu/Red)",
+      "purchaseName": "NEMA 23 Stepper Motor (1.9 N·m)"
+    },
+    {
+      "id": "m076",
+      "code": "Omron V-155-1C25_MircoSwitch",
+      "filename": "Omron V-155-1C25_MircoSwitch.SLDPRT",
+      "cadPath": "Standard/Omron V-155-1C25_MircoSwitch.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Omron V-155-1C25_MircoSwitch",
+      "title": "Omron V-155-1C25_MircoSwitch",
+      "description": "Homing endstops: Y1 bottom (D9), Y2 bottom (D10), X left (D8)",
+      "method": "Buy",
+      "supplier": "Robotic Wholesale Market",
+      "material": "",
+      "images": [
+        {
+          "file": "123-Omron_V-155-1C25_MircoSwitch-iso.png",
+          "configuration": "Défaut",
+          "view": "iso"
+        },
+        {
+          "file": "123-Omron_V-155-1C25_MircoSwitch-rotated.png",
+          "configuration": "Défaut",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Omron V-155-1C25 SPDT roller lever microswitch",
+      "purchaseName": "Limit Switch (Microswitch)"
+    },
+    {
+      "id": "m077",
+      "code": "p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID × 9 OD × 3 W  —  603-ZZ",
+      "filename": "p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID × 9 OD × 3 W  —  603-ZZ.SLDPRT",
+      "cadPath": "Standard/p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID × 9 OD × 3 W  —  603-ZZ.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID × 9 OD × 3 W  —  603-ZZ",
+      "title": "603-ZZ miniature ball bearing",
+      "description": "Supports central passive pinion (FRA013A) in gripper",
+      "method": "Buy",
+      "supplier": "Standard metric bearing",
+      "material": "",
+      "images": [
+        {
+          "file": "143-p__BEARING__METRIC_600_MINIATURE_SERIES__DOUBLE-SHIELDED__3mm_ID___9_OD___3_W_____603-ZZ-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "143-p__BEARING__METRIC_600_MINIATURE_SERIES__DOUBLE-SHIELDED__3mm_ID___9_OD___3_W_____603-ZZ-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Metric 600 series double-shielded bearing, 3 mm ID x 9 mm OD x 3 mm W",
+      "purchaseName": "Miniature Ball Bearing (603-ZZ)"
+    },
+    {
+      "id": "m078",
+      "code": "peristaltic pump KPP from kamoer",
+      "filename": "peristaltic pump KPP from kamoer.SLDPRT",
+      "cadPath": "Standard/peristaltic pump KPP from kamoer.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "peristaltic pump KPP from kamoer",
+      "title": "Kamoer KPP dosing pump",
+      "description": "Automated dosing of Fertilizer A, Fertilizer B, and Phosphoric Acid",
+      "method": "Buy",
+      "supplier": "Taobao / ElectricA",
+      "material": "",
+      "images": [
+        {
+          "file": "144-peristaltic_pump_KPP_from_kamoer-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "144-peristaltic_pump_KPP_from_kamoer-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "12V DC Kamoer KPP peristaltic dosing pump",
+      "purchaseName": "Kamoer Peristaltic Pump (KPP)"
+    },
+    {
+      "id": "m079",
+      "code": "PH-4502C",
+      "filename": "PH-4502C.SLDPRT",
+      "cadPath": "Standard/PH-4502C.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "PH-4502C",
+      "title": "PH-4502C pH interface",
+      "description": "Submerged reservoir monitoring connected via 12-pin Molex",
+      "method": "Buy",
+      "supplier": "Taobao (芯柚科技)",
+      "material": "",
+      "images": [
+        {
+          "file": "124-PH-4502C-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "124-PH-4502C-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "PH-4502C pH sensor + EC sensor + Water Level sensor (held in FHA009A)",
+      "purchaseName": "Sensors (pH, EC, Water Level)"
+    },
+    {
+      "id": "m080",
+      "code": "Piping",
+      "filename": "Piping.SLDPRT",
+      "cadPath": "Standard/Piping.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Piping",
+      "title": "Circulation pipework",
+      "description": "Opaque circulation plumbing (prevents algae growth)",
+      "method": "Buy",
+      "supplier": "AIROTECH / Ban Hee & TYS STORE",
+      "material": "",
+      "images": [
+        {
+          "file": "126-Piping-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "126-Piping-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "9.5 mm ID opaque black polyurethane (PU) tube (5 m) + 8x stainless push fittings",
+      "purchaseName": "Black PU Tubing & Fittings"
+    },
+    {
+      "id": "m081",
+      "code": "Planting",
+      "filename": "Planting.SLDPRT",
+      "cadPath": "Standard/Planting.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Planting",
+      "title": "Plant representation",
+      "description": "Plant placeholder used to illustrate occupied net pots in the CAD model.",
+      "method": "Reference model",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "127-Planting-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "127-Planting-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "",
+      "purchaseName": ""
+    },
+    {
+      "id": "m082",
+      "code": "PWM Controller",
+      "filename": "PWM Controller.SLDPRT",
+      "cadPath": "Standard/PWM Controller.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "PWM Controller",
+      "title": "PWM pump speed controller",
+      "description": "Mounted inside dosing box (FHA004A) for pump speed & switching",
+      "method": "Buy",
+      "supplier": "Electrica.my / Taobao",
+      "material": "",
+      "images": [
+        {
+          "file": "125-PWM_Controller-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "125-PWM_Controller-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Rotary knob PWM motor controller (1 pc) + 4-channel optocoupler relay board (1 pc)",
+      "purchaseName": "PWM Speed Controller & 4ch Relay"
+    },
+    {
+      "id": "m083",
+      "code": "Quick Connector Spray Nozzle",
+      "filename": "Quick Connector Spray Nozzle.SLDPRT",
+      "cadPath": "Standard/Quick Connector Spray Nozzle.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Quick Connector Spray Nozzle",
+      "title": "Quick Connector Spray Nozzle",
+      "description": "Foliar pesticide/neem-oil spraying at robotic arm end-effector",
+      "method": "Buy",
+      "supplier": "Shopee / Blomker",
+      "material": "",
+      "images": [
+        {
+          "file": "128-Quick_Connector_Spray_Nozzle-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "128-Quick_Connector_Spray_Nozzle-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "12V mini diaphragm pump + Quick-Connector Spray Nozzle + 6 mm pneumatic fitting",
+      "purchaseName": "Spray Pump (12V) & Spray Nozzle"
+    },
+    {
+      "id": "m084",
+      "code": "Round Servo Horn",
+      "filename": "Round Servo Horn.SLDPRT",
+      "cadPath": "Standard/Round Servo Horn.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Round Servo Horn",
+      "title": "Round servo horn",
+      "description": "Couples servo output splines to 3D-printed arm links & gripper rack",
+      "method": "Buy",
+      "supplier": "Robotronik",
+      "material": "",
+      "images": [
+        {
+          "file": "129-Round_Servo_Horn-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "129-Round_Servo_Horn-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "6061 Alloy 25-tooth clamping servo horn (plus 1x Round Servo Horn)",
+      "purchaseName": "25T Aluminum Servo Arm Horn"
+    },
+    {
+      "id": "m085",
+      "code": "SERVO ARM HORN 25T ALUMINIUM",
+      "filename": "SERVO ARM HORN 25T ALUMINIUM.SLDPRT",
+      "cadPath": "Standard/SERVO ARM HORN 25T ALUMINIUM.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "SERVO ARM HORN 25T ALUMINIUM",
+      "title": "25T aluminium servo horn",
+      "description": "Couples servo output splines to 3D-printed arm links & gripper rack",
+      "method": "Buy",
+      "supplier": "Robotronik",
+      "material": "",
+      "images": [
+        {
+          "file": "130-SERVO_ARM_HORN_25T_ALUMINIUM-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "130-SERVO_ARM_HORN_25T_ALUMINIUM-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "6061 Alloy 25-tooth clamping servo horn (plus 1x Round Servo Horn)",
+      "purchaseName": "25T Aluminum Servo Arm Horn"
+    },
+    {
+      "id": "m086",
+      "code": "Suplin SPL-62",
+      "filename": "Suplin SPL-62.SLDPRT",
+      "cadPath": "Standard/Suplin SPL-62.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Suplin SPL-62",
+      "title": "SPL-62 conductivity probe",
+      "description": "Conductivity probe represented in the reservoir sensor group.",
+      "method": "Buy",
+      "supplier": "Taobao (芯柚科技)",
+      "material": "",
+      "images": [
+        {
+          "file": "131-Suplin_SPL-62-iso.png",
+          "configuration": "По умолчанию",
+          "view": "iso"
+        },
+        {
+          "file": "131-Suplin_SPL-62-rotated.png",
+          "configuration": "По умолчанию",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "PH-4502C pH sensor + EC sensor + Water Level sensor (held in FHA009A)",
+      "purchaseName": "Sensors (pH, EC, Water Level)"
+    },
+    {
+      "id": "m087",
+      "code": "Aluminum Spacer 6mm",
+      "filename": "Aluminum Spacer 6mm.SLDPRT",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/10 - Shims and Spacers/Aluminum Spacer 6mm.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Aluminum Spacer 6mm",
+      "title": "6 mm aluminium spacer",
+      "description": "Sets wheel spacing in the V-wheel assembly.",
+      "method": "Buy",
+      "supplier": "Smith3D / Standard M5 hardware",
+      "material": "",
+      "images": [],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "5052-H34 Aluminum unthreaded M5 wheel/standoff spacer",
+      "purchaseName": "Aluminum Round Spacer"
+    },
+    {
+      "id": "m088",
+      "code": "Eccentric Spacer 6mm",
+      "filename": "Eccentric Spacer 6mm.SLDPRT",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/10 - Shims and Spacers/Eccentric Spacer 6mm.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Eccentric Spacer 6mm",
+      "title": "6 mm eccentric spacer",
+      "description": "Provides an offset wheel mounting interface for preload adjustment.",
+      "method": "Buy",
+      "supplier": "Smith3D",
+      "material": "",
+      "images": [],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Delrin (POM) Solid V-Slot wheel body + 2x 625-2RS ball bearings per wheel",
+      "purchaseName": "Delrin Solid V-Wheel Assembly"
+    },
+    {
+      "id": "m089",
+      "code": "Precision Shim 10 x 5 x 1",
+      "filename": "Precision Shim 10 x 5 x 1.SLDPRT",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/10 - Shims and Spacers/Precision Shim 10 x 5 x 1.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Precision Shim 10 x 5 x 1",
+      "title": "10 × 5 × 1 mm shim",
+      "description": "Separates and positions components in the wheel bearing stack.",
+      "method": "Buy",
+      "supplier": "Smith3D",
+      "material": "",
+      "images": [],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Delrin (POM) Solid V-Slot wheel body + 2x 625-2RS ball bearings per wheel",
+      "purchaseName": "Delrin Solid V-Wheel Assembly"
+    },
+    {
+      "id": "m090",
+      "code": "Solid V Wheel",
+      "filename": "Solid V Wheel.SLDPRT",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/2 - Wheels/Solid V Wheel.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Solid V Wheel",
+      "title": "Solid V wheel",
+      "description": "Delrin wheel body running in the aluminium profile V-slot.",
+      "method": "Buy",
+      "supplier": "Smith3D",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-019-Solid_V_Wheel-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-019-Solid_V_Wheel-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Delrin (POM) Solid V-Slot wheel body + 2x 625-2RS ball bearings per wheel",
+      "purchaseName": "Delrin Solid V-Wheel Assembly"
+    },
+    {
+      "id": "m091",
+      "code": "Ball Bearing 5 x 16 x 5",
+      "filename": "Ball Bearing 5 x 16 x 5.SLDPRT",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/3 - Bearings/Ball Bearing 5 x 16 x 5.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Ball Bearing 5 x 16 x 5",
+      "title": "625 bearing · 5 × 16 × 5 mm",
+      "description": "2 bearings pressed into each of the 28 Delrin V-wheels",
+      "method": "Buy",
+      "supplier": "Included with V-Wheel kits (Smith3D)",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-017-Ball_Bearing_5_x_16_x_5-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-017-Ball_Bearing_5_x_16_x_5-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Metric 625-2RS double-sealed bearing (5 mm ID x 16 mm OD x 5 mm W)",
+      "purchaseName": "625-2RS Ball Bearing"
+    },
+    {
+      "id": "m092",
+      "code": "Nylon Insert Lock Nut M5",
+      "filename": "Nylon Insert Lock Nut M5.SLDPRT",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/7 - Hardware/Nylon Insert Lock Nut M5.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Nylon Insert Lock Nut M5",
+      "title": "M5 nylon insert lock nut",
+      "description": "Retains the M5 wheel axle and resists loosening.",
+      "method": "Buy",
+      "supplier": "VIRAL DIY — Nut & Bolt Assortment",
+      "material": "",
+      "images": [],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "M4x12 FCHS (4), M4x20 FCHS (4), M4x30 SHCS (4), M5x35 SHCS (24), M5x40 SHCS (7), M5x50 SHCS (7), M5 Hex Nuts (24) + M5 Lock Nuts (28)",
+      "purchaseName": "Standard Metric Fasteners (M4/M5)"
+    },
+    {
+      "id": "m093",
+      "code": "Solid V Wheel",
+      "filename": "Solid V Wheel.SLDASM",
+      "cadPath": "Standard/SW2014 Parts Library 1.6/Assemblies/Wheels/Solid V Wheel.SLDASM",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "Solid V Wheel",
+      "title": "Solid V wheel",
+      "description": "V-slot running wheel assembly, including its bearing and spacing components.",
+      "method": "Buy",
+      "supplier": "Smith3D",
+      "material": "",
+      "images": [
+        {
+          "file": "rechecked-018-Solid_V_Wheel-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "rechecked-018-Solid_V_Wheel-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "rechecked-018-Solid_V_Wheel-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m091",
+        "m090"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Delrin (POM) Solid V-Slot wheel body + 2x 625-2RS ball bearings per wheel",
+      "purchaseName": "Delrin Solid V-Wheel Assembly"
+    },
+    {
+      "id": "m094",
+      "code": "Thrust Bearing",
+      "filename": "Thrust Bearing.SLDPRT",
+      "cadPath": "Standard/Thrust Bearing.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Thrust Bearing",
+      "title": "Thrust Bearing",
+      "description": "Supports axial & moment loads at rotary arm base",
+      "method": "Buy",
+      "supplier": "Standard hardware",
+      "material": "",
+      "images": [
+        {
+          "file": "132-Thrust_Bearing-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "132-Thrust_Bearing-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Axial thrust bearing (1 pc) + Turntable Assembly Inner/Outer rings (1 set)",
+      "purchaseName": "Thrust Bearing & Turntable"
+    },
+    {
+      "id": "m095",
+      "code": "Inner",
+      "filename": "Inner.SLDPRT",
+      "cadPath": "Standard/Turntable Assem/Inner.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Inner",
+      "title": "Inner",
+      "description": "Inner ring of the arm base turntable.",
+      "method": "Included in turntable",
+      "supplier": "Supplied with the turntable bought on Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "133-Inner-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "133-Inner-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Axial thrust bearing (1 pc) + Turntable Assembly Inner/Outer rings (1 set)",
+      "purchaseName": "Thrust Bearing & Turntable"
+    },
+    {
+      "id": "m096",
+      "code": "Outer",
+      "filename": "Outer.SLDPRT",
+      "cadPath": "Standard/Turntable Assem/Outer.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Outer",
+      "title": "Outer",
+      "description": "Outer ring of the arm base turntable.",
+      "method": "Included in turntable",
+      "supplier": "Supplied with the turntable bought on Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "134-Outer-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "134-Outer-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Axial thrust bearing (1 pc) + Turntable Assembly Inner/Outer rings (1 set)",
+      "purchaseName": "Thrust Bearing & Turntable"
+    },
+    {
+      "id": "m097",
+      "code": "Turntable Assembly",
+      "filename": "Turntable Assembly.SLDASM",
+      "cadPath": "Standard/Turntable Assem/Turntable Assembly.SLDASM",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": true,
+      "latest": true,
+      "family": "Turntable Assembly",
+      "title": "Turntable Assembly",
+      "description": "Rotary support rings beneath the arm base.",
+      "method": "Buy",
+      "supplier": "Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "012-Turntable_Assembly-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "012-Turntable_Assembly-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        },
+        {
+          "file": "012-Turntable_Assembly-front.png",
+          "configuration": "Default",
+          "view": "front"
+        }
+      ],
+      "children": [
+        "m095",
+        "m096"
+      ],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "Axial thrust bearing (1 pc) + Turntable Assembly Inner/Outer rings (1 set)",
+      "purchaseName": "Thrust Bearing & Turntable"
+    },
+    {
+      "id": "m098",
+      "code": "Walling",
+      "filename": "Walling.SLDPRT",
+      "cadPath": "Standard/Walling.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Walling",
+      "title": "Wall representation",
+      "description": "Reference wall surface behind the frame. The supplier entry applies to wall mounting hardware, not this reference surface.",
+      "method": "Reference model",
+      "supplier": "",
+      "material": "",
+      "images": [
+        {
+          "file": "135-Walling-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "135-Walling-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "",
+      "purchaseName": "Sheet-Metal Wall Mounting Bracket"
+    },
+    {
+      "id": "m099",
+      "code": "Water Level Sensor",
+      "filename": "Water Level Sensor.SLDPRT",
+      "cadPath": "Standard/Water Level Sensor.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Water Level Sensor",
+      "title": "Water Level Sensor",
+      "description": "Submerged reservoir monitoring connected via 12-pin Molex",
+      "method": "Buy",
+      "supplier": "Taobao (芯柚科技)",
+      "material": "",
+      "images": [
+        {
+          "file": "136-Water_Level_Sensor-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "136-Water_Level_Sensor-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "PH-4502C pH sensor + EC sensor + Water Level sensor (held in FHA009A)",
+      "purchaseName": "Sensors (pH, EC, Water Level)"
+    },
+    {
+      "id": "m100",
+      "code": "Water pump 12v",
+      "filename": "Water pump 12v.SLDPRT",
+      "cadPath": "Standard/Water pump 12v.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Water pump 12v",
+      "title": "12 V spray pump",
+      "description": "Foliar pesticide/neem-oil spraying at robotic arm end-effector",
+      "method": "Buy",
+      "supplier": "Shopee / Blomker",
+      "material": "",
+      "images": [
+        {
+          "file": "138-Water_pump_12v-iso.png",
+          "configuration": "Default",
+          "view": "iso"
+        },
+        {
+          "file": "138-Water_pump_12v-rotated.png",
+          "configuration": "Default",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "12V mini diaphragm pump + Quick-Connector Spray Nozzle + 6 mm pneumatic fitting",
+      "purchaseName": "Spray Pump (12V) & Spray Nozzle"
+    },
+    {
+      "id": "m101",
+      "code": "Water Tank",
+      "filename": "Water Tank.SLDPRT",
+      "cadPath": "Standard/Water Tank.SLDPRT",
+      "category": "Standard",
+      "group": "",
+      "isAssembly": false,
+      "latest": true,
+      "family": "Water Tank",
+      "title": "Nutrient reservoir",
+      "description": "Base nutrient reservoir supporting snap-fit dosing module",
+      "method": "Buy",
+      "supplier": "Local hardware / Shopee",
+      "material": "",
+      "images": [
+        {
+          "file": "137-Water_Tank-iso.png",
+          "configuration": "Défaut",
+          "view": "iso"
+        },
+        {
+          "file": "137-Water_Tank-rotated.png",
+          "configuration": "Défaut",
+          "view": "rotated"
+        }
+      ],
+      "children": [],
+      "variants": [],
+      "stl": [],
+      "note": "",
+      "specification": "12 L polypropylene/ABS rectangular storage tank with lip",
+      "purchaseName": "Nutrient Reservoir Water Tank"
+    }
+  ],
+  "purchases": [
+    {
+      "name": "2040 T-Slot Extrusion (1000 mm)",
+      "specification": "20x40 mm Aluminum Profile, 1000 mm length",
+      "function": "Main vertical columns & horizontal rails",
+      "supplier": "Focus Aluminium (Shopee)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "2040 T-Slot Extrusion (200 mm)",
+      "specification": "20x40 mm Aluminum Profile, 200 mm length",
+      "function": "Front-to-back depth cross-members",
+      "supplier": "Focus Aluminium (Shopee)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Cast L-Bracket Gusset (2028)",
+      "specification": "Misumi LBSBL6-2028-SET (with M5 T-nut LNCFM5 & M5x10 screw LTTB6-5-10)",
+      "function": "Joining 2040 frame extrusions (70 purchased / 96 in CAD)",
+      "supplier": "Taobao (铝型材配件销售) / Misumi",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Sheet-Metal Wall Mounting Bracket",
+      "specification": "Heavy-duty AISI 304 Stainless L-Bracket (AC outdoor unit type)",
+      "function": "Anchoring main frame to structural wall",
+      "supplier": "Alibaba (创美金属有限公司)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Mounting L-Bracket (Small)",
+      "specification": "Standard 90° angle bracket",
+      "function": "Auxiliary bracket in CAD root",
+      "supplier": "Standard hardware",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "NEMA 23 Stepper Motor (1.9 N·m)",
+      "specification": "57BYGH56-401A, 1.9 N·m holding torque, 4-lead (Blk/Grn/Blu/Red)",
+      "function": "Vertical Y-Axis Dual Drive (Y1 Left & Y2 Right)",
+      "supplier": "Robotronik (Shopee)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "NEMA 23 Stepper Motor (1.3 N·m)",
+      "specification": "NEMA 23 bipolar stepper, 1.3 N·m holding torque",
+      "function": "Horizontal X-Axis Carriage Drive",
+      "supplier": "Robotronik (Shopee)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Stepper Motor Driver (DM542)",
+      "specification": "Leadshine DM542 digital stepper driver (24V supply; DIP: SW1,3,5,6 UP; SW2,4,7,8 DOWN)",
+      "function": "Drives X (Top), Y1 Left (Mid), Y2 Right (Bot) (Note: Report listed TB6600; actual build uses DM542)",
+      "supplier": "Robotic Wholesale Market / Taobao",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "GT2 Timing Belt (Fiberglass)",
+      "specification": "GT2 pitch (2 mm), fiberglass-reinforced rubber, ~1030 mm per axis",
+      "function": "X-axis and dual Y-axis linear belt drives",
+      "supplier": "Smith3D",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "GT2 Timing Pulley (30T & 20T)",
+      "specification": "Aluminum 6063-T1 GT2 pulleys: 2x 30-Tooth (Y-axis upgraded) + 1x 20-Tooth (X-axis)",
+      "function": "Motor shaft belt drive (30T stops Y belt skipping)",
+      "supplier": "Robotronik (Shopee)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Delrin Solid V-Wheel Assembly",
+      "specification": "Delrin (POM) Solid V-Slot wheel body + 2x 625-2RS ball bearings per wheel",
+      "function": "12 wheels on Y-carriages (6/side) + 16 wheels on X-carriage (8 front, 8 top)",
+      "supplier": "Smith3D",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "625-2RS Ball Bearing",
+      "specification": "Metric 625-2RS double-sealed bearing (5 mm ID x 16 mm OD x 5 mm W)",
+      "function": "2 bearings pressed into each of the 28 Delrin V-wheels",
+      "supplier": "Included with V-Wheel kits (Smith3D)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Aluminum Round Spacer",
+      "specification": "5052-H34 Aluminum unthreaded M5 wheel/standoff spacer",
+      "function": "Maintains wheel & motor standoff stack on X/Y carriages",
+      "supplier": "Smith3D / Standard M5 hardware",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Limit Switch (Microswitch)",
+      "specification": "Omron V-155-1C25 SPDT roller lever microswitch",
+      "function": "Homing endstops: Y1 bottom (D9), Y2 bottom (D10), X left (D8)",
+      "supplier": "Robotic Wholesale Market",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Hiwonder Joint Servo (HTS-35H)",
+      "specification": "Hiwonder HTS-35H high-torque serial bus servo (35 kg·cm, 3-wire daisy chain)",
+      "function": "Articulated arm joints (Shoulder, Elbow, Wrist)",
+      "supplier": "Alibaba (一介布衣) / Hiwonder",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Hiwonder Base 360° Servo (HX-35M)",
+      "specification": "Hiwonder HX-35M / HX-35HM 360° rotary servo (separate 3-black-wire lead)",
+      "function": "Robotic arm base yaw rotation (Turntable)",
+      "supplier": "Alibaba (一介布衣) / Hiwonder",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Hiwonder Gripper Servo (HX-12H)",
+      "specification": "Hiwonder HX-12H serial bus servo (11 kg·cm; CAD ref 0_DS-LH8A_stp)",
+      "function": "Drives rack-and-pinion gripper fingers (daisy-chained with HTS-35H)",
+      "supplier": "Alibaba / Hiwonder",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Hiwonder Bus Servo Controller",
+      "specification": "Hiwonder Serial Bus Servo Controller (SKU 21090003, 6–12V input, UART to Pi)",
+      "function": "Mounted inside arm control box; runs .rob action groups",
+      "supplier": "Hiwonder / Taobao",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "25T Aluminum Servo Arm Horn",
+      "specification": "6061 Alloy 25-tooth clamping servo horn (plus 1x Round Servo Horn)",
+      "function": "Couples servo output splines to 3D-printed arm links & gripper rack",
+      "supplier": "Robotronik",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Gripper Guide Shafts (3x80 mm)",
+      "specification": "3 mm diameter x 80 mm length stainless steel linear rod",
+      "function": "Linear guide rails for opposing gripper fingers inside GTW006B",
+      "supplier": "Standard 3 mm linear shaft",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "LM3UU linear bearing",
+      "specification": "LM3UU linear bearing for a 3 mm gripper guide shaft.",
+      "function": "Guides gripper rack/finger travel",
+      "supplier": "Standard linear bearing",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Miniature Ball Bearing (603-ZZ)",
+      "specification": "Metric 600 series double-shielded bearing, 3 mm ID x 9 mm OD x 3 mm W",
+      "function": "Supports central passive pinion (FRA013A) in gripper",
+      "supplier": "Standard metric bearing",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Turntable and thrust bearing",
+      "specification": "Purchased inner/outer turntable assembly; separate thrust bearing supports the rotary arm base.",
+      "function": "Supports axial & moment loads at rotary arm base",
+      "supplier": "Shopee (turntable); thrust bearing supplier not recorded",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "NFT Hydroponic PVC Channel (1 m)",
+      "specification": "Food-grade white PVC channel, 1000 x 109 x 58 mm (8 holes/row, 45 mm diameter)",
+      "function": "4 horizontal growing tiers (24 active plant sites total)",
+      "supplier": "UH Agroponics",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Hydroponic Channel End Cap",
+      "specification": "PVC rectangular slip-on end cap (2 arranged for manual water refill)",
+      "function": "Seals both ends of the 4 PVC channels",
+      "supplier": "UH Agroponics (included in set)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Hydroponic Net Pot",
+      "specification": "Standard slotted plastic net pot (42 mm base diameter)",
+      "function": "Plant holder (used with custom PETG socket adapter FHA002A)",
+      "supplier": "Wellgrow / Shopee",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Collection Basket (IDP Basket)",
+      "specification": "Slotted plastic harvesting collection crate",
+      "function": "Hangs on X-carriage hooks (FGA021B/022A) to catch harvested pots",
+      "supplier": "Shopee / Blomker",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Nutrient Reservoir Water Tank",
+      "specification": "12 L polypropylene/ABS rectangular storage tank with lip",
+      "function": "Base nutrient reservoir supporting snap-fit dosing module",
+      "supplier": "Local hardware / Shopee",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Main Water Pump (DP-521)",
+      "specification": "12V DC diaphragm pump, rated 3.5 L/min, with inlet filter & outlet check valve",
+      "function": "Circulates nutrient solution from 12 L tank to all 4 channels",
+      "supplier": "Taobao (凌泰重工) / ElectricA",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Kamoer Peristaltic Pump (KPP)",
+      "specification": "12V DC Kamoer KPP peristaltic dosing pump",
+      "function": "Automated dosing of Fertilizer A, Fertilizer B, and Phosphoric Acid",
+      "supplier": "Taobao / ElectricA",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Reagent Dosing Bottles (250 ml)",
+      "specification": "250 ml clear plastic/glass reagent bottles",
+      "function": "Holds Fertilizer A, Fertilizer B, and Acid in bottle holder FHA008A",
+      "supplier": "Labware / Shopee",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Spray Pump (12V) & Spray Nozzle",
+      "specification": "12V mini diaphragm pump + Quick-Connector Spray Nozzle + 6 mm pneumatic fitting",
+      "function": "Foliar pesticide/neem-oil spraying at robotic arm end-effector",
+      "supplier": "Shopee / Blomker",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Black PU Tubing & Fittings",
+      "specification": "9.5 mm ID opaque black polyurethane (PU) tube (5 m) + 8x stainless push fittings",
+      "function": "Opaque circulation plumbing (prevents algae growth)",
+      "supplier": "AIROTECH / Ban Hee & TYS STORE",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Sensors (pH, EC, Water Level)",
+      "specification": "PH-4502C pH sensor + EC sensor + Water Level sensor (held in FHA009A)",
+      "function": "Submerged reservoir monitoring connected via 12-pin Molex",
+      "supplier": "Taobao (芯柚科技)",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "PWM Speed Controller & 4ch Relay",
+      "specification": "Rotary knob PWM motor controller (1 pc) + 4-channel optocoupler relay board (1 pc)",
+      "function": "Mounted inside dosing box (FHA004A) for pump speed & switching",
+      "supplier": "Electrica.my / Taobao",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Webcam (Logitech C920)",
+      "specification": "Logitech C920 HD Pro USB webcam",
+      "function": "Mounted on wrist/gripper for YOLOv8 AI crop/pest vision",
+      "supplier": "Shopee",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Main Electrical Enclosure & PSU",
+      "specification": "Electrical Panel Box + 24V 16.5A (396W) PSU + 2x SZBK07 Buck + Wheeltec P23C + Pi 5",
+      "function": "Mounted on left side of frame; powers & coordinates full system",
+      "supplier": "Taobao (迎欣旗舰店) / Cytron",
+      "source": "Mechanical handover, Table 3.1"
+    },
+    {
+      "name": "Standard Metric Fasteners (M4/M5)",
+      "specification": "M4x12 FCHS (4), M4x20 FCHS (4), M4x30 SHCS (4), M5x35 SHCS (24), M5x40 SHCS (7), M5x50 SHCS (7), M5 Hex Nuts (24) + M5 Lock Nuts (28)",
+      "function": "Stainless steel assembly hardware across gantry, arm, and wheels",
+      "supplier": "VIRAL DIY — Nut & Bolt Assortment",
+      "source": "Mechanical handover, Table 3.1"
+    }
+  ],
+  "nativeFileCount": 102,
+  "ownerAnswersApplied": 16,
+  "root": "m003",
+  "handbook": "../GrowTech-Wall-Mechanical-Handover.docx",
+  "naming": [
+    [
+      "GA / FGA",
+      "Gantry"
+    ],
+    [
+      "RA / FRA",
+      "Robotic arm"
+    ],
+    [
+      "HA / FHA",
+      "Hydroponics"
+    ],
+    [
+      "EB",
+      "Electrical box"
+    ],
+    [
+      "FRAM",
+      "Frame"
+    ],
+    [
+      "A, B, C…",
+      "Revision suffix; mirrored plates and the arm bases retain their distinct uses"
+    ]
+  ]
+}

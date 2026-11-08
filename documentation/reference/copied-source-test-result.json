@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-08",
+  "interpreter": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "tests_run": 89,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "duration_seconds": 1.533,
+  "test_working_directory": "source code/Raspberry Pi/GUI/refactored",
+  "hardware_import_guard": [
+    "serial",
+    "cv2",
+    "ultralytics",
+    "RPi",
+    "gpiozero",
+    "smbus",
+    "smbus2",
+    "spidev",
+    "gpiod",
+    "ServoControl",
+    "GTW_GUIv2"
+  ],
+  "Tk_window_creation": "prohibited",
+  "model_exists_and_SHA256_matches": true,
+  "hardware_operation": false,
+  "record_note": "Mock-only source check; no hardware operation."
+}

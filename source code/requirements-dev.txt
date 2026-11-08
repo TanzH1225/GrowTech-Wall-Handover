@@ -1,0 +1,2 @@
+# The laptop-safe suite uses only Python's standard library (`unittest`).
+# Keep this file intentionally dependency-free until a reviewed desk tool is needed.

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-08",
+  "edition": "GitHub handover snapshot",
+  "source_assets": 75,
+  "mock_tests_passed": 89,
+  "static_local_links_checked": 814,
+  "missing_static_local_targets": 0,
+  "hardware_operated": false,
+  "CAD_delivery": "Pinned Release asset; CAD-download.json records URL, bytes and SHA-256",
+  "CAD_archive_files": 113,
+  "CAD_archive_CRC_and_source_hashes_verified": true,
+  "source_changes": "No source changes from the self-contained handover copy. Software-assets.json records all hashes.",
+  "documentation_adaptations": [
+    "CAD links route through the download/access page",
+    "START-HERE distinguishes clone contents from the CAD Release"
+  ],
+  "original_repository_and_outer_handover_zip": "Unchanged by this publication task",
+  "scope": "Static asset/link checks and mock-only software tests. Firmware build settings and physical checks remain in the handover open items."
+}

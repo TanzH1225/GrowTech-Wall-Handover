@@ -1,0 +1,9 @@
+# Proposed Raspberry Pi Python packages, pinned to the captured legacy environment.
+# `python3-tk` remains an OS package on Debian Bookworm and is not installed by pip.
+numpy==2.2.6
+Pillow==11.2.1
+pyserial==3.5
+opencv-python==4.11.0.86
+torch==2.7.0
+torchvision==0.22.0
+ultralytics==8.3.147

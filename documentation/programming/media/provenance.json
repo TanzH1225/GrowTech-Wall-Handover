@@ -1,0 +1,58 @@
+[
+  {
+    "path": "prototype-overview.jpg",
+    "source": "outputs/gtw-complete-package-2026-11-03/package-guide/report-media/image35.jpg",
+    "provenance": "Original report Figure 3.2",
+    "bytes": 248169,
+    "sha256": "0f2320fe7a2af260a05d9be9437e3116780314303f711e84dc462b439a00fd2c"
+  },
+  {
+    "path": "controller-enclosure.jpg",
+    "source": "outputs/gtw-electrical-handover/photos/05-enclosure-interior.jpg",
+    "provenance": "Owner enclosure photograph",
+    "bytes": 1837877,
+    "sha256": "1c2783a3f9cc1d7da5340dc74522657d287366157fb929b480b12bc51e2ad66d"
+  },
+  {
+    "path": "arm-and-cables.jpg",
+    "source": "outputs/gtw-electrical-handover/photos/03-arm-and-moving-cables.jpg",
+    "provenance": "Owner arm photograph",
+    "bytes": 3086500,
+    "sha256": "e99354c056178da792568de61c133a0709992e297ecf02755a10d6838d7a2740"
+  },
+  {
+    "path": "dashboard.png",
+    "source": "outputs/gtw-complete-package-2026-11-03/package-guide/report-media/image82.png",
+    "provenance": "Original report Figure 3.27",
+    "bytes": 1138850,
+    "sha256": "aa3b24eaabd5f76bc8385d3c4e7b5fe3303023f53cd9b93b814f83c63cd6c2a7"
+  },
+  {
+    "path": "gantry-arm-interface.png",
+    "source": "outputs/gtw-complete-package-2026-11-03/package-guide/report-media/image48.png",
+    "provenance": "Original report Figure 3.28",
+    "bytes": 505733,
+    "sha256": "1dede61fd78d8ff9074f053279ec34a21987940cbfcb758cec4702a95c2be283"
+  },
+  {
+    "path": "hydroponics-interface.png",
+    "source": "outputs/gtw-complete-package-2026-11-03/package-guide/report-media/image32.png",
+    "provenance": "Original report Figure 3.29",
+    "bytes": 477628,
+    "sha256": "889d770e74344e57a58f5501fe7d7b743979e0e6155a293df12eb918130ccdb5"
+  },
+  {
+    "path": "vision-interface.png",
+    "source": "outputs/gtw-complete-package-2026-11-03/package-guide/report-media/image68.png",
+    "provenance": "Original report Figure 3.30",
+    "bytes": 608393,
+    "sha256": "ed91918ab324e4886ada1a3c68c0a7de1eb9a371f0f511166d0b3fb479fc6610"
+  },
+  {
+    "path": "example-detections.jpg",
+    "source": "outputs/gtw-complete-package-2026-11-03/package-guide/report-media/image67.jpg",
+    "provenance": "Original report Figure 3.42",
+    "bytes": 329095,
+    "sha256": "fd0e8608e78fac5c3428361038eeef31bb600a3dcfa6f5b160a95f67c6461724"
+  }
+]

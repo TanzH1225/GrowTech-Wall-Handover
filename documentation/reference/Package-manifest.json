@@ -1,0 +1,2646 @@
+{
+  "edition": "GitHub clone; CAD is a separate Release asset",
+  "manifest_excludes": "This manifest itself and Git metadata",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 193,
+      "sha256": "1757eb2f7d675c196f5030c2f7d29db9b008aff6d13da8294c684b4f8dcaf64e"
+    },
+    {
+      "path": ".github/workflows/desk-check.yml",
+      "bytes": 510,
+      "sha256": "823a2b9fb41fc6039dbfcd9cf15e7d77e21a567f5998f103fdcbba2cd24a0924"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 182,
+      "sha256": "5fc588018c6dbe9e7aa435ae21eeed97c9170114bd8c770a747da13a884d0e20"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1018,
+      "sha256": "fceadd37646795d2c36b37b54e86d7002b1f1d2c10e8400d75c61b12ff5b034b"
+    },
+    {
+      "path": "CAD library/README.html",
+      "bytes": 1750,
+      "sha256": "344c51c84f6e60aaae2a100ea4af9eb3403bebe13c10214e0f0ab9fbcb6c4b56"
+    },
+    {
+      "path": "CAD library/README.md",
+      "bytes": 550,
+      "sha256": "408257fa59c67a12161d897c5622bc7fe45503ee22a86a550f5f543c92fe816a"
+    },
+    {
+      "path": "documentation/Electrical catalog/Electrical-Catalogue.html",
+      "bytes": 128957,
+      "sha256": "33065347fae3b2a3904fbef2e0b64ada30a46cd627a58e43307c4aa9a4584aa7"
+    },
+    {
+      "path": "documentation/Electrical catalog/electrical-data.json",
+      "bytes": 155395,
+      "sha256": "be7611e3b9e652dbd31a6194d9eaaa80e97955ed19edb94fc440e2187328efa1"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/01-connector-detail-embedded.jpg",
+      "bytes": 370406,
+      "sha256": "a42cf64848fa2d723199f72f897b5b56431cf2079f0116f627d09cc1b6eb03ff"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/03-arm-and-moving-cables-embedded.jpg",
+      "bytes": 575739,
+      "sha256": "db7740e27b07f88c53d47529faba19cfe52d3d107c991612d2841453b3b93997"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/05-driver-terminal-detail-embedded.jpg",
+      "bytes": 359874,
+      "sha256": "f9c4a73a3833fd3cbf7e6eb48b5b8384c789bdfbaa67a42cc69ae62268cc4f33"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/05-enclosure-interior-embedded.jpg",
+      "bytes": 1228380,
+      "sha256": "7c3dd5141adc32e4c103cb0a8ebb0228dceb35dc6e1a4ea4b4cb6fbdee148672"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/05-nano-detail.jpg",
+      "bytes": 94906,
+      "sha256": "138acf984c194385399a6e80aa52bd88218b3e3b505060d354784a2545c4bfd7"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/07-report-dosing-electronics.png",
+      "bytes": 1245684,
+      "sha256": "cc9a57c73590c747e1120b881180c7d71830e9e3b20fbacb928075ae36a68588"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E01.png",
+      "bytes": 596575,
+      "sha256": "a137daf772e67f986ac37a5f3671d186487d39c96bc2a4e8315113a28544593d"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E02.png",
+      "bytes": 373772,
+      "sha256": "78bf234d0d069271f2de918a2a67a007dca6421cb5d7d1a68f0325970198b8b5"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E03.png",
+      "bytes": 406687,
+      "sha256": "d6db51135f5c566936644591bcf8482be3dae3373b2b0f8cee8f72934518c4b6"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E04.png",
+      "bytes": 397809,
+      "sha256": "02418a264155685a4366de7a801671e49b933c2aed1c69b2999ac5cfee3f67b6"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E05.png",
+      "bytes": 440230,
+      "sha256": "31d4da57c6fff5152ce5abccea8a6abd94c72b4478a8b7de0d4c8df56ca61079"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E06.png",
+      "bytes": 517536,
+      "sha256": "e457275c9aec8a1ed135bc7027490ca3da028e09fbf062d1eee098cb50ffe726"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E07.png",
+      "bytes": 1897514,
+      "sha256": "9e3e46245eb73d8208553945461d76a10c614931ed085972a349fa6b2307c080"
+    },
+    {
+      "path": "documentation/Electrical catalog/media/RevJ-E08.png",
+      "bytes": 1179603,
+      "sha256": "3bde600612e57355619bbb08f8e6e271e8e9bb8f363363de6c06acbf52145980"
+    },
+    {
+      "path": "documentation/GrowTech-Wall-BOM-Rechecked.xlsx",
+      "bytes": 13235,
+      "sha256": "32b98ad72b1925c77ff325c42e15de3092ddd00351f591f0f1c1ec7d046bcb8b"
+    },
+    {
+      "path": "documentation/GrowTech-Wall-Electrical-Handover.docx",
+      "bytes": 1477873,
+      "sha256": "adce32872a33225bcefa3672d6a7ec28992c426b864ab1f59363ca6956529198"
+    },
+    {
+      "path": "documentation/GrowTech-Wall-Electrical-RevJ.pdf",
+      "bytes": 3153307,
+      "sha256": "3ed8ab29039afc1ff52df8066e26344cc832ad48abdf76c912059a3589094124"
+    },
+    {
+      "path": "documentation/GrowTech-Wall-Mechanical-Handover.docx",
+      "bytes": 896769,
+      "sha256": "eff3ce2c1b7a1381b4269d8a6cef8ec1c9c31005c799e7e8a93ec295afea263f"
+    },
+    {
+      "path": "documentation/GrowTech-Wall-Programming-Handover.docx",
+      "bytes": 329591,
+      "sha256": "23877700a9972fed2dc7d83429b4e3dad791d6a61bb3380061a44ba570b89062"
+    },
+    {
+      "path": "documentation/Manufacturer references/arduino-nano-official.pdf",
+      "bytes": 235594,
+      "sha256": "2b9140b09cb66c788c1c4e01da33498a63e245fc133ac7d32697e140b00ea317"
+    },
+    {
+      "path": "documentation/Manufacturer references/arduino-nano-pinout-reference.png",
+      "bytes": 297219,
+      "sha256": "06a450ed7edacf23c48ea1a1505b1e883c3b37c94a7488e4b94e5afc30a4575a"
+    },
+    {
+      "path": "documentation/Manufacturer references/controller-interface-excerpt.png",
+      "bytes": 747143,
+      "sha256": "62e2dafa531cc709b3f04395d03af4cd7692e731989c70f3e23640db3dba14e5"
+    },
+    {
+      "path": "documentation/Manufacturer references/controller-official-figure-1.webp",
+      "bytes": 41870,
+      "sha256": "e6c42739a436605c61a6b2038a69dd716c5f1b48d85c981562fbd7b783243f37"
+    },
+    {
+      "path": "documentation/Manufacturer references/controller-official-figure-2.webp",
+      "bytes": 132652,
+      "sha256": "089bf58f41dee33c93a22b53ee7fbc1c9041fe5026d7bdcf7740ede17d282000"
+    },
+    {
+      "path": "documentation/Manufacturer references/controller-official-figure-3.webp",
+      "bytes": 50294,
+      "sha256": "baf80bd4345f68043b85bd56596e841c2278f27e6a8f0f56a3e0f857e9417e79"
+    },
+    {
+      "path": "documentation/Manufacturer references/dm542e-control-interface-excerpt.png",
+      "bytes": 175827,
+      "sha256": "ba964b387ad96e2071cab47ce1c6833a77798be8951005cf7f10ed1f0a1c8467"
+    },
+    {
+      "path": "documentation/Manufacturer references/dm542e-current-table-excerpt.png",
+      "bytes": 62562,
+      "sha256": "3a1c9f7238820e069327137c76ff314be32dbf823ec1c0fa365bcbdb12c6f8d7"
+    },
+    {
+      "path": "documentation/Manufacturer references/dm542e-official.pdf",
+      "bytes": 1169693,
+      "sha256": "b396e28c9ca8fe470cb15440e44c62ff565ccbd34b7582ae43f2a98dcd39bb4b"
+    },
+    {
+      "path": "documentation/Manufacturer references/dm542e-page-10.png",
+      "bytes": 541066,
+      "sha256": "0a14aa629a6a0f75900b617dc2d3ce8fd73bdf453323214fe575abf1a2241d26"
+    },
+    {
+      "path": "documentation/Manufacturer references/dm542e-page-6.png",
+      "bytes": 424563,
+      "sha256": "3c72683afc694a39dbdce87f7e7dac378ed12e7a9e80282d248b94714e608e44"
+    },
+    {
+      "path": "documentation/Manufacturer references/dm542e-page-7.png",
+      "bytes": 508412,
+      "sha256": "0edf1b1ede2a57af721d1dc85d5dac830b2de65d7c05eeecf71da4185f0ae866"
+    },
+    {
+      "path": "documentation/Manufacturer references/hts35-manufacturer-parameters.jpg",
+      "bytes": 178418,
+      "sha256": "0bbd90894ddc3c0ab499d069bfc350815a0b353dab9740166e5604604a912b13"
+    },
+    {
+      "path": "documentation/Manufacturer references/wheeltec-official-product.jpg",
+      "bytes": 155839,
+      "sha256": "30730c95491e7bcb041c14cf814263eceaa84b24a3c94968cf40bb176b30f8a0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/catalog-data.json",
+      "bytes": 118567,
+      "sha256": "29ae0b474c0ac0e1cc8ae71260501b92b3e26a0e8e8cb62bbc66088f088b7658"
+    },
+    {
+      "path": "documentation/Mechanical catalog/Catalogue-clarifications.xlsx",
+      "bytes": 8473,
+      "sha256": "3f24478e7eb037f58f9b6b5f95447da837e0202eca7b7d35f84937df0dda97fc"
+    },
+    {
+      "path": "documentation/Mechanical catalog/Mechanical-CAD-Review.html",
+      "bytes": 109294,
+      "sha256": "c6415d777fdbd53b7b395cb83b575873c73fcf59fe432b83aada18786693b7bc"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/002-GTW001E-front.png",
+      "bytes": 122259,
+      "sha256": "cd80af875afdaf4ed9292fedab893c84bb1ad24f9a524d2e53e2946808926647"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/002-GTW001E-iso.png",
+      "bytes": 138528,
+      "sha256": "930fab8e374ff84c40f8a5fb939b897684499a54ece550046aa9b156cede1ce9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/002-GTW001E-rotated.png",
+      "bytes": 138624,
+      "sha256": "3dfbee938804d9374360c3dacef1af755f2cf33f1c7df5692f188e4729253f7e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/003-GTW002B-front.png",
+      "bytes": 120154,
+      "sha256": "f6aa80119853822f346f1962edaa71c93176179fe6a26735bd905b34cd2cb218"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/003-GTW002B-iso.png",
+      "bytes": 126424,
+      "sha256": "3365f8c536cceebe1685af2853f4a5097e84cf588d85d48ae3baf75fdee938c5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/003-GTW002B-rotated.png",
+      "bytes": 130000,
+      "sha256": "1a387fbec0e5f118cb2f1891e4db4f7eb120fe7f06d5fef8db6e0ee836ae4b6d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/004-GTW003C-front.png",
+      "bytes": 517387,
+      "sha256": "0c0d912978305e6f44b5d9caa819d14233faa5cf65ecdaafbe0dd04218bc30b7"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/004-GTW003C-iso.png",
+      "bytes": 298971,
+      "sha256": "f6cd127adae79f3338ce3b858f41dce72b727caa94ded1b887fb7e42ccde86b0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/004-GTW003C-rotated.png",
+      "bytes": 241516,
+      "sha256": "8aecca4f70ae78348395dc5d895de1d1f1bd225a15e1c2e1d1434eca9cc3d336"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/005-GTW004A-front.png",
+      "bytes": 65736,
+      "sha256": "dd0d2a7ae6a9341ee01254f0305285e44a8dc869d3807484eefb7ffe8cef235b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/005-GTW004A-iso.png",
+      "bytes": 102066,
+      "sha256": "adf68c9307b51af90cfbdf393b29a6a14cc3cc8b66b4f0b43e2c4a526ec075d2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/005-GTW004A-rotated.png",
+      "bytes": 119768,
+      "sha256": "b7ae4e2086119e8985da4f3acab9361f752f6762ddd46618753ece34e5b10965"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/006-GTW005C-front.png",
+      "bytes": 89765,
+      "sha256": "9030ebc738fe582ddf033248b53b74cf52560175cfa5ba47bec1781a6821f7f5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/006-GTW005C-iso.png",
+      "bytes": 120969,
+      "sha256": "86e0638fe00cff0ec91f4830d4486e29712ac9d235bd67e50ba91c87cf0c299f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/006-GTW005C-rotated.png",
+      "bytes": 125650,
+      "sha256": "8e86ae3d13f71f4bab7cced54b62c8f619b476ca56c6a9afec459edc0af3071e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/007-GTW006B-front.png",
+      "bytes": 105947,
+      "sha256": "ecef750c2ada33bf3179dc39b64225d4774bd370ab59d4100765ed9375e43df4"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/007-GTW006B-iso.png",
+      "bytes": 120407,
+      "sha256": "b5e56c71780660cec3fab2d4b520ed97d15827893116294d5e51bc890ab8430a"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/007-GTW006B-rotated.png",
+      "bytes": 124779,
+      "sha256": "a8a54a7d3e2a2222202a2358ea53c78f8a2659fa921edae5784eaeae5c30a683"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/008-GTW007A-front.png",
+      "bytes": 91756,
+      "sha256": "80659ff4430a3c8588cf84cd72ca0dfc935747e7801248fe65c7e84c039605ff"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/008-GTW007A-iso.png",
+      "bytes": 128467,
+      "sha256": "d1f68536ea9436b9a1065d1f50802101f010c3607c98dde08281acb9c9cd6370"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/008-GTW007A-rotated.png",
+      "bytes": 132175,
+      "sha256": "0d386423a3171c0dac26c80508940b593cc5e231a3c5782f8ea44a0825c01b64"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/009-HX-35HM-front.png",
+      "bytes": 82465,
+      "sha256": "455581def6a4a88ab61c6a3bc022b121451ffe810d37b7d8f41b7451ceb3e0c2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/009-HX-35HM-iso.png",
+      "bytes": 105712,
+      "sha256": "ea880f5aaca2c6158c0139c41389dee3285a303304d4417e62e4ba3c08b7bbae"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/009-HX-35HM-rotated.png",
+      "bytes": 118317,
+      "sha256": "dd48f960b64019dc4f31b3a5b02d5af6c7bcf790897cb1aec238e72420bce436"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/010-Hydroponic_Channel_Assembly_4inchX2inch-front.png",
+      "bytes": 142895,
+      "sha256": "f348e2fc1185f39115f0f4a6eecb1f80756404afca56f50def75a93d047fa35e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/010-Hydroponic_Channel_Assembly_4inchX2inch-iso.png",
+      "bytes": 163111,
+      "sha256": "967381a7a198ebe8f7fffb39f3e48a170ee194dfccc6b9ebc5eb528d9c2af2ea"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/010-Hydroponic_Channel_Assembly_4inchX2inch-rotated.png",
+      "bytes": 151779,
+      "sha256": "5e5436e365ea2ed9b45fc4740dde049243c1286ee22ed638f4d2d46f98f566c5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/011-LBSBL6-2028-SET-front.png",
+      "bytes": 95222,
+      "sha256": "3df2d4c6ac77ba2f5d0bbeb5c731ab4aefc99ce492fdcb5b3e61d829d534704e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/011-LBSBL6-2028-SET-iso.png",
+      "bytes": 100372,
+      "sha256": "118a13bec48ecf48f3162fcd37b656f2a2f8dd052102c3e2372870c73567bd73"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/011-LBSBL6-2028-SET-rotated.png",
+      "bytes": 98794,
+      "sha256": "f597293a21df19be45ce0751ebb6dccbea42e0e59b5e9c6e796d9adf4d45f318"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/012-Turntable_Assembly-front.png",
+      "bytes": 114587,
+      "sha256": "5186165209176b331424071747ffd6d52fa7a0a442e6525302fc5382dab16dc2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/012-Turntable_Assembly-iso.png",
+      "bytes": 107410,
+      "sha256": "8a95388adc5cd62ab0459a6b1510771b8267c854eb247f006c049f2f38746cb5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/012-Turntable_Assembly-rotated.png",
+      "bytes": 116786,
+      "sha256": "d47573d9948c2bd257ae2d6eb58f9d0aef9681b9a642849c52c712f407b9f5d2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/013-Nema_23_-_57BYGH56-401A-front.png",
+      "bytes": 78484,
+      "sha256": "bc0f50476df585dd4a678df9765e453e9dba5b30b0caa9a87369a551e8d261ce"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/013-Nema_23_-_57BYGH56-401A-iso.png",
+      "bytes": 124854,
+      "sha256": "ad6411948a3e84e246c3e4003f85f7be263a043cdf908787f641175805008b3d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/013-Nema_23_-_57BYGH56-401A-rotated.png",
+      "bytes": 121966,
+      "sha256": "0939ad5b3a907385a7e957cbf9cb449c83a07a2f1b01dfc2b4a63496e6f14f42"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/014-socket_countersunk_head_screw_am-iso.png",
+      "bytes": 571799,
+      "sha256": "aa9dfba9a2500f15f3d89b42cace0c0475ad713e1756c0d31bdadf5c04b0fa7c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/014-socket_countersunk_head_screw_am-rotated.png",
+      "bytes": 610009,
+      "sha256": "cd092b65346f361ded550713b6ce865fcb784110d0655c1ed650f10325e73a46"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/015-socket_countersunk_head_screw_am-iso.png",
+      "bytes": 585768,
+      "sha256": "7b316afb7c65d0961303268aa99a8fd79f489a8b8d03c9e4cdc6ce476096d832"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/015-socket_countersunk_head_screw_am-rotated.png",
+      "bytes": 627127,
+      "sha256": "8f653ed92465a4e291d733ba0cf3d562e098ef3187d3bb246de28dcf5ddfe204"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/016-socket_head_cap_screw_am-iso.png",
+      "bytes": 596825,
+      "sha256": "78c5b967ee88ef49f8318a5869501eeeee1588464fb79201fe5904c86b8edf53"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/016-socket_head_cap_screw_am-rotated.png",
+      "bytes": 639654,
+      "sha256": "66f4163e18db7505aac9a64663e8f1e3e3b2679449962f87f3d1262fc789de86"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/017-socket_head_cap_screw_am-iso.png",
+      "bytes": 594248,
+      "sha256": "7630c3b79841f22e2007343122c1f4c1f131d14edefc015f6238b74e054e3778"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/017-socket_head_cap_screw_am-rotated.png",
+      "bytes": 638644,
+      "sha256": "b36e2e8d7a959090340387927e98d13e8df62dd6033547b4595abf29d95dab04"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/018-socket_head_cap_screw_am-iso.png",
+      "bytes": 600078,
+      "sha256": "8da703cc771f4c4d21f40f7ce791b1f9f25de8ed50f73c0177e2fe4536edd08b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/018-socket_head_cap_screw_am-rotated.png",
+      "bytes": 640329,
+      "sha256": "f645200f8495f390382f207e8a9210021a730a8509c531d4c06cd03d8ab65d63"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/019-socket_head_cap_screw_am-iso.png",
+      "bytes": 610245,
+      "sha256": "b3b5d2f3a303373e1e2cd15375074f8939c363ed05630dbe34188a8043009be2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/019-socket_head_cap_screw_am-rotated.png",
+      "bytes": 644263,
+      "sha256": "868936fab4016dfee1653340e85fccedc80ba583071d0d8adc9709fb422a6a38"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/020-hex_nut_style_1_am-iso.png",
+      "bytes": 529224,
+      "sha256": "abc0205ec65de66cf25b0e9497e7945628665cc31de886c5ff6fe08c49cf50c7"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/020-hex_nut_style_1_am-rotated.png",
+      "bytes": 482441,
+      "sha256": "ce0e4b359d4011622370e8a64e1930f3c457727c271c827a0cba9ee78f728467"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/041-EB001A-iso.png",
+      "bytes": 108599,
+      "sha256": "396c97157d249b5445dfd295f19804960c84a1044220e4cfb97f547b4c563b5d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/041-EB001A-rotated.png",
+      "bytes": 115121,
+      "sha256": "2fc3cbeab47597421624e559ce4d1e3503b9ff9f44d015340323ff4aa951b404"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/042-EB002A-iso.png",
+      "bytes": 90854,
+      "sha256": "2b5ee83633f8c8cb84283c2d81041227334db401fb82e4753fcf8243da580dd6"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/042-EB002A-rotated.png",
+      "bytes": 85700,
+      "sha256": "830ad821f7e64390b5b1e4beb7266a6e96077fa52c9241e8c67d1e5588bcf700"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/043-EB003A-iso.png",
+      "bytes": 112867,
+      "sha256": "5da26c4a230b7ccdc077e1825446548406fef100d9ced478f582f0b66a7a33da"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/043-EB003A-rotated.png",
+      "bytes": 118255,
+      "sha256": "d591c7a4498c15c58bf54abe97926dc9d23b157e934f4bc45bf4ca273021d06f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/044-EB004A-iso.png",
+      "bytes": 86679,
+      "sha256": "27a699e0facf23fd120936a4295364c3627652bde823e5b908a28d57b7026c56"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/044-EB004A-rotated.png",
+      "bytes": 87021,
+      "sha256": "457c5f9629c68c153967b7c7b7f31030a1d742a2b50fa75156f6c9a0e40f9e57"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/045-EB005A-iso.png",
+      "bytes": 93792,
+      "sha256": "76e4d5102eaa7ed51d9f3edae17b196da23d1097831debbbb9b1c34939afec69"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/045-EB005A-rotated.png",
+      "bytes": 94267,
+      "sha256": "29c7117d8565a5a33f3268bcf54b3e669fe26486950ad87419a74f829b814753"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/046-EB006A-iso.png",
+      "bytes": 100342,
+      "sha256": "84992a4547eaa0956912fed945b3cfa394f1feb69fc20ca53a48243630535186"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/046-EB006A-rotated.png",
+      "bytes": 111726,
+      "sha256": "4efca8c237e000a797f8b701db17bea81f5c80aa05ded33baaf2603cc78a230f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/047-EB007A-iso.png",
+      "bytes": 91050,
+      "sha256": "1de6b25cb624ec1e8250123c6ef39706aa031999d3fcd7c91581b108bc86d27e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/047-EB007A-rotated.png",
+      "bytes": 82221,
+      "sha256": "8dea58f662501a0f03b091f44a7a76a5053c9656d933403cd90cca2a01ba5b07"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/048-FGA001C-iso.png",
+      "bytes": 107118,
+      "sha256": "58d08d0b5a27181132bc33618d2de40313daf6e5d1b46c29cb85fcba4aa58960"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/048-FGA001C-rotated.png",
+      "bytes": 119183,
+      "sha256": "f7f0e905d4ecacdb2b3c868603164448817b2fb34914e8d2abfbb2d36518f513"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/049-FGA002A-iso.png",
+      "bytes": 133906,
+      "sha256": "295a89bc509092c7c93f2d28475f649d24281ed7fa7a75887fbf771ec1bbc6f5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/049-FGA002A-rotated.png",
+      "bytes": 133884,
+      "sha256": "fe438c2aa24b9d310e4bf64d1e43e1865d471fd90461d661239ce77f21d79704"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/050-FGA003A-iso.png",
+      "bytes": 112867,
+      "sha256": "5da26c4a230b7ccdc077e1825446548406fef100d9ced478f582f0b66a7a33da"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/050-FGA003A-rotated.png",
+      "bytes": 118255,
+      "sha256": "d591c7a4498c15c58bf54abe97926dc9d23b157e934f4bc45bf4ca273021d06f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/051-FGA004A-iso.png",
+      "bytes": 101961,
+      "sha256": "be0c64b9d53bb100ee2e5038c1fc16eaf05f0263c181dceb8eb10088b37e4967"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/051-FGA004A-rotated.png",
+      "bytes": 108705,
+      "sha256": "a41218ca72f40555fe599a5f351abaef6a6de410d5ecbcb4a1f76be5f83cf597"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/052-FGA005A-iso.png",
+      "bytes": 98321,
+      "sha256": "4f26682068b389111da931cc4ce550216e715e75ca2d14e188e9eb72369c5893"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/052-FGA005A-rotated.png",
+      "bytes": 96990,
+      "sha256": "57eb521bb41b5711b382ff2673da345a99be1316ca0fa99d2d0f7c1e886c40eb"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/053-FGA006A-iso.png",
+      "bytes": 107457,
+      "sha256": "9d29f779839a542a3cbaeed7593c43f6f7e54469395a4a55d00ff1172e405bb8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/053-FGA006A-rotated.png",
+      "bytes": 97758,
+      "sha256": "a394a76d475751f86076688de40aaebd7024b4eba1e5edfeadf2c14331f3f817"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/054-FGA007A-iso.png",
+      "bytes": 95710,
+      "sha256": "9913976196e7ff2a957732ab764d1de68b4f5d0fa461f85a7e153dca2f4ad17e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/054-FGA007A-rotated.png",
+      "bytes": 106433,
+      "sha256": "2fcc6cd41788e21d4543120fca64f835be6f091ddfe124d410ed71aeb365e436"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/055-FGA008A-iso.png",
+      "bytes": 97875,
+      "sha256": "f8bfcaa7d1466895ac3602c4f92b22f92aeaf28ee0ad047be35060999c39f531"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/055-FGA008A-rotated.png",
+      "bytes": 105673,
+      "sha256": "ed7988457dc1d594a35bfec7b9b0b63e03d86d9fda127490c5831be0f1d7ace3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/056-FGA009B-iso.png",
+      "bytes": 94314,
+      "sha256": "9bfc050dd2c64c7bcebaedf5f558da6abfc3f7222c87a8798e43e177c511f36e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/056-FGA009B-rotated.png",
+      "bytes": 95690,
+      "sha256": "906477c3720e04dd53c88462276135e8f2d42172fd97db2d7ca8bb0b31aa0b37"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/057-FGA010B-iso.png",
+      "bytes": 95005,
+      "sha256": "533911edcecc031f5d94fc568344f6a6c84cb599a5172c18ffc46f81d27556a3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/057-FGA010B-rotated.png",
+      "bytes": 96332,
+      "sha256": "d1e138912309789700dc3c5d27d552e3bc7b0af9439518321174ce6712b90f65"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/058-FGA011C-iso.png",
+      "bytes": 83938,
+      "sha256": "e20650d5afce7a4b33805c3cb9580174737ff0c9751989f50c327325b4f84480"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/058-FGA011C-rotated.png",
+      "bytes": 89782,
+      "sha256": "de52638adfcde130f8ee01b71272f5b3bb44b7ffe18b0eb72dde69a933868ca2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/059-FGA012A-iso.png",
+      "bytes": 109082,
+      "sha256": "2c302a4714f3a26de23edfbf02c71a96168880b0574c5753062d70a6a3af0ee2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/059-FGA012A-rotated.png",
+      "bytes": 116843,
+      "sha256": "230e6f8a0983d627bcb8cded000c12fe77f94e20065ecd90161d5d7458a1fa55"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/060-FGA013B-iso.png",
+      "bytes": 104970,
+      "sha256": "7c7254d1c182e1174ae7ea78883c5e872779aa37c0a140faa860e08a36282672"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/060-FGA013B-rotated.png",
+      "bytes": 109511,
+      "sha256": "b8a507e043b4b093a4fdaedbea523a181c8a45e405167df82ce9d498a3798d8b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/061-FGA014A-iso.png",
+      "bytes": 86385,
+      "sha256": "c11f78f376f7fb67a8d3c23b8fb82df1cd6c7893e44a0b0846b98e3ddd20e2db"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/061-FGA014A-rotated.png",
+      "bytes": 83519,
+      "sha256": "adb06825beb996eec5e5c5e87427ac3f55937dbe42dd3f0c9503b8673561f87e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/062-FGA015B-iso.png",
+      "bytes": 106860,
+      "sha256": "5d86d1dc2e0e99bae136584594173400959c6e72ae66d49a24b68d5c82ac34e1"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/062-FGA015B-rotated.png",
+      "bytes": 103171,
+      "sha256": "0e47aedc750ce80a98dc3c55f523a43fc00b674006e3d4774e48cb627cc500ed"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/063-FGA016A-iso.png",
+      "bytes": 83823,
+      "sha256": "6dd4cb31535ae9628e9153e44b439e7c831195c05ecde688a91119fab7834188"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/063-FGA016A-rotated.png",
+      "bytes": 98869,
+      "sha256": "fea7b883eb2540acdc2b4011aff2d1a909f7c8b974daee6fd7a46b94c20d1765"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/064-FGA017A-iso.png",
+      "bytes": 89836,
+      "sha256": "ebecca1c764b81fb283e109b02fc62964a2c71ad131ffa512a9f36e3b09407a0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/064-FGA017A-rotated.png",
+      "bytes": 101196,
+      "sha256": "1a811f0c6ce971afbd2a8f72d2fc5185f4d26e4ff0d433f948c6c5e21a6a7a8c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/065-FGA018A-iso.png",
+      "bytes": 85866,
+      "sha256": "f1f351adc61cc98de7165b75a6fc513c77d0d8e3441407fc6fcd7e60d90bb74c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/065-FGA018A-rotated.png",
+      "bytes": 99024,
+      "sha256": "483dbb2c110ee2a52b2a40811f3185497f4c076d207754013c36ce100aaa1482"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/066-FGA019A-iso.png",
+      "bytes": 108290,
+      "sha256": "d11b2daa8c1f656866af339745cedfd3e37a902fcec5a69389da075fa94d8a03"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/066-FGA019A-rotated.png",
+      "bytes": 108314,
+      "sha256": "51545dfd8b41a93ba65f8249cede09d03ef0cf51012e12bf397458d02b2601d5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/067-FGA020A-iso.png",
+      "bytes": 92766,
+      "sha256": "1dfedfb23738ce7713ccb351407067cc537620d13093d0ab0d4db9ab12704324"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/067-FGA020A-rotated.png",
+      "bytes": 94675,
+      "sha256": "82a63af1068616744dc847638b9c50bf08268e91bb1fde724cde72c14860e4ca"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/068-FGA021B-iso.png",
+      "bytes": 108588,
+      "sha256": "2e4171c4247d08f5b61d4c31f0892d3c3b71f2fa2f8b2468d2052bfbf877e841"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/068-FGA021B-rotated.png",
+      "bytes": 105008,
+      "sha256": "e6b06c8313391c9585a78b4ea81e674195ac16e781692aa01ba4984d9a06b178"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/069-FGA022A-iso.png",
+      "bytes": 109583,
+      "sha256": "25d02d74f1a67629c8d8f48202ec1c9cdf789cb77b0784b1b8a19194bd784328"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/069-FGA022A-rotated.png",
+      "bytes": 104030,
+      "sha256": "5ee9afd901590c40d173d6c61a7c0d20d9b21a2c660b0353ab583f6eacc1433d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/070-FGA023F-iso.png",
+      "bytes": 106353,
+      "sha256": "88b6b5769e9342246e3ae9f6ccf619ad2d899a7ecb24ec803e85111b47524198"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/070-FGA023F-rotated.png",
+      "bytes": 97813,
+      "sha256": "7de2fe5b47c0940049338bf25c83a1f6b8085402c40c55ced577498d9ee05424"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/071-FRAM001D-iso.png",
+      "bytes": 152163,
+      "sha256": "cfbb99af6b46bc8a1b2cd3779c74db8c9248332d7e9c566f7ddbd4934b9784c9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/071-FRAM001D-rotated.png",
+      "bytes": 172137,
+      "sha256": "ad81ed26cad8007b1643cd64da3feee12ac33923e77ad5ce96d6a7550bde4027"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/072-FHA001A-iso.png",
+      "bytes": 79719,
+      "sha256": "b6505435f4505fd6d313d61b56dbd63d58ce0c4c3c580c8c4295a5aaa59c5f9e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/072-FHA001A-rotated.png",
+      "bytes": 81663,
+      "sha256": "3cfeacb6390928a78a988af728f663d8372d70f9cc2b9e097f17214ef375c275"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/073-FHA002A-iso.png",
+      "bytes": 103562,
+      "sha256": "da6e37900c356893161ed49ed99c642b9dfef356c89c8b9fb9473adb97bc44b3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/073-FHA002A-rotated.png",
+      "bytes": 105708,
+      "sha256": "6a54fe442e9213535c957492ec5a6bd78b6fee804e5466a863d8ec307fe70a24"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/074-FHA003B-iso.png",
+      "bytes": 109951,
+      "sha256": "0247789ae30a106f91aee75db64a54e278cbce482ffcf0b521fdf133cfdb5fab"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/074-FHA003B-rotated.png",
+      "bytes": 115576,
+      "sha256": "5f463d2e74e5bc7d50d79d056f5f0f1feafb0d9dcbfccb053db2f5923390951b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/075-FHA004A-iso.png",
+      "bytes": 100026,
+      "sha256": "8d902dd7f968997ca00bdeaccaffb9c36e4343e32e3e75ee279c7aa80a2ccac1"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/075-FHA004A-rotated.png",
+      "bytes": 109706,
+      "sha256": "4ecc6e51a8eac76aeb58390a79d0c3cd05535005092f2909f68b1457b70ef2fd"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/076-FHA005A-iso.png",
+      "bytes": 106903,
+      "sha256": "b6a3fe1a52cb29ec322956355f0a8b01abe358626e109c4d34fc3f94b7718efc"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/076-FHA005A-rotated.png",
+      "bytes": 103952,
+      "sha256": "1e8dfb5ddf6258b9b9f32f23146ed78a3015b427d9c7da48d746d05d4d4e1024"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/077-FHA006A-iso.png",
+      "bytes": 93247,
+      "sha256": "6675301d7aad62d2954d55f5812b9baa895ff0009186e16b6aaa4c15874faa9b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/077-FHA006A-rotated.png",
+      "bytes": 107240,
+      "sha256": "8cdd47ec612fa7c47c5ce3d9681cdcc13929413889723defc8d57b82242725dc"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/078-FHA007A-iso.png",
+      "bytes": 106642,
+      "sha256": "cf5da9056ed661e22102970866b07c28075ce71998b20bab22f053ac12cbb34f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/078-FHA007A-rotated.png",
+      "bytes": 118714,
+      "sha256": "4a9cd7789f38a3b1cdea9d05e82bbfdaa398c608cb208e628ab4c2e5ef2cdcdd"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/079-FHA008A-iso.png",
+      "bytes": 109488,
+      "sha256": "6e334a6c4c35fddfc44ac5cbba645bf42dce906bbcde1cba39e7b2b300fe65c3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/079-FHA008A-rotated.png",
+      "bytes": 113624,
+      "sha256": "d27bf9c7c6b47ec3367774537baf013a759292c9b94acf325e1d3fa7a7a6c671"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/080-FHA009A-iso.png",
+      "bytes": 109558,
+      "sha256": "ae3ac29b0ddea37620dfebfb2489035b611d632c22f209469777ee6656349d77"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/080-FHA009A-rotated.png",
+      "bytes": 121242,
+      "sha256": "a91a3582810bb8c6d7a9e30fef4e84a9a244e7ea44ea08155e7082cc5d288f89"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/081-FHA010A-iso.png",
+      "bytes": 96704,
+      "sha256": "eacb8c58b7187fcd4b550908a66e8606983c683192b4f10bbe44721f7d6e2973"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/081-FHA010A-rotated.png",
+      "bytes": 105573,
+      "sha256": "9612693c04c51fbfb712ab37b50f848a24baf6589c225fc0641d5ccefe91a334"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/082-FHA011A-iso.png",
+      "bytes": 89534,
+      "sha256": "258d6a6f8ad719f42645334255b21b373936b7db6e6deeb850f628b47e30f39d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/082-FHA011A-rotated.png",
+      "bytes": 107173,
+      "sha256": "22099f4c7d34763edadbc8a4c6c24ec01f9d7916a287517b852430a4a5919609"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/083-FHA012A-iso.png",
+      "bytes": 102768,
+      "sha256": "6a5c31b970b7e38c622967ded2dd11dcef48eba9364441fb08f17f672aaca08a"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/083-FHA012A-rotated.png",
+      "bytes": 105974,
+      "sha256": "0504fbee2b50df048757047959c78959aae8cf9cd0fbfaa35fce1fc5325b76ce"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/084-FRA001C-iso.png",
+      "bytes": 116201,
+      "sha256": "caf418315988911b77857e92b2cb318ba9c58c5c19095092fdde505e22085f97"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/084-FRA001C-rotated.png",
+      "bytes": 127620,
+      "sha256": "cd9dd3d64dda07b5bc9dfa6698646087d0ccc1669dbf491c8957fe77f39bede1"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/085-FRA002B-iso.png",
+      "bytes": 98066,
+      "sha256": "7c28fc6ada7afb77672087db9bcaf55b2104e5f42363e1195be45cd6a28340d5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/085-FRA002B-rotated.png",
+      "bytes": 95783,
+      "sha256": "c1c230180692d2425e85ebb3f2a3dff8851b61fbd39016042bda1a14026c12fc"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/086-FRA003C-iso.png",
+      "bytes": 115056,
+      "sha256": "c20cb012dd007f2b0ec8f43d04a23c93903686d5b89c8092749552d3926c7bd7"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/086-FRA003C-rotated.png",
+      "bytes": 113759,
+      "sha256": "996e0882ded7335d89c8363af35c4a6f51ec476b5c69a21386c2204ade7c9502"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/087-FRA004B-iso.png",
+      "bytes": 112988,
+      "sha256": "675cca1e9cd372f92cd8282dfdc96f8552fd9ecd2c60b7fb70fd6780cdc283ff"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/087-FRA004B-rotated.png",
+      "bytes": 116828,
+      "sha256": "a565ce86f6d5078cb29643d1e5b36cd0f76e48fc60599ffc4efddee5cea9c6ff"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/088-FRA005D-iso.png",
+      "bytes": 134090,
+      "sha256": "41855bd6e2869139dc8fdf1e4bbf92c2d0314888cd3c5821ed67d7352d999b5c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/088-FRA005D-rotated.png",
+      "bytes": 145002,
+      "sha256": "f614ff28b5900c3ba2463cdb60512eaa4629b70f1f66a5f5cff67c9072d807fa"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/089-FRA006A-iso.png",
+      "bytes": 114720,
+      "sha256": "86118fe18e86f43d497bab491dbaa5e2cea7ef9dbecbe12900ebbc0b1486e2ad"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/089-FRA006A-rotated.png",
+      "bytes": 122296,
+      "sha256": "a7f6e75822433bbe58b4c73e1914aafc2a66f5be74e931f186388208d040f5e4"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/090-FRA007A-iso.png",
+      "bytes": 111462,
+      "sha256": "3970b29033dfd26316f33baa3889893a665a51136644d33980ec0be61d0fc343"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/090-FRA007A-rotated.png",
+      "bytes": 117307,
+      "sha256": "03d16958fd2f7fc2b8a03398cd90b87fcac4c365e23c0bff56a9b46a83e64dc8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/091-FRA008A-iso.png",
+      "bytes": 111917,
+      "sha256": "6cc9a4a5abfe266d28c731d0846f0dfc93f807c9583ad1e47946c1d4a1793197"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/091-FRA008A-rotated.png",
+      "bytes": 115253,
+      "sha256": "1c10bea7686517684b8e149fe82f08d0e3ff2026949162d287a2163f94d4c629"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/092-FRA009A-iso.png",
+      "bytes": 98085,
+      "sha256": "76e8e255e4b10915439b95c39be50419bafa77bbcb654313536a796217a79939"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/092-FRA009A-rotated.png",
+      "bytes": 109910,
+      "sha256": "d45106fbe05bc6b155a0512dd326ae6d54924966c8a330bab32344520daaedf5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/093-FRA010A-iso.png",
+      "bytes": 104010,
+      "sha256": "9fe740cc181cbe0fd36bc2cd3f5bf9f53a4f9dcee476d94cfa6d6e5da9a9f4d8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/093-FRA010A-rotated.png",
+      "bytes": 104436,
+      "sha256": "d3b5b000dbb92733addd075636a28717cdf673247e94f043eb66631441f30af4"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/094-FRA011A-iso.png",
+      "bytes": 23181,
+      "sha256": "afd178e2579233aece978a7d5d666688919b22e214f0e18f9498bd6a2cd64451"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/094-FRA011A-rotated.png",
+      "bytes": 20444,
+      "sha256": "3560567f230f2df7593b0e588b877ce47fbff9acdb84952ba51df70385c5f3aa"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/095-FRA012A-iso.png",
+      "bytes": 513568,
+      "sha256": "178a4855e84a1c75fe17a0037d710f549411a0d6e3925638d73d201850772604"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/095-FRA012A-rotated.png",
+      "bytes": 524319,
+      "sha256": "e41d0232c9e12155a12670b00b191d215d6756866d88aa61c7a1ce091b5cba62"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/096-FRA013A-iso.png",
+      "bytes": 554912,
+      "sha256": "77ea4e2cbeae8951e87ccf5f73d3575bc52912656e629a8ac88de075008a50a9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/096-FRA013A-rotated.png",
+      "bytes": 577464,
+      "sha256": "7b50e79e72d82ff1dc858dbf0828c7a9e0938a9806cf707219079fda0333f610"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/097-FRA014A-iso.png",
+      "bytes": 550784,
+      "sha256": "b229602df23959a55feb4f25d0b62dd5467159c20f8d26e889404b0dbe685e9d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/097-FRA014A-rotated.png",
+      "bytes": 522550,
+      "sha256": "d277c29a3ea8d50861cd6b9bdcc7e3ef192bc5403e59265b851eff0498c9fdf4"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/098-FRA015B-iso.png",
+      "bytes": 546301,
+      "sha256": "c10375b485a98fce928d2c1fb28afe2954725ef9bb18a44f5ea7f4ae99bfc041"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/098-FRA015B-rotated.png",
+      "bytes": 522809,
+      "sha256": "ee6f9f8e8579db92223ae60b2f11baca7954ac2aa593c961cbe58a7d240742e2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/099-FRA016A-iso.png",
+      "bytes": 119113,
+      "sha256": "8925503525be762c0cdcda0228247803348b3edc331a9c1d65555b9744794bc0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/099-FRA016A-rotated.png",
+      "bytes": 93740,
+      "sha256": "5e0bc9739ad27381bf179f3e688c7432babb8cc2938a302d0e4973892c392988"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/100-FRA017C-iso.png",
+      "bytes": 117269,
+      "sha256": "1d75504919ac6b8dbe0cc03e5b27e44846f97d9dddb1a8e0aae3209f0e9ae91e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/100-FRA017C-rotated.png",
+      "bytes": 118718,
+      "sha256": "0538b889af28a162a8351e9977a5263b29c9ee274ae61cb4973e2516e8b7d427"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/101-FRA018C-iso.png",
+      "bytes": 109637,
+      "sha256": "9c83163bbd4b843daca4ed80a1d3cdf3fac5a0bd85d30cbb890096441569b446"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/101-FRA018C-rotated.png",
+      "bytes": 116804,
+      "sha256": "be72b96ef81526df7a1049217ba3de83455ee50b7ef8b9f08da01b8f19e64250"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/102-FRA019A-iso.png",
+      "bytes": 83510,
+      "sha256": "a7149647244a0bd04bd9da41b8691c227858fbc049951751793673bd6be12d37"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/102-FRA019A-rotated.png",
+      "bytes": 84122,
+      "sha256": "37e0b18cbbf3f947ab05e5771f789a053bd297f77897a471aabffbe1ff12c89f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/103-250ml_Bottle-iso.png",
+      "bytes": 138535,
+      "sha256": "f069e1d57540e708bb305f727443ecea6d1fb91a65f8331f6658399bde077c5c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/103-250ml_Bottle-rotated.png",
+      "bytes": 163268,
+      "sha256": "8fd4c0fe73a8015d323d02d2cfce1fa9eb4ea6bd94ab59b299cbd6f15ebf1ac6"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/104-3mmX80mm_shaft-iso.png",
+      "bytes": 117641,
+      "sha256": "6c96b27c07c2e07390a487fe392d3de7e8bdf233345cc128156d20cb2f96403c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/104-3mmX80mm_shaft-rotated.png",
+      "bytes": 127304,
+      "sha256": "fb11f3a6b2507e63c26f1118d2d81491440593a46811138760d7d5201a20bb45"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/105-4ch_optocoupler_relay_board-iso.png",
+      "bytes": 106100,
+      "sha256": "2cb049e897d0205cf0ed00107afa188d567aeb82c16233dcfb9bfb1b0e56e3f5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/105-4ch_optocoupler_relay_board-rotated.png",
+      "bytes": 121517,
+      "sha256": "fce88db004b3b6f985c53d26c012db4ba51c4c64a665903310569b51abdd3706"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/106-6mm_pneumatic_fittings-iso.png",
+      "bytes": 129567,
+      "sha256": "1f406ba1e0ba659fa728e0ad3339b181cb558411b81c4d8c79982f4defc71f48"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/106-6mm_pneumatic_fittings-rotated.png",
+      "bytes": 122871,
+      "sha256": "dac039b5eba84584fe55c6795992b5c2b21279b072a48871f2ec1fccd02018b5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/107-Aluminium_Round_Spacer-iso.png",
+      "bytes": 86588,
+      "sha256": "976cceb5799f071507f7027ba1170a3d10dc8711336c4f0fedbd12387c6097aa"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/107-Aluminium_Round_Spacer-rotated.png",
+      "bytes": 108728,
+      "sha256": "6c033c80f1bf8adc957f07453962b0c8749b08468de958f2fbabe7f93f40d18f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/108-C920_Webcam-iso.png",
+      "bytes": 103294,
+      "sha256": "89fd55c01dc0ee9fa53a339973618b4bed2dfd6ef83cff3f480026b966625d5e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/108-C920_Webcam-rotated.png",
+      "bytes": 98607,
+      "sha256": "e0fd328be900630fa1b4bf628948c89688f49f7b198d01fbcbd13848989c76e5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/109-DP521_Water_Pump-iso.png",
+      "bytes": 121925,
+      "sha256": "10fec88745d76eb0a822235b7f44f24155c6933c85cbdce937550163e47b87aa"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/109-DP521_Water_Pump-rotated.png",
+      "bytes": 128195,
+      "sha256": "b101927c979ff6d357047291c736614b47a487a15ab9382715229a127dc2b459"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/110-Electrical_Panel_Box-iso.png",
+      "bytes": 111652,
+      "sha256": "d84634a99747046d20d153f75e79a5045f6a75470f0d2013e3a7200abed63a0a"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/110-Electrical_Panel_Box-rotated.png",
+      "bytes": 101744,
+      "sha256": "d99f29739bc4a3a978aae345ecd1acb748376aababeae5be5324654d2013490e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/111-GT2_Timing_Pulley-iso.png",
+      "bytes": 174518,
+      "sha256": "a77b64da06f06ea165d5b17670d03b16c4c0832df5017f43affe680673474c7a"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/111-GT2_Timing_Pulley-rotated.png",
+      "bytes": 207690,
+      "sha256": "3401532d3fcfbf96caf6ba30c75f25dbc193754dadaf09fa3801c6b2ba7228c0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/112-240_Servo_Motor_HTS-35H-iso.png",
+      "bytes": 123325,
+      "sha256": "91ea0b79ec3724676da409f2f62125392bf68ef267069a3e3e59e1367a4704ea"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/112-240_Servo_Motor_HTS-35H-rotated.png",
+      "bytes": 129410,
+      "sha256": "c706e352643812c148f627aadf213af6bb61761beb57bd75495b61f3bab42dc5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/113-0_DS-LH8A_stp_2_-iso.png",
+      "bytes": 120905,
+      "sha256": "b33d612241b66a0638ef0f58f059f57e8e45390d92b36d4435782a11b36814b0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/113-0_DS-LH8A_stp_2_-rotated.png",
+      "bytes": 131075,
+      "sha256": "9ef7d67b71e7e1fa8867262416f2746ac4705b2551eb38037c6c70af11a50230"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/114-Hydroponic_Channel_1_Meter-iso.png",
+      "bytes": 113303,
+      "sha256": "b231a639621130300c5162f28587029d5495f682062cb2dd8d811c0fd2446cd7"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/114-Hydroponic_Channel_1_Meter-rotated.png",
+      "bytes": 115867,
+      "sha256": "2fb7db8723ba00ed99254604037b148f9f3c63d894a6d1cdfcfeb3727ada6da9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/115-Hydroponic_Channel_End_Cap-iso.png",
+      "bytes": 88705,
+      "sha256": "f68f6f08086260047e6f2cd917944e8a995cab8d73548c2560ba572e3a8f3eca"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/115-Hydroponic_Channel_End_Cap-rotated.png",
+      "bytes": 96680,
+      "sha256": "dd7e4defd98a6d28d75ad510860fde0a9cbb80b2be825bde46addcb39e072ce8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/116-IDP_basket-iso.png",
+      "bytes": 98395,
+      "sha256": "22fe82235ac41253dec7ec31194ce0afaaa023681b204e01dbef63cca7e72d91"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/116-IDP_basket-rotated.png",
+      "bytes": 103277,
+      "sha256": "8eed5fd3cc5c5383d93657eefb734eb02799b5c72522e4c594a765dfe3bb0807"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/117-IDP_hydroponics_netpot-iso.png",
+      "bytes": 103764,
+      "sha256": "8cdf531568821db8f5a6abf13c6933fc8ebb743335e9b2b39a436a939380b195"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/117-IDP_hydroponics_netpot-rotated.png",
+      "bytes": 106134,
+      "sha256": "efc7b078bf0eeff824ae6fba2951d7d8636655016c7295791084c9ecb28176d0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/118-LBSBL6-2028-SET_b-iso.png",
+      "bytes": 94065,
+      "sha256": "ac62c45bbce4c28e683453fb13ea724a74b032fda372a4058e2356ecf9cf3bdc"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/118-LBSBL6-2028-SET_b-rotated.png",
+      "bytes": 92722,
+      "sha256": "8ad61bf2b7a96eacf93ec96b983a97b1634b96470727da31f1c07c1c605a2636"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/119-LNCFM5-100P-iso.png",
+      "bytes": 110832,
+      "sha256": "f8c52d4b46d72c550476d72b72a405c98a277ac46f4e2bd51073d5669a799cfd"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/119-LNCFM5-100P-rotated.png",
+      "bytes": 121947,
+      "sha256": "e547ba01953de268549098efbc46edf704957db2a6c1b0fe9c6a8976e12914f8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/120-LTTB6-5-10-iso.png",
+      "bytes": 109173,
+      "sha256": "f1404c72f75ee13aa9dbbbbce4bec1e91ead2be48c16990c221b993654f94a29"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/120-LTTB6-5-10-rotated.png",
+      "bytes": 114424,
+      "sha256": "1d2998c289fd9930fdfdb99be54a091937d3dd76f22e4de15a85fc4dc7b331e7"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/121-Lineare_bearing_LM3UU-iso.png",
+      "bytes": 99912,
+      "sha256": "d6921a9a6dfe9fff110932f63b001e047dbf5f4113e5858cc907b82d3ae72be1"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/121-Lineare_bearing_LM3UU-rotated.png",
+      "bytes": 102516,
+      "sha256": "7aac360a2d75a421bdba0d4fe59d596b52b557b3971ca2dbd6595e1fca42dd49"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/122-Mounting_L_Bracket-iso.png",
+      "bytes": 123435,
+      "sha256": "d839949188ea306bfc9f7674838de80fee53c83ef76d94bf6572f92cd69d33f5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/122-Mounting_L_Bracket-rotated.png",
+      "bytes": 124903,
+      "sha256": "a4401c617f724d9ffc0b948a4126a4160e3e749ce608bf61ab4f6928d48929f0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/123-Omron_V-155-1C25_MircoSwitch-iso.png",
+      "bytes": 113787,
+      "sha256": "0bc92522cbbaa700a1f71f98f381fe00b7ee7ee38635cf4c62d50cd8798985e0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/123-Omron_V-155-1C25_MircoSwitch-rotated.png",
+      "bytes": 115856,
+      "sha256": "0c8720f1aa69164cbb8b7a87901402a09c03ab5c217d1f5918bbd5a86c191a40"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/124-PH-4502C-iso.png",
+      "bytes": 132853,
+      "sha256": "9a574eea7d227911c9f2e8cf3daf9f78e9f7b229ddc3b488dc10d2b1b41307af"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/124-PH-4502C-rotated.png",
+      "bytes": 125702,
+      "sha256": "ee405878b4b21e3902e032c68b8797ac02323359154e84d1e9c323d959701d8f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/125-PWM_Controller-iso.png",
+      "bytes": 116700,
+      "sha256": "14f6fb8d24206eedccd0e21001c3590afe8d94b9023f44bd74e628c3c8fb92c8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/125-PWM_Controller-rotated.png",
+      "bytes": 112228,
+      "sha256": "68215cd78304cf5622e2d22b39aaf5a823b449708fca8d85092194195fa38b27"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/126-Piping-iso.png",
+      "bytes": 119206,
+      "sha256": "8c277cea418d2274f3f1861a53009b5ede330d978da355de7b7968f8d733f8f9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/126-Piping-rotated.png",
+      "bytes": 124924,
+      "sha256": "47f0ecdb73a028e86c32d6930fcab8263060c7568974dd4ecd62c9f07f54e23c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/127-Planting-iso.png",
+      "bytes": 154366,
+      "sha256": "57da7e0a8664a6b496960f487bb5b3cea5e25d420f5bee845f9bd81717b3ffc3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/127-Planting-rotated.png",
+      "bytes": 147222,
+      "sha256": "9de29ca7434393e6033b3d2e3772a91cb2292ac23b3777ab9b6e193dadf46e0a"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/128-Quick_Connector_Spray_Nozzle-iso.png",
+      "bytes": 111784,
+      "sha256": "0e775b2e8ea30fac06b0c22e8efc08da8f1d8893eaf42655622d4fbb10651dbd"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/128-Quick_Connector_Spray_Nozzle-rotated.png",
+      "bytes": 120689,
+      "sha256": "d7b2ff25236bb37a723593a2c5cbf56e4f44f8c00636609893755659aee75c03"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/129-Round_Servo_Horn-iso.png",
+      "bytes": 95022,
+      "sha256": "92cc79343df13aec0903b5eb8ae62dc917d00db8c263301311ff242a400e91c5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/129-Round_Servo_Horn-rotated.png",
+      "bytes": 102452,
+      "sha256": "1d5509f94b09be3c00628dee5cbbe14850c381995b044a672576e8f29c81011e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/130-SERVO_ARM_HORN_25T_ALUMINIUM-iso.png",
+      "bytes": 83294,
+      "sha256": "e305f1b3436cc4ca650d60420d76cab053702ac6960aaf7d9d08bddbb409313f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/130-SERVO_ARM_HORN_25T_ALUMINIUM-rotated.png",
+      "bytes": 92276,
+      "sha256": "6b887c9cb62b55058f2d4a59fc8ea8751bdbcfb0c335f368c9c8ecd959869e0f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/131-Suplin_SPL-62-iso.png",
+      "bytes": 129648,
+      "sha256": "5152a6ef782f4753a24d2e1075b250cd757cab20c430c6c157095ffaedc37abb"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/131-Suplin_SPL-62-rotated.png",
+      "bytes": 110723,
+      "sha256": "3fd96dca673bb0d6014ca1aaff6866a16cad3ac6cfcaa859518f9e65fe5f3b0c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/132-Thrust_Bearing-iso.png",
+      "bytes": 109237,
+      "sha256": "4e5f6d2623fd4391c1ed70d439ccb9143fb42640ebf698806098cd371ac03168"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/132-Thrust_Bearing-rotated.png",
+      "bytes": 112406,
+      "sha256": "dc45be482aef44e58e51e7ed39ed91095fbc001f9a61f99362183f758fe1c35e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/133-Inner-iso.png",
+      "bytes": 108819,
+      "sha256": "02475d869e500bcb99aa5b0150bf59822112563544cc77f6b6cb9e86dc9da6b3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/133-Inner-rotated.png",
+      "bytes": 113044,
+      "sha256": "f909e834ca307a8289e59f3f48afe19d895606f169533fb800533da1940d7830"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/134-Outer-iso.png",
+      "bytes": 111477,
+      "sha256": "7d96d2e50fd515fe4e372388015b71ec28f6a9af9b992a320cd8618dece8eb95"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/134-Outer-rotated.png",
+      "bytes": 115111,
+      "sha256": "f15dfe5304f3ff207571d72389c762d97d40b1e462ff8a8b1c6930e5f4d9351e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/135-Walling-iso.png",
+      "bytes": 410608,
+      "sha256": "6e520bc76496d04d29a44d1a84eb7f5a1401a00c2a726aaabc24483ef2126649"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/135-Walling-rotated.png",
+      "bytes": 314706,
+      "sha256": "996ecbd940c8371203423aaadb12fe924f014ecb4a279df38bf6a45edf44b9a8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/136-Water_Level_Sensor-iso.png",
+      "bytes": 110127,
+      "sha256": "47230a3f0b7c038cdb49c21c8c9ebbbcff7cb7902a992f2865046951a6703c78"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/136-Water_Level_Sensor-rotated.png",
+      "bytes": 112743,
+      "sha256": "6a6683d75ac098d5588e27e413cbc11afad9f9a4649fe854d336af22141564d0"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/137-Water_Tank-iso.png",
+      "bytes": 99172,
+      "sha256": "494e5f78c47b4baf38a840af8b36da232c0919c38e68fc3b8ce2be0bbe6c9c82"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/137-Water_Tank-rotated.png",
+      "bytes": 104079,
+      "sha256": "8504b2100d168f781adc0faf9cd2da2e5f1b48ea18adc2b9e12c42e3edf4b38c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/138-Water_pump_12v-iso.png",
+      "bytes": 113602,
+      "sha256": "026d011d10d2c5a651c0b81b1519c38183d223eb5886cc2957d169799348bdbf"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/138-Water_pump_12v-rotated.png",
+      "bytes": 117447,
+      "sha256": "b1ca2cce31ebf4166f5ceeb36d5356869ab4206f24ef259649761564cb64e298"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/139-476745_-_Nema_23_Shaft_End_Plate-iso.png",
+      "bytes": 125119,
+      "sha256": "8a38960cea94265f9ff778c2252e4f9f1fbaa44c2481bd9cdec51605309462a9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/139-476745_-_Nema_23_Shaft_End_Plate-rotated.png",
+      "bytes": 110501,
+      "sha256": "2a8d2ffa7f0fb21c1c8042520ad1f1762fc9905fd3876d0b5103e9baf0b9d405"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/140-476746_-_Nema_23_End_Plate-iso.png",
+      "bytes": 112127,
+      "sha256": "533cce8e80760c21f0c860dc22e72238a825ccc73c69243a95129ab579387ce9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/140-476746_-_Nema_23_End_Plate-rotated.png",
+      "bytes": 105729,
+      "sha256": "83ba075728e011e8bd374dfb96369502b87297d67a28640c877ad7af305b477d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/141-476747_-_Nema_23_Motor_Body-iso.png",
+      "bytes": 106789,
+      "sha256": "4319e1c6e21e9c71bdcc138aa8741f8b795919501e9c250f6f81bc9044a5fb51"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/141-476747_-_Nema_23_Motor_Body-rotated.png",
+      "bytes": 102118,
+      "sha256": "5d40c572e0408ea91da6a6d8e74890f1ad21315689cc365d38b0490053c01910"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/142-476748_-_Nema_23_Armature-iso.png",
+      "bytes": 114858,
+      "sha256": "49a756bd4fb0029d85c1bbc31869735e1bcd4d56fb26c0330c4beebc1248a39c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/142-476748_-_Nema_23_Armature-rotated.png",
+      "bytes": 122364,
+      "sha256": "f907228eb174caf0cd6b9724b3ded4b0792590ad710878585b95325fe82b6f7d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/143-p__BEARING__METRIC_600_MINIATURE_SERIES__DOUBLE-SHIELDED__3mm_ID___9_OD___3_W_____603-ZZ-iso.png",
+      "bytes": 168802,
+      "sha256": "f958e4420e7d9274c2838b9108aca79e91a9669408c6a43de5e1b2eca8090d02"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/143-p__BEARING__METRIC_600_MINIATURE_SERIES__DOUBLE-SHIELDED__3mm_ID___9_OD___3_W_____603-ZZ-rotated.png",
+      "bytes": 176323,
+      "sha256": "e32217668e7d9cc19b47f0ab736ef27c97811d9d73a78b10bb5843de5d5108d6"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/144-peristaltic_pump_KPP_from_kamoer-iso.png",
+      "bytes": 139773,
+      "sha256": "b79dfc2542e7e7acbb565fbdc28e4a7fb282be7573408b036c3b493fe62b11db"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/144-peristaltic_pump_KPP_from_kamoer-rotated.png",
+      "bytes": 157729,
+      "sha256": "73817744805bfc9b0ccd879d608b275033d789ea20c403c61b3b26e8d3969955"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-001-GTW001E-front.png",
+      "bytes": 122259,
+      "sha256": "cd80af875afdaf4ed9292fedab893c84bb1ad24f9a524d2e53e2946808926647"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-001-GTW001E-iso.png",
+      "bytes": 138528,
+      "sha256": "930fab8e374ff84c40f8a5fb939b897684499a54ece550046aa9b156cede1ce9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-001-GTW001E-rotated.png",
+      "bytes": 138624,
+      "sha256": "3dfbee938804d9374360c3dacef1af755f2cf33f1c7df5692f188e4729253f7e"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-002-GTW002B-front.png",
+      "bytes": 121635,
+      "sha256": "a8a16279b055eb274f37d16f06a4f421cc2eeb157cd4942c64c9103e57995162"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-002-GTW002B-iso.png",
+      "bytes": 128072,
+      "sha256": "1546026e85ea6d2e259ec11e27d1c637421cb1aee788876545f031a92bc6557d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-002-GTW002B-rotated.png",
+      "bytes": 132090,
+      "sha256": "b572b4e83ff6f914ebb24835f9fd2824efe1536b04ea363475329e91dd02b2ec"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-003-GTW003C-front.png",
+      "bytes": 318931,
+      "sha256": "ca1d0ddd1bc614fd36acb102c860fb1c1f36472c871d375652d7fa93332dd1c7"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-003-GTW003C-iso.png",
+      "bytes": 213017,
+      "sha256": "42d65e8ae4151a99652b26ff768b92aaf52a05ecb844a98e86640a1d4d3e1cff"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-003-GTW003C-rotated.png",
+      "bytes": 177748,
+      "sha256": "e9bc70aa7cd2d1f6fa98f7c91eb9f3dc4bf4d05c5229751858c9a2c3bbf09d86"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-004-GTW004A-front.png",
+      "bytes": 65736,
+      "sha256": "dd0d2a7ae6a9341ee01254f0305285e44a8dc869d3807484eefb7ffe8cef235b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-004-GTW004A-iso.png",
+      "bytes": 102066,
+      "sha256": "adf68c9307b51af90cfbdf393b29a6a14cc3cc8b66b4f0b43e2c4a526ec075d2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-004-GTW004A-rotated.png",
+      "bytes": 119768,
+      "sha256": "b7ae4e2086119e8985da4f3acab9361f752f6762ddd46618753ece34e5b10965"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-005-GTW005C-front.png",
+      "bytes": 120802,
+      "sha256": "4fb91c2a674572c8b7878e7177b0c6163829f2589c1bb51b00ae5ec1ea279ee5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-005-GTW005C-iso.png",
+      "bytes": 121794,
+      "sha256": "b7a652d38c524c44c0f27d1965ec6a45692f0a197750580ccf0b6d44936eca3f"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-005-GTW005C-rotated.png",
+      "bytes": 122160,
+      "sha256": "9765e4d746c0cccc5deeeda4b2743ce5e7f01e1622d9fae6e74314614ad8d2ce"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-006-GTW006B-front.png",
+      "bytes": 105939,
+      "sha256": "e07d4b2b93414a572be75c60f773ce9f4ebbbda970aab13799b59f75885ccc11"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-006-GTW006B-iso.png",
+      "bytes": 120406,
+      "sha256": "cd668cef10972a656c761718034bc506f9a39b702fb752b66d33e3742184aade"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-006-GTW006B-rotated.png",
+      "bytes": 124766,
+      "sha256": "cd4c580c6b8dba7e776a08e02badc0ce2686b9641a400c7a80fb3b6540c270eb"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-007-GTW007A-front.png",
+      "bytes": 91756,
+      "sha256": "80659ff4430a3c8588cf84cd72ca0dfc935747e7801248fe65c7e84c039605ff"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-007-GTW007A-iso.png",
+      "bytes": 140910,
+      "sha256": "de3374350f3fd4890201c9fd35c0a5f26323753a5e6f54b807ce223eb7ba4c5a"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-007-GTW007A-rotated.png",
+      "bytes": 145534,
+      "sha256": "a39cd80dd5d4f8ba69d92355da7777e8011e513cfb545857d3bfbf81160f2caa"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-008-FGA001C-iso.png",
+      "bytes": 101424,
+      "sha256": "e052fb5e7f942f81d5c0b55e522e93a123039de6cc90f361868cadbe3eba0fef"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-008-FGA001C-rotated.png",
+      "bytes": 114190,
+      "sha256": "cc7e53ecbae89b9b37e990abd9116c3a4e96b062a199301b5a88d024dd3c7fa5"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-009-Aluminium_Round_Spacer-iso.png",
+      "bytes": 85653,
+      "sha256": "d1abf3416c884ea8045748903ad22410726fbfd2567018203b2c1a823b62d4f9"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-009-Aluminium_Round_Spacer-rotated.png",
+      "bytes": 108776,
+      "sha256": "f52bc5a1bf181f51582ddedaba0be163156d44f8576c2b3feab1a1de889db10d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-010-GT2_Timing_Pulley-iso.png",
+      "bytes": 174661,
+      "sha256": "1ee1f1a919c9dfdcd148c90de5453b6d145e11ed21c4e71ba1b8b1ac92a8871b"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-010-GT2_Timing_Pulley-rotated.png",
+      "bytes": 207779,
+      "sha256": "b1a75e50a1fcb92fdfa17913d4afd1ffc06db136be8be0f12b9f819c9481372c"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-011-Solid_V_Wheel_assy-iso.png",
+      "bytes": 107531,
+      "sha256": "dcd5572ea1a6ec7b993f1fa55877602ed76d89b686a026551861c3afd7aaeeab"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-011-Solid_V_Wheel_assy-rotated.png",
+      "bytes": 103007,
+      "sha256": "db7863d68b1cbde47390fda59853b31633557b0a370a29e3db387e58cf6f5663"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-012-476745_-_Nema_23_Shaft_End_Plate-iso.png",
+      "bytes": 125003,
+      "sha256": "b462bde23d20434b0679d127f6fcdcc16280a3d946bef36d47d162d450dd654d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-012-476745_-_Nema_23_Shaft_End_Plate-rotated.png",
+      "bytes": 109336,
+      "sha256": "5b34dacecc0572997f6bea17f9822ba387135518d9d02df0310cc777152e3798"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-013-476746_-_Nema_23_End_Plate-iso.png",
+      "bytes": 111395,
+      "sha256": "af548c431dc9069c103dc76b6ceba1b049d8813dc2e65c3262a75ddaab908507"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-013-476746_-_Nema_23_End_Plate-rotated.png",
+      "bytes": 104976,
+      "sha256": "b4e93ba7854343cee6e04d59d9c231c25039c242d312fb975153b8b6fe0419e2"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-014-476747_-_Nema_23_Motor_Body-iso.png",
+      "bytes": 104774,
+      "sha256": "fa7b605e3b7a159ee40800f5be5e51068eab1008a68f85773a97e7471ebbf4b3"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-014-476747_-_Nema_23_Motor_Body-rotated.png",
+      "bytes": 101201,
+      "sha256": "40664aa7a27de5dbbae23d1b9099644ad25c7c4311a3bb0933a425ea80f9ef92"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-015-476748_-_Nema_23_Armature-iso.png",
+      "bytes": 113896,
+      "sha256": "16f756f9ae5aec664f9c974798969ed21f149f6d38bc9322a13504eb1ea1dab1"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-015-476748_-_Nema_23_Armature-rotated.png",
+      "bytes": 121019,
+      "sha256": "adc95a85137414e8cdc8ee96b676f73203716ccaf59f0d455e827ee395d0ab11"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-016-Nema_23_-_57BYGH56-401A-front.png",
+      "bytes": 78484,
+      "sha256": "bc0f50476df585dd4a678df9765e453e9dba5b30b0caa9a87369a551e8d261ce"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-016-Nema_23_-_57BYGH56-401A-iso.png",
+      "bytes": 124854,
+      "sha256": "ad6411948a3e84e246c3e4003f85f7be263a043cdf908787f641175805008b3d"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-016-Nema_23_-_57BYGH56-401A-rotated.png",
+      "bytes": 121966,
+      "sha256": "0939ad5b3a907385a7e957cbf9cb449c83a07a2f1b01dfc2b4a63496e6f14f42"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-017-Ball_Bearing_5_x_16_x_5-iso.png",
+      "bytes": 115808,
+      "sha256": "e927f46b508172dd2ba0f0e3d78c7bc6e7e801566ff3502941253c1c48fddcb8"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-017-Ball_Bearing_5_x_16_x_5-rotated.png",
+      "bytes": 111265,
+      "sha256": "6b15a7e96ce1e43796f69e84d152e1c57f627cba28d25a3d1d341e374dd4d870"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-018-Solid_V_Wheel-front.png",
+      "bytes": 93311,
+      "sha256": "1b025d4d6493e8c9d3693a1d4867ece7b7fb2c678d1b8b4756cac44b1660f006"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-018-Solid_V_Wheel-iso.png",
+      "bytes": 107560,
+      "sha256": "c72b2ac210e3bce46863f7b3e61401d40ec92372343907659a5032855eed6567"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-018-Solid_V_Wheel-rotated.png",
+      "bytes": 103731,
+      "sha256": "6108421fe4d9dedf8791e65c922631d145aefcb840aab708835cd10975f64225"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-019-Solid_V_Wheel-iso.png",
+      "bytes": 111877,
+      "sha256": "ba7be09b018b4912c814218a0d07952f6630b6dce4d2c096b151904193ca5fef"
+    },
+    {
+      "path": "documentation/Mechanical catalog/views/rechecked-019-Solid_V_Wheel-rotated.png",
+      "bytes": 113018,
+      "sha256": "b29df8815f9cc9827c0e30977ff82c51b8af05279b339535cfe005fdcb194607"
+    },
+    {
+      "path": "documentation/programming/01-system-and-code-map.html",
+      "bytes": 19014,
+      "sha256": "a258f38af39b92a4399354c99363c80a083c10cfb6826306b518748b36e0f0c3"
+    },
+    {
+      "path": "documentation/programming/01-system-and-code-map.md",
+      "bytes": 14684,
+      "sha256": "c61c97d6fae195a930cd271b48925db906ed6ba29abf999c29030013afe6b1f6"
+    },
+    {
+      "path": "documentation/programming/02-pi-application.html",
+      "bytes": 45436,
+      "sha256": "46af2644329fef75facdc1bea7624670db5288e6d7dc384f0116868c37291a72"
+    },
+    {
+      "path": "documentation/programming/02-pi-application.md",
+      "bytes": 36943,
+      "sha256": "8e1e7133f23ac467b6ccf4e354d6d0fca11336063b80dafff2e83db2e80525ea"
+    },
+    {
+      "path": "documentation/programming/03-communications.html",
+      "bytes": 29943,
+      "sha256": "114e2de472b8eb2e47df8701b99a452276dc0302a17a34b48fbeee70296bcc2f"
+    },
+    {
+      "path": "documentation/programming/03-communications.md",
+      "bytes": 23993,
+      "sha256": "7227881b5926db5b9ec8299c2dcf4b46ca61c14c9d22883e6e8c659afd0fbbca"
+    },
+    {
+      "path": "documentation/programming/04-controller-firmware.html",
+      "bytes": 36368,
+      "sha256": "10e6507ce4b4592f034f169d71256549fb80c51bb8947bb5b977a7f00c5cf922"
+    },
+    {
+      "path": "documentation/programming/04-controller-firmware.md",
+      "bytes": 29632,
+      "sha256": "d55dba7b69217c772599db3b87f6a333dc3047afe18ad6beee91080dd9a74577"
+    },
+    {
+      "path": "documentation/programming/05-vision-and-assets.html",
+      "bytes": 22065,
+      "sha256": "d76f6c38a066fc914362d7fd2597782f23e4ac8f76057cf0c3f4acaf2ebd53ec"
+    },
+    {
+      "path": "documentation/programming/05-vision-and-assets.md",
+      "bytes": 17466,
+      "sha256": "b7a52733d063f74ab5898f8e193c2be92e175b9b22aa1c8669928b375df18b18"
+    },
+    {
+      "path": "documentation/programming/06-development-testing-and-recovery.html",
+      "bytes": 14415,
+      "sha256": "565d4d30d014a2e85e2d127f99e802d11157f4632dd7a5b425a8daa88191b645"
+    },
+    {
+      "path": "documentation/programming/06-development-testing-and-recovery.md",
+      "bytes": 11255,
+      "sha256": "3ec3b8938569e061b954bbbcaaa54f7754bbe2a0376f3ad70413a14f8daa0445"
+    },
+    {
+      "path": "documentation/programming/07-maintenance-and-open-issues.html",
+      "bytes": 13694,
+      "sha256": "1a786071c4a550ff2d6045903ad3c8eb38eb355ac11d84a21c6e75d3e4ad8301"
+    },
+    {
+      "path": "documentation/programming/07-maintenance-and-open-issues.md",
+      "bytes": 10465,
+      "sha256": "ed0eba33c53fe2346cbb6c8a80a78e5800f0150d58078d27d47907fed416e63b"
+    },
+    {
+      "path": "documentation/programming/08-evidence-and-change-record.html",
+      "bytes": 21383,
+      "sha256": "5699401f8b76cde8126e01475202fcd69540ff6d1a879f35b60b3df788c8bd2a"
+    },
+    {
+      "path": "documentation/programming/08-evidence-and-change-record.md",
+      "bytes": 17013,
+      "sha256": "fe344e64571788f93cfe96b3c83ecf90fb5daed9c567fd9e85c828125eeacadf"
+    },
+    {
+      "path": "documentation/programming/09-hiwonder-arm-controller.html",
+      "bytes": 28106,
+      "sha256": "bb4ebcbf984d8ca60a60b9dee76976529d1dfb7e1375ee97fe43e16191615e82"
+    },
+    {
+      "path": "documentation/programming/09-hiwonder-arm-controller.md",
+      "bytes": 23278,
+      "sha256": "2fea14f6c44e6339fabaaa5bf2ff3a8b17d1110444ef2a96ecd858fe21db484e"
+    },
+    {
+      "path": "documentation/programming/10-reference-context-and-assets.html",
+      "bytes": 10367,
+      "sha256": "95b8b4f0f2f417e75f0905e878928ff7c7bd106994a380480a1a64ceab763729"
+    },
+    {
+      "path": "documentation/programming/10-reference-context-and-assets.md",
+      "bytes": 7753,
+      "sha256": "8e468fb38821ee5a3186df84a3fbdb0d015ae8812a5643ee664e71ea1f3cb478"
+    },
+    {
+      "path": "documentation/programming/media/arm-and-cables.jpg",
+      "bytes": 3086500,
+      "sha256": "e99354c056178da792568de61c133a0709992e297ecf02755a10d6838d7a2740"
+    },
+    {
+      "path": "documentation/programming/media/controller-enclosure.jpg",
+      "bytes": 1837877,
+      "sha256": "1c2783a3f9cc1d7da5340dc74522657d287366157fb929b480b12bc51e2ad66d"
+    },
+    {
+      "path": "documentation/programming/media/dashboard.png",
+      "bytes": 1138850,
+      "sha256": "aa3b24eaabd5f76bc8385d3c4e7b5fe3303023f53cd9b93b814f83c63cd6c2a7"
+    },
+    {
+      "path": "documentation/programming/media/example-detections.jpg",
+      "bytes": 329095,
+      "sha256": "fd0e8608e78fac5c3428361038eeef31bb600a3dcfa6f5b160a95f67c6461724"
+    },
+    {
+      "path": "documentation/programming/media/gantry-arm-interface.png",
+      "bytes": 505733,
+      "sha256": "1dede61fd78d8ff9074f053279ec34a21987940cbfcb758cec4702a95c2be283"
+    },
+    {
+      "path": "documentation/programming/media/hydroponics-interface.png",
+      "bytes": 477628,
+      "sha256": "889d770e74344e57a58f5501fe7d7b743979e0e6155a293df12eb918130ccdb5"
+    },
+    {
+      "path": "documentation/programming/media/prototype-overview.jpg",
+      "bytes": 248169,
+      "sha256": "0f2320fe7a2af260a05d9be9437e3116780314303f711e84dc462b439a00fd2c"
+    },
+    {
+      "path": "documentation/programming/media/provenance.json",
+      "bytes": 2374,
+      "sha256": "2ca29c77479f49007e0cd6a86060e1d7297e39ef6f4863f40b55741044b6bae0"
+    },
+    {
+      "path": "documentation/programming/media/vision-interface.png",
+      "bytes": 608393,
+      "sha256": "ed91918ab324e4886ada1a3c68c0a7de1eb9a371f0f511166d0b3fb479fc6610"
+    },
+    {
+      "path": "documentation/programming/PROGRAMMING-HANDBOOK.html",
+      "bytes": 54220,
+      "sha256": "74a58c766b317cad157c80910f023e945166b9851f16ee9c78fa3e7da664ce96"
+    },
+    {
+      "path": "documentation/programming/PROGRAMMING-HANDBOOK.md",
+      "bytes": 45461,
+      "sha256": "8c4bbd739978a85d6658521e3b3a7d455c18ba678fa44c15e4a9fd47398bbc21"
+    },
+    {
+      "path": "documentation/programming/README.html",
+      "bytes": 2631,
+      "sha256": "3c23359fd3bc287855c6ed3f124cce9848e3cc8efc787a6ffa1fb1d954c04462"
+    },
+    {
+      "path": "documentation/programming/README.md",
+      "bytes": 802,
+      "sha256": "ee5d3859ec419c180700a3f93dc66c82f40b0e2cafeb00b599eb23d81ebc2097"
+    },
+    {
+      "path": "documentation/programming/reference/arm-action-assets.json",
+      "bytes": 3839,
+      "sha256": "511186b254a9aaec261010efa8d224c1a370748da1ff2c2f26b80d72fdbcfa18"
+    },
+    {
+      "path": "documentation/programming/reference/controller-responsibility-map.html",
+      "bytes": 9385,
+      "sha256": "4c5efb1b45a9b8bfdf72a4a766a09093ec1025726885fe782d3896b43525f3e1"
+    },
+    {
+      "path": "documentation/programming/reference/controller-responsibility-map.md",
+      "bytes": 6338,
+      "sha256": "4761caa1c7d492184eae3f9f37570ac61d265b53caa2422635ff5bc02a8bba32"
+    },
+    {
+      "path": "documentation/programming/reference/dataset/inventory.json",
+      "bytes": 572503,
+      "sha256": "8551edac518e06c50c5b20ab6535575fb1d7e7e135ff7302807d5356b332d8ba"
+    },
+    {
+      "path": "documentation/programming/reference/dataset/README.dataset.txt",
+      "bytes": 137,
+      "sha256": "fe9ac8e00c256738388d48dcb568f5f29d4b7b07b49afae012f244aa94f88f24"
+    },
+    {
+      "path": "documentation/programming/reference/dataset/README.roboflow.txt",
+      "bytes": 1347,
+      "sha256": "0fefc15e3a099b56b3c72ccae17918d40653aa4fc0bd955aeecd8edab18d3e6b"
+    },
+    {
+      "path": "documentation/programming/reference/known-limitations.html",
+      "bytes": 15872,
+      "sha256": "f0bad9e06aadb074ca9919d344f819413ea79b103687a0209a18c530ff1b88f0"
+    },
+    {
+      "path": "documentation/programming/reference/known-limitations.md",
+      "bytes": 11940,
+      "sha256": "f54aa8019e3a8ef32a2af944f8d7b13d4af754bec1c310faaad56fc984a99146"
+    },
+    {
+      "path": "documentation/programming/reference/legacy-system-audit.html",
+      "bytes": 18147,
+      "sha256": "d0165f99270f80de038c00f8f0cafffc2f5bfad5b3c8f4afaffc4b1359132b5b"
+    },
+    {
+      "path": "documentation/programming/reference/legacy-system-audit.md",
+      "bytes": 14035,
+      "sha256": "426359992a3c24f549ebc1ceb7aeb7d5e4d688b0559d1c40fd6f5690e99689ac"
+    },
+    {
+      "path": "documentation/programming/reference/media-guide.html",
+      "bytes": 2660,
+      "sha256": "e787a03c0223073e5fe89aec186423bb4d4bbc0269d82951090fd79813a6b469"
+    },
+    {
+      "path": "documentation/programming/reference/media-guide.md",
+      "bytes": 957,
+      "sha256": "5857172697f383036ebf2d9ad0478ce01aab255346dbcdeb1b1a3d4cce51d341"
+    },
+    {
+      "path": "documentation/programming/reference/model-assets.json",
+      "bytes": 3705,
+      "sha256": "3dbc850a4cfd55f157aff4f0059f5b58dfc0f2bb8c373d3a993d2a26ae8683d8"
+    },
+    {
+      "path": "documentation/programming/reference/new-pi-recovery.html",
+      "bytes": 16054,
+      "sha256": "ba71e950318f9a696878defdeddcbceebfa66eae65ea2ac65ee302fb5450d98b"
+    },
+    {
+      "path": "documentation/programming/reference/new-pi-recovery.md",
+      "bytes": 11840,
+      "sha256": "661a97fc974314a03aa68532569db267c75be9d5b1b0ab0655831a482cc8a03d"
+    },
+    {
+      "path": "documentation/programming/reference/pi-deployment-manifest.html",
+      "bytes": 12429,
+      "sha256": "6ac3723be6c551296b02c66a5b3a5a73548b9a77f8dd7a251b552309bef25366"
+    },
+    {
+      "path": "documentation/programming/reference/pi-deployment-manifest.md",
+      "bytes": 9385,
+      "sha256": "e8c35ad7e51c0d690b984010d89bc30231167ac5e2d29c523a8321d14432ae89"
+    },
+    {
+      "path": "documentation/programming/reference/pi-environment.html",
+      "bytes": 13379,
+      "sha256": "21a8c9401670f4def029f9c2a934527ac920e09bdbd04b69a95caf7019282bab"
+    },
+    {
+      "path": "documentation/programming/reference/pi-environment.md",
+      "bytes": 9700,
+      "sha256": "4bd32bd700336e00763961a3bded242f208a1a595d4ecb7f128c25d7f57b5277"
+    },
+    {
+      "path": "documentation/programming/reference/pi-nano-protocol.html",
+      "bytes": 14246,
+      "sha256": "9bb1a0785719d29a0de367c27e74a6bff29d99e7c833999e60ae1ebf742d0c3c"
+    },
+    {
+      "path": "documentation/programming/reference/pi-nano-protocol.md",
+      "bytes": 9718,
+      "sha256": "038666e47c6d5b5ada0b47e56aef2c354a748260f5e3f71fafcd73642e525f7d"
+    },
+    {
+      "path": "documentation/programming/reference/prototype-test-confirmation.html",
+      "bytes": 3833,
+      "sha256": "e93ae717bd62b722fb1f031f427cfa1ace77d3bc01019777be73eb3db393b290"
+    },
+    {
+      "path": "documentation/programming/reference/prototype-test-confirmation.md",
+      "bytes": 2252,
+      "sha256": "cb61e89f78c405ef33b517a40961e47d53086525575a58622eb45397145ab61a"
+    },
+    {
+      "path": "documentation/programming/reference/refactored-architecture.html",
+      "bytes": 35397,
+      "sha256": "b55a9629d90f01995d2bec528751fd9c7c35b9ebd868cc7f25a26f419275e2c6"
+    },
+    {
+      "path": "documentation/programming/reference/refactored-architecture.md",
+      "bytes": 27867,
+      "sha256": "7f96aa76bad22b4fad47b3a1bdcd33006fb5c89ace37fcf13d0ac7fc8caa8ed4"
+    },
+    {
+      "path": "documentation/programming/reference/refactored-deployment-and-validation-plan.html",
+      "bytes": 29348,
+      "sha256": "ac326c58b926f03bae6ab69f18648fcf9fb6a65128100b2d631e0ce3c7473374"
+    },
+    {
+      "path": "documentation/programming/reference/refactored-deployment-and-validation-plan.md",
+      "bytes": 22741,
+      "sha256": "2c1033d45ca3577e1e4614e7deb275636b27e3ffac38b7008025af24bd9d9018"
+    },
+    {
+      "path": "documentation/programming/reference/refactoring-status.html",
+      "bytes": 17229,
+      "sha256": "bb19adbcf1780532865ff58dfae22414b8651fa8955ae4eb092116a9116c387d"
+    },
+    {
+      "path": "documentation/programming/reference/refactoring-status.md",
+      "bytes": 13072,
+      "sha256": "1319724c1412b5bd709e257be357129c9ae55873fa18d140dcf4d885dae9125b"
+    },
+    {
+      "path": "documentation/programming/reference/report-programming-extract.html",
+      "bytes": 29878,
+      "sha256": "b9a6fa378d45ea02e6d757d2bbc3abc3adf48ccca19e7484a73b4b954cb45297"
+    },
+    {
+      "path": "documentation/programming/reference/report-programming-extract.md",
+      "bytes": 29032,
+      "sha256": "77ff1fdee6fc40bbce202bb900ea44799986d69f1ab572a8a1636ee2cef0c7f3"
+    },
+    {
+      "path": "documentation/programming/reference/Repository-guidance.html",
+      "bytes": 12108,
+      "sha256": "e4543663f8d553b172f3fb4c164c5ebdc199fc4488190625bb1e6ab83a089189"
+    },
+    {
+      "path": "documentation/programming/reference/Repository-guidance.md",
+      "bytes": 8149,
+      "sha256": "6049ef3096cfa3215fee6f756ac7a4d000e9cc89cde31a2bf100d90e0cd52551"
+    },
+    {
+      "path": "documentation/programming/Source-selection-and-startup.html",
+      "bytes": 4296,
+      "sha256": "bc3f67fb0c879f263627ebcecab4a7411505f630273c4a204c4704ea23369d62"
+    },
+    {
+      "path": "documentation/programming/Source-selection-and-startup.md",
+      "bytes": 2701,
+      "sha256": "b3cd5c970114ae11ff4a1c26741e4f653a3e0d2f4415ec14447553ebb15c1227"
+    },
+    {
+      "path": "documentation/reference/CAD-assets.json",
+      "bytes": 20931,
+      "sha256": "a25540d46bc7541f8a143c94fbc83e776efeea0673d9c367d93d57bc5e667829"
+    },
+    {
+      "path": "documentation/reference/CAD-download.json",
+      "bytes": 479,
+      "sha256": "fa3852013952462ad8515a1904680fe2d9cf95289d43ad013d14b5a9272a1ac0"
+    },
+    {
+      "path": "documentation/reference/CAD-reference-map.json",
+      "bytes": 1258,
+      "sha256": "85769c39fe615371b42749acb01cfa585f30f9971d63c4ee069e7d4de6a6ac04"
+    },
+    {
+      "path": "documentation/reference/copied-source-test-result.json",
+      "bytes": 687,
+      "sha256": "fa4b67672e9e267701fe1a9d23100648495ff413db1beb2c1256218652f1b599"
+    },
+    {
+      "path": "documentation/reference/Pack and Go/pack-and-go-1.png",
+      "bytes": 359013,
+      "sha256": "3ad88536b6c6be0ddda991171f2bbe8547a8d32da255eb8b10724a90a6688d43"
+    },
+    {
+      "path": "documentation/reference/Pack and Go/pack-and-go-2.png",
+      "bytes": 385528,
+      "sha256": "c9d2b9ace208efa6e3163b64ac6a9b4d8c05c6cfe3de73f7d70f1c07ffa71214"
+    },
+    {
+      "path": "documentation/reference/Pack and Go/pack-and-go-3.png",
+      "bytes": 379972,
+      "sha256": "34e960085289089a78c5a9af052a679f4119e16d9ad500dd5c688c34074c280d"
+    },
+    {
+      "path": "documentation/reference/Package-validation.json",
+      "bytes": 931,
+      "sha256": "cab7086ecf936bd6004fca7e4f684f07c772c9f0b5a8b1db21bdd1b9a555af6b"
+    },
+    {
+      "path": "documentation/reference/Project reports/KIG3011_Sem 2_Report_G21.docx",
+      "bytes": 41650382,
+      "sha256": "fe9213741a04a09cd36e4f1c30779660ade2471cc28797be4204c6633f80a294"
+    },
+    {
+      "path": "documentation/reference/Software-assets.json",
+      "bytes": 9798,
+      "sha256": "a7f340b87b46c26ea77de9cc84753ab03b760f694735fa712b67140147f00195"
+    },
+    {
+      "path": "documentation/START-HERE.html",
+      "bytes": 6345,
+      "sha256": "feee538dc0cd00505fcb043898b903b0f8e619f9093e10bcbb80aa3526b27013"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5404,
+      "sha256": "0ab7d08266e0c3a5e4e47d0ee6ecbcaa0dcbf74ce2440cb040073718887f0934"
+    },
+    {
+      "path": "scripts/check.py",
+      "bytes": 4288,
+      "sha256": "60c14c0aac1a7c821f6dd4b398a95d0327aef87eb4e314eeac94a7b275c81906"
+    },
+    {
+      "path": "scripts/fetch_cad.py",
+      "bytes": 3861,
+      "sha256": "a5253461a35e57e1ead77f65c7cbd26dd5feb059b495adab6e9f450947a58fbf"
+    },
+    {
+      "path": "source code/Arm Action File/Camera1.rob",
+      "bytes": 264,
+      "sha256": "8d875ee1f0096a52fdb7d2178894ce5622c966cd839a93a3705ab62cdce1f5b3"
+    },
+    {
+      "path": "source code/Arm Action File/Camera_5.rob",
+      "bytes": 264,
+      "sha256": "4391466f2922d95597373a082ff8f360430fb53453c34fbf6f62b06d6a7eac67"
+    },
+    {
+      "path": "source code/Arm Action File/Harvest1.rob",
+      "bytes": 2992,
+      "sha256": "251bf1824732cfcb103adef0e65a184830f7f3c9172d7e97d03fea076fe6f385"
+    },
+    {
+      "path": "source code/Arm Action File/Harvest2.rob",
+      "bytes": 3488,
+      "sha256": "f6fd7ee4f16182add6d4f16f015285c19ff8607328aaa4aef2746b4d9f07b493"
+    },
+    {
+      "path": "source code/Arm Action File/Harvest_1.rob",
+      "bytes": 1752,
+      "sha256": "7cb45a4149904c931cd9ec5cc5c2316fbe529fb7adc305e8ada1782ada48f325"
+    },
+    {
+      "path": "source code/Arm Action File/Pest1.rob",
+      "bytes": 2496,
+      "sha256": "d9d4fae02e782db6f80f14ed1d81481efb5ee022f2ca7912e8c269f97c730e29"
+    },
+    {
+      "path": "source code/Arm Action File/Pest_6.rob",
+      "bytes": 2496,
+      "sha256": "67a549a1c5b71c2d532a06ecdb7bfce0f9c2df7974529888693422c92de76032"
+    },
+    {
+      "path": "source code/Arm Action File/Plant1.rob",
+      "bytes": 2000,
+      "sha256": "747d58126b18fdde2ec3693b05fa8442cd5aea0b2a4a6f5bc430e792fbd98210"
+    },
+    {
+      "path": "source code/Arm Action File/Plant_4.rob",
+      "bytes": 2000,
+      "sha256": "b3788cdca7ac8dc694cd982236c659aa2795e042502372c681396dc4fe11d82e"
+    },
+    {
+      "path": "source code/Arm Action File/Store_2.rob",
+      "bytes": 1256,
+      "sha256": "8fea0f5c94ad164d799f645d7d2c5fd468283e6b84c88582fd24ffe9ab71a02e"
+    },
+    {
+      "path": "source code/Arm Action File/Transplant1.rob",
+      "bytes": 2248,
+      "sha256": "457a810454c882043a3481d02ee8accdd4c6674cf3eb202d9ac95cd1fdfdb0ba"
+    },
+    {
+      "path": "source code/Arm Action File/Transplant_3.rob",
+      "bytes": 2000,
+      "sha256": "c72cfac3e46f46ca89cc9b8a5d8fecb0f1f66f0c8d3783ed3e4ec710671f47e1"
+    },
+    {
+      "path": "source code/gantry_main_refactored/gantry_main_refactored.ino",
+      "bytes": 1072,
+      "sha256": "ec068b781d623ed2eb2e6bdaa98b7600391e8983234ce0389572e87b3ac3fd62"
+    },
+    {
+      "path": "source code/gantry_main_refactored/GantryCommandProcessor.cpp",
+      "bytes": 6704,
+      "sha256": "0e3d8408cb7bf06a52344852a8b94bb68fadd8da1a796166b54522a16c2e9dfc"
+    },
+    {
+      "path": "source code/gantry_main_refactored/GantryCommandProcessor.h",
+      "bytes": 641,
+      "sha256": "89184bd8cd539bb9a1c0369dde1c87ad22a184d511574d818e5f69177f3f8d80"
+    },
+    {
+      "path": "source code/gantry_main_refactored/GantryConfig.cpp",
+      "bytes": 567,
+      "sha256": "083e394d0f3ef1dc97eaa14f0bce5bbdd8536bdda3fb3e6296ad5fd1f7cbbfb3"
+    },
+    {
+      "path": "source code/gantry_main_refactored/GantryConfig.h",
+      "bytes": 2435,
+      "sha256": "115ff00058fa75d881ef3045b8f300c64f5d94da448be247c7b5cf6c92ac80fd"
+    },
+    {
+      "path": "source code/gantry_main_refactored/GantryMotion.cpp",
+      "bytes": 12118,
+      "sha256": "24c540550bbcd249d7b3daaf3695798bedb8ec3a2f33db8b22331f6eb17850ed"
+    },
+    {
+      "path": "source code/gantry_main_refactored/GantryMotion.h",
+      "bytes": 984,
+      "sha256": "18dcc18e3faec1dd60e46b070231fe445e5ade5e43c2bf9ffeeeaa223ca7eb81"
+    },
+    {
+      "path": "source code/NFT_Hydroponics_refactored/HydroponicsConfig.h",
+      "bytes": 2311,
+      "sha256": "6928dcf4c98dc7b17a6808889a1f94ad695bd9eca48ee1273ca4f9634fc09ac2"
+    },
+    {
+      "path": "source code/NFT_Hydroponics_refactored/HydroponicsController.cpp",
+      "bytes": 11972,
+      "sha256": "44491fca1668bb8d50789801c6eb4b1935472e7ee8f6a1b1790ab1c3c62271a2"
+    },
+    {
+      "path": "source code/NFT_Hydroponics_refactored/HydroponicsController.h",
+      "bytes": 1947,
+      "sha256": "edf7d73f70b69b1a299089910b19addf951b21b0c2f6619875eafb824546c3f7"
+    },
+    {
+      "path": "source code/NFT_Hydroponics_refactored/NFT_Hydroponics_refactored.ino",
+      "bytes": 266,
+      "sha256": "5d72dbf3120479176dac43a90379e1bc7913013d1ab24942573e76d59366061a"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/assets/growtech-wall-icon.png",
+      "bytes": 1522041,
+      "sha256": "0d6b756610d9b04732852e89c965f8e5645a380ea170680053c3676a7ce700f1"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/bestv5.pt",
+      "bytes": 6235690,
+      "sha256": "87c36a815ee6a0efdde2bcb71bec5b6cb1b8855a4958646df56f4afdc8ef9f19"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/__init__.py",
+      "bytes": 124,
+      "sha256": "b0c94f485a040a194f985c6d7eb5c575607b99ec886ca0fbbdc9891efa22c813"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/__pycache__/app.cpython-312.pyc",
+      "bytes": 5750,
+      "sha256": "5718255af8bc385e27f7212587d951e1ed1a51f93b8677e1b55a1b11c79fa30e"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/app.py",
+      "bytes": 4863,
+      "sha256": "5067a171248942aa906c61e2dc43c73efcadb9ce128123cd880567370020792c"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/__init__.py",
+      "bytes": 51,
+      "sha256": "fc68cc9b2341a34fdd1300ceb523a2bc7c1cb1cb6afb47709b0554e18686f65d"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 294,
+      "sha256": "98578ad30ee078f822b9696e85de283a4552e4ebd28242dd42d9b388e1c1ec9c"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/__pycache__/interfaces.cpython-312.pyc",
+      "bytes": 3031,
+      "sha256": "5594300ceb20539a1b634788c1e06666b94ad98e8ae01d180b8c9db1bc7c18e2"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/__pycache__/protocols.cpython-312.pyc",
+      "bytes": 12161,
+      "sha256": "629b3e344d9b49ae90bf20239ceee0a9641ad3e515a9de93161cee89a9199524"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/clients.py",
+      "bytes": 7376,
+      "sha256": "492038381a1a96d6cf0ebf641926339b1040b0294c703baece18ef6d136dac09"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/interfaces.py",
+      "bytes": 1059,
+      "sha256": "12310ecb1ed8ba2698089ba991591554896868407e0f9a9dd1300cb6acf1e950"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/line_parser.py",
+      "bytes": 1754,
+      "sha256": "a6a2830183a866388900c1e06be0f8f2f17b3b7112bb18ab499185ba50e4dbd8"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/protocols.py",
+      "bytes": 8941,
+      "sha256": "01aaf5ba645196fa9dc9f8a89ed5f455ce35cfed0d1653ac89d578831489a88f"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/comm/serial_transport.py",
+      "bytes": 3629,
+      "sha256": "bef126f61943bc9aaf3fe9a5b3585f59d0aab5c1d4704f096ea4c4c2e9d33f46"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/config/__init__.py",
+      "bytes": 167,
+      "sha256": "d186622c7f5887a29a390e39117e2530a7e959146c39fe170407719d9bca14c6"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/config/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 405,
+      "sha256": "7287a7b1a4d0319243086576e458528075883049429108dca3816691f2dd2c4a"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/config/__pycache__/settings.cpython-312.pyc",
+      "bytes": 4863,
+      "sha256": "04a32b503c5ebf23cc05e312db7e87db3d0a6115d1e3f7ed26b14df9ddb49f82"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/config/settings.py",
+      "bytes": 3154,
+      "sha256": "9f3b7c7b567b8e25fb5f1acbba03196bc3c2b1b7c58e1072a33b5b6f163ea434"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/domain/__init__.py",
+      "bytes": 361,
+      "sha256": "1387774a47a36afc2bc6655ea9d4a38c3f58894c35fe5d5ef5925ae7bd96e36b"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/domain/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 585,
+      "sha256": "6aa191d223609bb508a66a447b923f6edf1a00854549fec1f8ca31acf4894d08"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/domain/__pycache__/grid.cpython-312.pyc",
+      "bytes": 2231,
+      "sha256": "f60e7a0b73fc41402af0e071ed616085e250deb935120f1ee6edf9a3c68187a7"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/domain/__pycache__/models.cpython-312.pyc",
+      "bytes": 2115,
+      "sha256": "47da401379674ada968e18babd079b16be5978fb4bcfdf553631817d8c555749"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/domain/grid.py",
+      "bytes": 1494,
+      "sha256": "3e9e363fe5279630775932cc41df4daea895f359297c33abd4e804d5105b8131"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/domain/models.py",
+      "bytes": 999,
+      "sha256": "32a59e0f09cab3644e6b69acab60b306fe6ba2be6439f37fa5882d7349fba766"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/gui/__init__.py",
+      "bytes": 77,
+      "sha256": "191df5614c03518db5399795805c32c8863bd3ae323bdfdd5c6372bb8e128f81"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/gui/main_window.py",
+      "bytes": 38431,
+      "sha256": "489b4c2899debaffa0b6c2b21d3fa34898194e89e9da038a72ba63742226432b"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__init__.py",
+      "bytes": 72,
+      "sha256": "d9cb0b897a98d7a66b8b918c4e9cc266f03f6555ecb4866a4bcde948c6ce06c7"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 319,
+      "sha256": "786d11f20194ea86a5c3007f1b9ce2de47936bd8cf183fde830d705d7941c182"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/automation.cpython-312.pyc",
+      "bytes": 10547,
+      "sha256": "f36badcff6912257ae35d9fb9e552646641ff9098fa2126c5969e027fe11e320"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/controller.cpython-312.pyc",
+      "bytes": 40605,
+      "sha256": "ff12c6132aeb4399bfb2001a83360b3de1c7eceb96d19df5f996a89fd0af743e"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/events.cpython-312.pyc",
+      "bytes": 3546,
+      "sha256": "de3b3393f48ac8afba5af34c1a414c134d04383a3a3ee88134bdc93c2b7e06b2"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/state.cpython-312.pyc",
+      "bytes": 14092,
+      "sha256": "cd43801e4b139083bc989b538facb552c7aa175f658a48676daf2ddac7da98ca"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/worker_lane.cpython-312.pyc",
+      "bytes": 4264,
+      "sha256": "cf9400b55389cf8e2f6b8441227974f4a50619a8564ab3350415fb41a9ab635d"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/workflows.cpython-312.pyc",
+      "bytes": 8530,
+      "sha256": "93c4f0bce87322051a77e32dd3273034631743cd3c9629066c19f14c559a26d6"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/automation.py",
+      "bytes": 7605,
+      "sha256": "a574060b9d864b7d7a4592cae79af5f69dfb3cb405114e97ecc268a3cf46b187"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/controller.py",
+      "bytes": 34311,
+      "sha256": "aaafd3de59b2cfa895d83731e3c3a264d5d5236811dc07fd9ef927639e6f775d"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/events.py",
+      "bytes": 2005,
+      "sha256": "62a23f128c6a2ecc7ea671395fe7e1ed32344d9be3d6efe8c6afec2525bebdea"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/state.py",
+      "bytes": 12347,
+      "sha256": "7c1459d9d568a625e36fefb2f2dc158b4098af67231c8cabebd03ded7b1e4bd1"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/worker_lane.py",
+      "bytes": 2620,
+      "sha256": "eb86112c1cac162a7b19a6bd45d00ee9354c53dbc15ba3a178b5e0c1c876da50"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/services/workflows.py",
+      "bytes": 7296,
+      "sha256": "a055477140206285fdd2f684167bf7197bff3459ab58d8485d781358e27eb5c5"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__init__.py",
+      "bytes": 332,
+      "sha256": "462c5a9629b616ac6221efa3f55c26bfb86eab32fef7198a6e49112d47106a84"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 548,
+      "sha256": "ac441ba18c58b7fd6b298ccda759ce5dfcf5cc69bc5e7761497e65ef2d8db883"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__pycache__/controllers.cpython-312.pyc",
+      "bytes": 18584,
+      "sha256": "b2114873846f5f8dd0de778953cacde62179d28de642597d9100d1e917fc253d"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__pycache__/vision.cpython-312.pyc",
+      "bytes": 2619,
+      "sha256": "27f682cd8a05a2af510ef747535e2bd06325e0fdff33ab15d4284bedcd5415d0"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/simulation/controllers.py",
+      "bytes": 12177,
+      "sha256": "048409a5dabd7fa62d0ef2b769eaf7c5ffa87341c97f6f50b7bdd89a69d0234f"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/simulation/vision.py",
+      "bytes": 1332,
+      "sha256": "20a9a38ed63ff8fa872ceca3ed5a4c9aef9effacfda984ff37f63c19b3d11cba"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/__init__.py",
+      "bytes": 63,
+      "sha256": "69ef5eccd99ab614ce3039fe47f4a5b6fc5373118b81982b2f00b2a97529bab4"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_app_platform.py",
+      "bytes": 2628,
+      "sha256": "4624d810a774fe4308ca66184338baf8eeb141e12854550adeb8c0a367ae2864"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_automation.py",
+      "bytes": 10260,
+      "sha256": "859837fe758a6387f4fadf241f317a877cc1a741b6dbbbe7779f17fefa4e7c4f"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_clients.py",
+      "bytes": 2887,
+      "sha256": "1c9ff040c8daba657171da0cd406656bbe4d50c9e8c133095a4eafaacf6e4140"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_config.py",
+      "bytes": 2210,
+      "sha256": "d1ef15e45e5847838b93fb8e953bacec93501bf6764b35d8c89508a3dfbd7040"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_controller.py",
+      "bytes": 25796,
+      "sha256": "90c58b8860f963b1740db3af4ab4b0be1e0750a204c3fd9e8f68520c0f30d56e"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_events.py",
+      "bytes": 5556,
+      "sha256": "294769fe11a09e5dbb9fc1261347e28e0eca563d61966305047db04720fa94e4"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_gantry_firmware_safety.py",
+      "bytes": 1410,
+      "sha256": "a837cc1b51e08f9823d89664aa3612ab7b3337415cded36d3a4f377a9a4cebb0"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_gui_compatibility.py",
+      "bytes": 12419,
+      "sha256": "7857ddd98e13b5af83e45fe43b49af31dd433af5ae9c05de6dc2ab6792813d4b"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_import_safety.py",
+      "bytes": 1576,
+      "sha256": "e656a71a1c8fe2a3baa9da40a6190bda6f7391af693198dc09c73f57db11ab91"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_line_parser.py",
+      "bytes": 1354,
+      "sha256": "2793a6f1fe1412b90851692be28d05fc6c1929a90e2c8b044203ac29efe341d1"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_protocols.py",
+      "bytes": 5281,
+      "sha256": "4279aa1a8809a01a3b408ca84f5408e54b125d9fbbec1a8a0ddd3712330e7720"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_serial_transport.py",
+      "bytes": 3141,
+      "sha256": "9ceb5228ad054de714f28704ecee5e7c59e79f3a3045ab64acf6f608ecbc0dd5"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_simulation.py",
+      "bytes": 8042,
+      "sha256": "28e222f2b4231267600dffb877188b138b31c6fe065d491a40d2ec42ef02e097"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_state.py",
+      "bytes": 10174,
+      "sha256": "4450849d8af9faada3f3d76e422fcea826e2e25770b8c0ff608610e6388137ce"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_vision.py",
+      "bytes": 4882,
+      "sha256": "6b3f7cb6444700108bf41c53968c21eb00657af1a74bad3cd4b3df0eacfadb86"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/tests/test_workflow_failures.py",
+      "bytes": 2260,
+      "sha256": "4dff740f6323097961db729888d2875228416ea2b746942e45a6174dec124c6c"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/utils/__init__.py",
+      "bytes": 30,
+      "sha256": "67386d124339118bb3f0e8ba78e7af305e0b8726b3df47f8061edec4c06e072a"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/utils/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 274,
+      "sha256": "220a87ed5df9114d0aeca0c3163ee7cf317ed030dd0b19fba90c105f5be4186f"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/utils/__pycache__/errors.cpython-312.pyc",
+      "bytes": 1007,
+      "sha256": "648f4c3e89b88b5629801a5751a66282fe1e0ed72cbf30bf1797b03ec748d9ee"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/utils/__pycache__/logging_config.cpython-312.pyc",
+      "bytes": 843,
+      "sha256": "e2b2ce5c03b840d0d09a73bba7fd3184bdab0be40494ab2a1b9ef7bb1aa72474"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/utils/errors.py",
+      "bytes": 390,
+      "sha256": "a3bb3ab0ec245c47ab072876d732412b821c35adcf3ad5aa1b74317fee4658a1"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/utils/logging_config.py",
+      "bytes": 406,
+      "sha256": "3907a5bf1658b15e1735c75c7b0d4b2df6c59cd5230da1c978e7ce0961745dac"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/vision/__init__.py",
+      "bytes": 77,
+      "sha256": "5cb8608c32fe2cbadef7838bb98e8ea46a4d7b8189f02940c2c94d22ff74be6e"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/vision/hardware.py",
+      "bytes": 6263,
+      "sha256": "a868a985bf650fe2e3c681f805d26501558412084efd883fbaa4e25bc2e21359"
+    },
+    {
+      "path": "source code/Raspberry Pi/GUI/refactored/vision/logic.py",
+      "bytes": 2260,
+      "sha256": "4c273e1b461ea5a0487feebc93c99fca0ff1d7ed3e1f9fc2b09517b92d8bb063"
+    },
+    {
+      "path": "source code/requirements-dev.txt",
+      "bytes": 159,
+      "sha256": "d51356012f43a2fcdc7acc75e14f124f76804cb611ab0a8a868bf99f496e4271"
+    },
+    {
+      "path": "source code/requirements-pi.txt",
+      "bytes": 290,
+      "sha256": "f022affa14e1cdb3991d7a194ae63f8d9a161ca25fa789abb7d74892f39ed0a4"
+    }
+  ]
+}

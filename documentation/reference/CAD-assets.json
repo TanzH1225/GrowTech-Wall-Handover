@@ -1,0 +1,567 @@
+[
+  {
+    "path": "CAD library/Assembly/GTW001A.SLDASM",
+    "bytes": 13308352,
+    "sha256": "ebaa0a36d8bf308ad70d8bed667298278b7e01436ba221afbcf1503f20223345"
+  },
+  {
+    "path": "CAD library/Assembly/GTW001E.SLDASM",
+    "bytes": 17555066,
+    "sha256": "5be52771163803dec4c555a1993793b4a95d5f30f9b99b41d2ecc50ac1282d6b"
+  },
+  {
+    "path": "CAD library/Assembly/GTW002B.SLDASM",
+    "bytes": 623291,
+    "sha256": "901a0e856a2a802aad9e06f464d1e4a05c449c9d5821d35162997d46772f7f16"
+  },
+  {
+    "path": "CAD library/Assembly/GTW003C.SLDASM",
+    "bytes": 25584102,
+    "sha256": "dac881125c329bd2bf74a12d4e79bebcc08fbbd3a34332f339c0baa6f9c163a0"
+  },
+  {
+    "path": "CAD library/Assembly/GTW005C.SLDASM",
+    "bytes": 840540,
+    "sha256": "91c0f272d297a1547b730f25fa63ca028f394fff55b85607b47f06c6016008db"
+  },
+  {
+    "path": "CAD library/Assembly/GTW006B.SLDASM",
+    "bytes": 4741948,
+    "sha256": "04209656586659eab85577d557f761585ee29ae5b89497724827f4fd0d5d3af8"
+  },
+  {
+    "path": "CAD library/Assembly/GTW007A.SLDASM",
+    "bytes": 3253071,
+    "sha256": "098c7198eeb6180059b55cacfff5cc8cd266584d3eba34a8df084d905c19a7e3"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/EB002A.SLDPRT",
+    "bytes": 2849871,
+    "sha256": "0dc33caf5b9fbffae26f1cfde9b45247a37e4f8ea4178de6606ce399e6405986"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/EB003A.SLDPRT",
+    "bytes": 168169,
+    "sha256": "ccd7a83ff00b7d709fceed6cbcf7e806a8541ec2085f1dae7f474530d98eb1d0"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/EB004A.SLDPRT",
+    "bytes": 92038,
+    "sha256": "e39c594c01c4c4ea290eee7d49983e3962efa1e7f3042efd33e3754ffa73de80"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/EB005A.SLDPRT",
+    "bytes": 130188,
+    "sha256": "61940781cf4e8cbf850a09f37f083d0b46ae62f23ce33483da471543150b38cc"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/EB006A.SLDPRT",
+    "bytes": 601427,
+    "sha256": "7a729e07abbc9d64f6bbfb114758c1be78cea4342f0ea9a7d926112ce7f2c5f1"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/EB007A.SLDPRT",
+    "bytes": 1536970,
+    "sha256": "51a2249267eae7bc8f58c88e7ac2e36ebe67d177da9d6532c6f050750b353f1d"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB002A-Split1.STL",
+    "bytes": 881084,
+    "sha256": "7bed831dc654ded00add495ffd8639ef473846b6e0b90f5535fc3882c26e07ab"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB002A.3mf",
+    "bytes": 674473,
+    "sha256": "1d66ddfaa17ca4b8996f2f751bb5126e66cbdfb514ad1f7c559c2edf0a1ea7af"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB002A.STL",
+    "bytes": 1884084,
+    "sha256": "51d4aafe747e9454c141eae5c30238eb6add543fc7c00cc0c339fe3babd465aa"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB002A_2.stl",
+    "bytes": 407184,
+    "sha256": "97ec05d28cf4bd07ee5a4f696357c6b5d05ffa96404dcadb886a4e73c360bc8b"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB003A.STL",
+    "bytes": 252084,
+    "sha256": "38d4a69ef4cb78312d573a027d3e2b853e97b2a020de9516b6eb276dbb80cc16"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB004A.STL",
+    "bytes": 151484,
+    "sha256": "16aaba0b521e6b0baed0e3e56fbf7dbc15fc8187008bafa02b70b44beee46e14"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB005A.STL",
+    "bytes": 162284,
+    "sha256": "ef128cc420645b02a5f45f4377a63df3b9a0513e281988d0bcf587cee520e7e4"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB006A.STL",
+    "bytes": 366684,
+    "sha256": "a27d95d6be248cdc758c1205c0cf2e1565c02129fe1abd83a9a1e5c3647ad23e"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB007A.3mf",
+    "bytes": 60179,
+    "sha256": "fdb5436bab19034a8b8917725100a513c87d901bccc7cd65b26ece68930e4c01"
+  },
+  {
+    "path": "CAD library/FAB/Electronics Box EB/STL/EB007A.STL",
+    "bytes": 169884,
+    "sha256": "1184b23c110091b9be3293f727bff2614fb8dd94597eb72d3986c6295878b2be"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA001B.SLDPRT",
+    "bytes": 166476,
+    "sha256": "3876b6f2ba4a91579695c2d3980ce1c762d5a09ab936610b9e32cec8b880259d"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA001C.SLDPRT",
+    "bytes": 189401,
+    "sha256": "de288793de4bb9c0e2fffcb6b6dfb20b0300944142c6c71dae2fa34d830509f7"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA002A.SLDPRT",
+    "bytes": 346105,
+    "sha256": "bfffb5416fe2ad9756238bf7500092edb569f46f3a0e398e47c743e6423b8186"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA004A.SLDPRT",
+    "bytes": 116590,
+    "sha256": "8da15b2eb91b20c93b19fa39ca803ac36fb7b573b197dd99de0616cd492fa7ba"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA012A.SLDPRT",
+    "bytes": 204162,
+    "sha256": "b6689e27a4bf1b15d3f6d552a6257df90293d11015cae949aa9228c4390b1e54"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA013B.SLDPRT",
+    "bytes": 153780,
+    "sha256": "576a9d55777c1cc8811e69d2acd0fab970d9f85c34b9710624da99723cba250d"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA015B.SLDPRT",
+    "bytes": 143671,
+    "sha256": "ceb39730b1af94524db5aec74abe5e04b6e5ae52ade31a25a98216598dc52ce3"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA016A.SLDPRT",
+    "bytes": 60615,
+    "sha256": "5cfe55818dfdcf73a1f54822b594d1d2c3d980767d7b3455e5a26c8132b85f01"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA017A.SLDPRT",
+    "bytes": 60572,
+    "sha256": "0f7f8e4041fd6e664689bc81f85909a6a948e504c1d5dc53279e4f5a0772cc75"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA018A.SLDPRT",
+    "bytes": 58867,
+    "sha256": "a0aa20dd939358b452a7d36116225bf6da11ba79e295e763025ffe27afacbef2"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA019A.SLDPRT",
+    "bytes": 117440,
+    "sha256": "e08d9990e903da2dd10baf95ecd457ab515f8ef0bcea448638b17bcf7d58602b"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA021B.SLDPRT",
+    "bytes": 91394,
+    "sha256": "cf5ba6d3b521a1633abfa8034506598820907812b0e4b3b4d044334b9df508f7"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA022A.SLDPRT",
+    "bytes": 100755,
+    "sha256": "3b5c17a367f991838486d523a6bef024b7e274c504db22ea009f844859708714"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FGA023A.SLDPRT",
+    "bytes": 78938,
+    "sha256": "b19dfd4acf53cc88608e830e833f5061a7fa186a8852572fa486a7ebef9f7cf1"
+  },
+  {
+    "path": "CAD library/FAB/Gantry GA/FRAM001D.SLDPRT",
+    "bytes": 6555670,
+    "sha256": "99d5cbf6aa830922590ce39c68d45d068ae201969c9eeb0a1af349dcb26dc27c"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA002A.SLDPRT",
+    "bytes": 88999,
+    "sha256": "bc3131db809427a008a844eab8602404059916c5a9f6ea55ab814602c615fc27"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA003B.SLDPRT",
+    "bytes": 403636,
+    "sha256": "993439c5c7bb237a03f40f634efb268488f13cc4978db9e4671edb644c43d946"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA004A.SLDPRT",
+    "bytes": 508276,
+    "sha256": "7f912a5776b5c42e9497ed1b3306fd8aa2268dcc7ecbf3359a767034f7862f5b"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA005A.SLDPRT",
+    "bytes": 131115,
+    "sha256": "ba114c724d553625d67a4e1ec273cfed88650f231da80fa9c828e84caa9bf38e"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA008A.SLDPRT",
+    "bytes": 296123,
+    "sha256": "29db8c4aee095a6cafd58a28cf257f6e7fc0c9255d171ce7e7beea32dbf9531b"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA009A.SLDPRT",
+    "bytes": 150863,
+    "sha256": "f9e9d16a572bcc99bbc8b489876da00d8cb1f1b38f3e15434a68f773ecc469e2"
+  },
+  {
+    "path": "CAD library/FAB/Hydroponics HA/FHA012A.SLDPRT",
+    "bytes": 202882,
+    "sha256": "7d91c551814002d8e0767e3be4fd9d4f63c084281615b9c1fe60772cd200a0a7"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA001B.SLDPRT",
+    "bytes": 835346,
+    "sha256": "0070e2fc1458acf514bcd8275ff6e802dc497af2f1ae075abd2d930e944e1d65"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA001C.SLDPRT",
+    "bytes": 911272,
+    "sha256": "374a87f0edec3c556ae4ffdeee53dbb62ecd5afc664781b820e7b3b9dabfb026"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA002B.SLDPRT",
+    "bytes": 399880,
+    "sha256": "f199ec0108529968fa821b08f51e3134991deb48c47cad801fc5f44da1d6543f"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA003C.SLDPRT",
+    "bytes": 1270706,
+    "sha256": "ef3232d39d95105c2860a590c7b5d51fcbfd2074a8198e5b5c0bc040c2ccf819"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA004B.SLDPRT",
+    "bytes": 995716,
+    "sha256": "df8cf3d4c35e5c2db4a50654f53e9ec309041a9d749f8197ab991ea7b62f79fc"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA005D.SLDPRT",
+    "bytes": 1359441,
+    "sha256": "cd85ac5944ef260d5ad9b00739ec00efd9f34e0ca649204507c96365136fe66f"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA010A.SLDPRT",
+    "bytes": 1048348,
+    "sha256": "b003b14053e761effb44a271247d320f99dadd755f66b504d67da8f46e2c846c"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA013A.SLDPRT",
+    "bytes": 245861,
+    "sha256": "7beec7b52d98852d70a7c4f159c72a0dda07685b7f2fbfe987c746c79bf65c49"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA014A.SLDPRT",
+    "bytes": 416697,
+    "sha256": "b13c1b282ea783fb1510e479793f464c0ad7d9fa0928863b2a2b39e082700f49"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA015B.SLDPRT",
+    "bytes": 395890,
+    "sha256": "4a6e3f4ec3676639a62458bc9b65dfbe5514c4d33737159b6ababd38e697e0da"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA017C.SLDPRT",
+    "bytes": 146396,
+    "sha256": "ae746d2c878ba1aa65a6604f56fb5a755129ec30078da9b4adde8695a6387b68"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA018C.SLDPRT",
+    "bytes": 121634,
+    "sha256": "94345b075f37c09a7c18549633cb31a940036c95389941b5eda61d35dce06f59"
+  },
+  {
+    "path": "CAD library/FAB/Robotic Arm RA/FRA019A.SLDPRT",
+    "bytes": 456072,
+    "sha256": "58b28b44d0c4ff00bd6074b0020d4b6828613a23224e4beb36097454a5adafde"
+  },
+  {
+    "path": "CAD library/GTW003C.zip",
+    "bytes": 133457690,
+    "sha256": "ebfce4a69f8f30a633d21f7176c86435125dc35b3f986299d9e7e54b78c0ddd7"
+  },
+  {
+    "path": "CAD library/Standard/250ml Bottle.SLDPRT",
+    "bytes": 145427,
+    "sha256": "163f20edbc6cffaf6e74804065660b26b705adc6e2025a165366acc29c53d715"
+  },
+  {
+    "path": "CAD library/Standard/3mmX80mm shaft.SLDPRT",
+    "bytes": 36361,
+    "sha256": "ac16868ef19eb82c3a879f1d0f60deb9af0758bb346512f4ef5084966145f248"
+  },
+  {
+    "path": "CAD library/Standard/4ch optocoupler relay board.SLDPRT",
+    "bytes": 3148076,
+    "sha256": "7dcaa6a27a036bef9c9657939f989576902ea2b2407b488f5e569a3f5dd03c70"
+  },
+  {
+    "path": "CAD library/Standard/6mm pneumatic fittings.sldprt",
+    "bytes": 129085,
+    "sha256": "58ca64486a5eb372ce62b5851d6d867e49dd2af7090a61b677a7b6ae182084e9"
+  },
+  {
+    "path": "CAD library/Standard/Aluminium Round Spacer.SLDPRT",
+    "bytes": 61414,
+    "sha256": "8a1802f901357f3f4ee863faca360c4c310d253128d82534989fbce9ab997bae"
+  },
+  {
+    "path": "CAD library/Standard/C920 Webcam.SLDPRT",
+    "bytes": 4176313,
+    "sha256": "c2e0f3b714845d0caa1e94e55d8639cf49f34dd9b63b765d23dbab7df6149feb"
+  },
+  {
+    "path": "CAD library/Standard/DP521 Water Pump.SLDPRT",
+    "bytes": 2749625,
+    "sha256": "0a83607d2ccdade6377121c58439baeb8820ed789183a177e8a08604788fb768"
+  },
+  {
+    "path": "CAD library/Standard/Electrical Panel Box.SLDPRT",
+    "bytes": 2486452,
+    "sha256": "fda7a26669e61716676d10d7518ca1adfe4786cc7deed809c7a50ad804345361"
+  },
+  {
+    "path": "CAD library/Standard/GT2 Timing Pulley.SLDPRT",
+    "bytes": 569985,
+    "sha256": "5479dba13832ee36422fdc93bc46768943a94aee77ce2430e44202e3752e1042"
+  },
+  {
+    "path": "CAD library/Standard/HTS-35H 240 35kg Servo/240 Servo Motor HTS-35H.SLDPRT",
+    "bytes": 2201485,
+    "sha256": "242ed1c81eb1a9c248c33988fde97f140010d14c4c1320c6344cae8004d0fda5"
+  },
+  {
+    "path": "CAD library/Standard/HX-12H Small Servo/0_DS-LH8A_stp(2).SLDPRT",
+    "bytes": 4786215,
+    "sha256": "eac5e318a68da90eb8d68d92f9a4bcbcfee2fe0edf706cac57111d27def3d422"
+  },
+  {
+    "path": "CAD library/Standard/HX-35HM/HX-35HM\u00e4\u00b8\u2030\u00e7\u00bb\u00b4\u00e5\u203a\u00be\u00e7\u00ba\u00b8/HX-35HM.SLDASM",
+    "bytes": 6609146,
+    "sha256": "450bf5d0aedf45cbeff3125f654266ae7170f047cc9af36a1de18fe234806a0c"
+  },
+  {
+    "path": "CAD library/Standard/Hydroponic Channel/Hydroponic Channel 1 Meter.SLDPRT",
+    "bytes": 99011,
+    "sha256": "854fa8c04fed5467223f7b76b1aff2b1f802d1c2b44fe425b307623af2a41a32"
+  },
+  {
+    "path": "CAD library/Standard/Hydroponic Channel/Hydroponic Channel Assembly 4inchX2inch.SLDASM",
+    "bytes": 1322473,
+    "sha256": "07806ef77710a7cec9614f72b8a91da66a21138017b90ff9afd358dec18a205a"
+  },
+  {
+    "path": "CAD library/Standard/Hydroponic Channel/Hydroponic Channel End Cap.SLDPRT",
+    "bytes": 77396,
+    "sha256": "b6b27e3b283c136e4ff797666dd546401032b1717e925ed07b4e52c5061687c4"
+  },
+  {
+    "path": "CAD library/Standard/IDP basket.SLDPRT",
+    "bytes": 693813,
+    "sha256": "34635d344106a3a7e3af991bb3cdad422285f55db6e22c0a96cf4591fb756f18"
+  },
+  {
+    "path": "CAD library/Standard/IDP hydroponics netpot.SLDPRT",
+    "bytes": 239248,
+    "sha256": "e3f8160ff65819e23f51795f67b3fd0310cba70e0ebec8a9ac020e81fc275606"
+  },
+  {
+    "path": "CAD library/Standard/LBSBL6-2028-SET Profile L Bracket/LBSBL6-2028-SET.sldasm",
+    "bytes": 102771,
+    "sha256": "285cb588a1ac0f89be481574664eb097e6fa1a28c05401ef9d118ecd163eb986"
+  },
+  {
+    "path": "CAD library/Standard/LBSBL6-2028-SET Profile L Bracket/LBSBL6-2028-SET_b.sldprt",
+    "bytes": 48590,
+    "sha256": "8625344f65cb227232594b5758ec4a553b0b543e5006cc2120440594096c4a9f"
+  },
+  {
+    "path": "CAD library/Standard/LBSBL6-2028-SET Profile L Bracket/LNCFM5-100P.sldprt",
+    "bytes": 44529,
+    "sha256": "18f5e9b9b0c9d8ea6ae6105d0a53ec9f44c7211290f0bde302582b791a3dc9d2"
+  },
+  {
+    "path": "CAD library/Standard/LBSBL6-2028-SET Profile L Bracket/LTTB6-5-10.sldprt",
+    "bytes": 35966,
+    "sha256": "7bf111ce2d897ffd728594adeb79bdce090c34027440c0be4f660ef78e7335ab"
+  },
+  {
+    "path": "CAD library/Standard/Lineare_bearing_LM3UU.SLDPRT",
+    "bytes": 113991,
+    "sha256": "1c36d09718a0b104b43ef98ec66c9c4ceb5ec03a5164bf7fb0d71338dbac3de5"
+  },
+  {
+    "path": "CAD library/Standard/Mounting L Bracket.SLDPRT",
+    "bytes": 274356,
+    "sha256": "53d237a234c1d1258dca5cd05568925a25d8ce2ab7d105303c6b8979ec613e82"
+  },
+  {
+    "path": "CAD library/Standard/nema-23-57bygh56-401a-1.snapshot.4/476745 - Nema 23 Shaft End Plate.SLDPRT",
+    "bytes": 242216,
+    "sha256": "b8f3ea73358f27569b525ccde8622b99abb1d5a20f10cbeed9412041c7e9e378"
+  },
+  {
+    "path": "CAD library/Standard/nema-23-57bygh56-401a-1.snapshot.4/476746 - Nema 23 End Plate.SLDPRT",
+    "bytes": 138420,
+    "sha256": "116a68e9ed373a16dbdb4ea02b4ccb3d4e00de31215e1dfc9992923a40b64ae6"
+  },
+  {
+    "path": "CAD library/Standard/nema-23-57bygh56-401a-1.snapshot.4/476747 - Nema 23 Motor Body.SLDPRT",
+    "bytes": 114266,
+    "sha256": "9106e4d6b219d98e62b6262ad21d64ea09d642851ddf256386c67a06c8b3094b"
+  },
+  {
+    "path": "CAD library/Standard/nema-23-57bygh56-401a-1.snapshot.4/476748 - Nema 23 Armature.SLDPRT",
+    "bytes": 94833,
+    "sha256": "2d2b20e47977a62a76c09153379f99e256d0175ff72ac826c4dca96f61dc35e1"
+  },
+  {
+    "path": "CAD library/Standard/nema-23-57bygh56-401a-1.snapshot.4/Nema 23 - 57BYGH56-401A.SLDASM",
+    "bytes": 195378,
+    "sha256": "127c507d78df30f51ab9539783417f19d26a4de426f290f89aa75f2c31639987"
+  },
+  {
+    "path": "CAD library/Standard/Omron V-155-1C25_MircoSwitch.SLDPRT",
+    "bytes": 391941,
+    "sha256": "1e9e85f39406cdc3f738bbe08440b837861abaad7e8d2225b70eda8fd8da12f7"
+  },
+  {
+    "path": "CAD library/Standard/p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID \u00c3\u2014 9 OD \u00c3\u2014 3 W  \u00e2\u20ac\u201d  603-ZZ.SLDPRT",
+    "bytes": 2135542,
+    "sha256": "4e7922e23557ba31b45adbcee9fae051e719bd3a450d2d6241e3b6530b1325d7"
+  },
+  {
+    "path": "CAD library/Standard/peristaltic pump KPP from kamoer.SLDPRT",
+    "bytes": 1345410,
+    "sha256": "fccd508d82575bcb7b86074b14e0e82cb1dc8ae2093853f6ffc793987a178077"
+  },
+  {
+    "path": "CAD library/Standard/PH-4502C.SLDPRT",
+    "bytes": 1983131,
+    "sha256": "6b5b6c77d9a763df91e62ea057e0adb6b1cdf88ef07006d8187b6eafcd9982b3"
+  },
+  {
+    "path": "CAD library/Standard/Piping.SLDPRT",
+    "bytes": 45127,
+    "sha256": "1f0758b48c89d095752631a2ca664b272e824a2961ed4f8e766ea830976445e7"
+  },
+  {
+    "path": "CAD library/Standard/Planting.SLDPRT",
+    "bytes": 1959684,
+    "sha256": "c6a40a038e808ec2286e618008f16d15d552e3b99eddfe5798a7581547e97f72"
+  },
+  {
+    "path": "CAD library/Standard/PWM Controller.SLDPRT",
+    "bytes": 244386,
+    "sha256": "ae93ed29fbae91a6358d719a6aac7b2f237fc9873c175d7e7a6fd3a80920ffba"
+  },
+  {
+    "path": "CAD library/Standard/Quick Connector Spray Nozzle.SLDPRT",
+    "bytes": 265419,
+    "sha256": "5368adc0d1d5db23e9575c1e709087f92208f681bd2326720f1b27d8a3a14478"
+  },
+  {
+    "path": "CAD library/Standard/Round Servo Horn.SLDPRT",
+    "bytes": 96876,
+    "sha256": "c48a4dcb69eb1495cd9c4a855585fd3348d71d4494714c9ee720aca02bd820d7"
+  },
+  {
+    "path": "CAD library/Standard/SERVO ARM HORN 25T ALUMINIUM.SLDPRT",
+    "bytes": 1549810,
+    "sha256": "50a85dc7308d058469c4e6940c1254dcc11b0ae4908fe8194f02334f2dca2746"
+  },
+  {
+    "path": "CAD library/Standard/Suplin SPL-62.SLDPRT",
+    "bytes": 795844,
+    "sha256": "adf49118d9fff0b9f12bfd2fb8effbfa91390d47e2b0656fdf68e2eae0f633a7"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/10 - Shims and Spacers/Aluminum Spacer 6mm.SLDPRT",
+    "bytes": 92297,
+    "sha256": "848bd6ded95fd056c6dce32e075bd77211351d229b49c18fa4d7b8c08f445a4f"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/10 - Shims and Spacers/Eccentric Spacer 6mm.SLDPRT",
+    "bytes": 102141,
+    "sha256": "9bcf1eeb4ca733e04a06705ccbeefe14edbf18cb7a3fa5639b50f419be67c21a"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/10 - Shims and Spacers/Precision Shim 10 x 5 x 1.SLDPRT",
+    "bytes": 60854,
+    "sha256": "34511afd2aa05593d5cfe093b717e7ce5c67916362a8317a242ffeda4ccaf146"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/2 - Wheels/Solid V Wheel.SLDPRT",
+    "bytes": 80625,
+    "sha256": "714857fad050f4652537c5055b0283df55d081f515624ffb0e405ee6f62d5e79"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/3 - Bearings/Ball Bearing 5 x 16 x 5.SLDPRT",
+    "bytes": 88396,
+    "sha256": "b97ac08e1cffc77f746e011e370e9926b907c981303c87e483ae259b9616ffd5"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/7 - Hardware/Nylon Insert Lock Nut M5.SLDPRT",
+    "bytes": 137001,
+    "sha256": "11a831c9ef6316e489254a68019672d88408679fd87c3cb857dc17c9cbd3de29"
+  },
+  {
+    "path": "CAD library/Standard/SW2014 Parts Library 1.6/Assemblies/Wheels/Solid V Wheel.SLDASM",
+    "bytes": 157957,
+    "sha256": "4e6ccb721ccc0993ae989875aa1620065db774f97972bad7606fbfcaa2afe1b4"
+  },
+  {
+    "path": "CAD library/Standard/Thrust Bearing.SLDPRT",
+    "bytes": 98264,
+    "sha256": "8cc8e47ef625059d15b49c890613a93f2ae5b16ef88c60ca4f18b7e048d166bd"
+  },
+  {
+    "path": "CAD library/Standard/Turntable Assem/Inner.SLDPRT",
+    "bytes": 98615,
+    "sha256": "2f7ffc997f95a20935dbaabcbfb3963e478748b851d46845b54cadd123583aa8"
+  },
+  {
+    "path": "CAD library/Standard/Turntable Assem/Outer.SLDPRT",
+    "bytes": 89776,
+    "sha256": "71ae1dd93b433768dfe6955c43a96cd96480469438e09af97d073313747587b6"
+  },
+  {
+    "path": "CAD library/Standard/Turntable Assem/Turntable Assembly.SLDASM",
+    "bytes": 102286,
+    "sha256": "30c91188feb117219b4c5c43609cf8038c3281c8fe0b2129e1521c9cbe807c65"
+  },
+  {
+    "path": "CAD library/Standard/Walling.SLDPRT",
+    "bytes": 343564,
+    "sha256": "4cc0615ba2038d6beca44f9ef8a7d38e18249edfc2032d4abf7ea133666136d8"
+  },
+  {
+    "path": "CAD library/Standard/Water Level Sensor.SLDPRT",
+    "bytes": 38266,
+    "sha256": "4a4c6106edd37d1e4126d4a915f896ec2774b07a9ef13afaed526b5f8b3c62d8"
+  },
+  {
+    "path": "CAD library/Standard/Water pump 12v.SLDPRT",
+    "bytes": 6435667,
+    "sha256": "850e3fb158bfde3bcc4d482cf14a1e47078ec97b8713c379ddd990985adf923e"
+  },
+  {
+    "path": "CAD library/Standard/Water Tank.SLDPRT",
+    "bytes": 847498,
+    "sha256": "25a9ab98dfa1b03d92a47f65c28b7df1c13238fd2aab54107d456645b0e80ed5"
+  }
+]

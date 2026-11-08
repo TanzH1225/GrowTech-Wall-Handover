@@ -1,0 +1,6130 @@
+{
+  "devices": [
+    {
+      "id": "PSU1",
+      "name": "Main DC power supply",
+      "model": "24 V switched-mode supply",
+      "category": "Power",
+      "location": "Main electrical enclosure",
+      "power": "UK fused three-pin AC input",
+      "role": "Feeds the Pi supply, lighting converter and E-stop actuator branch.",
+      "specs": [
+        [
+          "Reported output",
+          "24 V DC / 16.5 A"
+        ],
+        [
+          "Nominal output capacity",
+          "396 W"
+        ],
+        [
+          "Exact PSU model",
+          "Not recorded"
+        ]
+      ],
+      "notes": [
+        "396 W is nominal capacity, not measured machine consumption.",
+        "AC L/N/PE terminals, plug fuse rating, cable size and earth bonding need tracing."
+      ],
+      "image": "media/05-enclosure-interior-embedded.jpg",
+      "caption": "Installed enclosure; the PSU is at the bottom.",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "ES1",
+      "name": "Emergency-stop control",
+      "model": "Twist-release pushbutton",
+      "category": "Power",
+      "location": "Top of main enclosure",
+      "power": "24 V raw input / actuator branch output",
+      "role": "Interrupts actuator power to the three drivers and the 12 V converter.",
+      "specs": [],
+      "notes": [
+        "Owner reports immediate vertical gantry descent when actuator power is removed.",
+        "The Pi, USB-powered Nanos, sensor logic and lighting stay powered.",
+        "Exact switched conductors, poles and contact labels are untraced."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PD1",
+      "name": "Pi power module",
+      "model": "Wheeltec P23C",
+      "category": "Power",
+      "location": "Main electrical enclosure",
+      "power": "24 V raw → 5 V Pi/fan supply",
+      "role": "Powers the Pi through USB-C and supplies enclosure fan load(s).",
+      "specs": [
+        [
+          "Reported output",
+          "5 V / 5 A"
+        ],
+        [
+          "Pi connection",
+          "USB-C power"
+        ]
+      ],
+      "notes": [],
+      "image": "../Manufacturer%20references/wheeltec-official-product.jpg",
+      "caption": "Manufacturer product reference.",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "DC1",
+      "name": "12 V load converter",
+      "model": "SZBK07 adjustable buck converter",
+      "category": "Power",
+      "location": "Upper stacked converter",
+      "power": "24 V actuator → 12 V",
+      "role": "Supplies dosing pumps, arm controller and spray load.",
+      "specs": [
+        [
+          "Installed setpoint",
+          "12 V"
+        ],
+        [
+          "Continuous current capability",
+          "Not established for the installed conditions"
+        ]
+      ],
+      "notes": [],
+      "image": "media/05-enclosure-interior-embedded.jpg",
+      "caption": "Context photo; stacked converters are on the left.",
+      "sheet": 4,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "DC2",
+      "name": "5 V load converter",
+      "model": "SZBK07 adjustable buck converter",
+      "category": "Power",
+      "location": "Lower stacked converter",
+      "power": "24 V raw → 5 V",
+      "role": "Supplies grow-light load through the PWM dimmer and rear relay.",
+      "specs": [
+        [
+          "Installed setpoint",
+          "5 V"
+        ],
+        [
+          "Continuous current capability",
+          "Not established for the installed conditions"
+        ]
+      ],
+      "notes": [],
+      "image": "media/05-enclosure-interior-embedded.jpg",
+      "caption": "Context photo; stacked converters are on the left.",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PI1",
+      "name": "Raspberry Pi 5",
+      "model": "Raspberry Pi 5",
+      "category": "Control",
+      "location": "Main electrical enclosure",
+      "power": "5 V through PD1 USB-C",
+      "role": "GUI, USB-camera vision and coordinator for the two Nanos and arm controller.",
+      "specs": [
+        [
+          "Nano links",
+          "USB serial at 9600 baud"
+        ],
+        [
+          "Arm UART",
+          "/dev/ttyAMA1 at 9600 baud"
+        ],
+        [
+          "Recorded UART pins",
+          "27 TX / GPIO0; 28 RX / GPIO1; 25 GND"
+        ]
+      ],
+      "notes": [
+        "The arm UART uses the recorded GPIO0/GPIO1 configuration, not the common GPIO14/GPIO15 pair.",
+        "Pi GPIO uses 3.3 V logic; installed ARM1 TX voltage has not been measured."
+      ],
+      "image": "media/05-enclosure-interior-embedded.jpg",
+      "caption": "Installed Pi with AI HAT+ in the upper-left area.",
+      "sheet": 5,
+      "domain": "logic",
+      "manual": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "quantity": 1
+    },
+    {
+      "id": "NH1",
+      "name": "Hydroponics Nano",
+      "model": "Arduino Nano USB-C clone",
+      "category": "Control",
+      "location": "Main enclosure terminal shield",
+      "power": "USB power and serial from Pi",
+      "role": "Reads reservoir sensors and RTC; controls dosing, circulation, lighting and spray.",
+      "specs": [
+        [
+          "Serial alias",
+          "/dev/arduino_hydroponic"
+        ],
+        [
+          "Baud rate",
+          "9600"
+        ],
+        [
+          "Board orientation",
+          "Component side; USB-C at top"
+        ]
+      ],
+      "notes": [
+        "Both Nanos are powered from Pi USB. No additional external VIN/5 V input is recorded.",
+        "GND pads share a net; the occupied physical pad is not traced."
+      ],
+      "image": "media/05-nano-detail.jpg",
+      "caption": "Installed pair of Nano terminal shields.",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "../Manufacturer%20references/arduino-nano-official.pdf",
+      "quantity": 1
+    },
+    {
+      "id": "NG1",
+      "name": "Gantry Nano",
+      "model": "Arduino Nano USB-C clone",
+      "category": "Control",
+      "location": "Main enclosure terminal shield",
+      "power": "USB power and serial from Pi",
+      "role": "Generates X/Y1/Y2 STEP, DIR and ENA outputs and reads the three homing switches.",
+      "specs": [
+        [
+          "Serial alias",
+          "/dev/arduino_gantry"
+        ],
+        [
+          "Baud rate",
+          "9600"
+        ],
+        [
+          "Board orientation",
+          "Component side; USB-C at top"
+        ]
+      ],
+      "notes": [
+        "Both Nanos are powered from Pi USB. No additional external VIN/5 V input is recorded.",
+        "GND pads share a net; the occupied physical pad is not traced."
+      ],
+      "image": "media/05-nano-detail.jpg",
+      "caption": "Installed pair of Nano terminal shields.",
+      "sheet": 2,
+      "domain": "logic",
+      "manual": "../Manufacturer%20references/arduino-nano-official.pdf",
+      "quantity": 1
+    },
+    {
+      "id": "RTC1",
+      "name": "Real-time clock",
+      "model": "DS3231 module",
+      "category": "Control",
+      "location": "Inside main electrical enclosure",
+      "power": "NH1 5 V / GND",
+      "role": "Provides hydroponics timekeeping and lighting schedule.",
+      "specs": [
+        [
+          "I2C",
+          "A4 SDA / orange; A5 SCL / green"
+        ]
+      ],
+      "notes": [
+        "RTC1 is in the main electrical box, not in the removable dosing module."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "CAM1",
+      "name": "USB webcam",
+      "model": "Logitech C920",
+      "category": "Control",
+      "location": "Robotic arm / wrist",
+      "power": "Pi USB power and data",
+      "role": "Captures crop and pest images for the Pi vision workflow.",
+      "specs": [],
+      "notes": [],
+      "image": "../Mechanical%20catalog/views/108-C920_Webcam-iso.png",
+      "caption": "CAD component preview.",
+      "sheet": 1,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "DISP1",
+      "name": "Touchscreen",
+      "model": "Raspberry Pi touchscreen",
+      "category": "Control",
+      "location": "Main enclosure front",
+      "power": "Pi ribbon connection",
+      "role": "Operator interface for the GUI.",
+      "specs": [],
+      "notes": [
+        "Separate touchscreen power wiring and exact ribbon pinout are not established in the supplied record."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 5,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "HAT1",
+      "name": "AI accelerator HAT",
+      "model": "Raspberry Pi AI HAT+ / 26 TOPS",
+      "category": "Control",
+      "location": "Mounted on Pi",
+      "power": "Pi-mounted expansion board",
+      "role": "Installed accelerator hardware visible in the enclosure.",
+      "specs": [],
+      "notes": [
+        "The current application uses Ultralytics/Torch; the installed HAT does not establish that inference runs on Hailo.",
+        "Expansion routing is not added to the recorded wiring schedule."
+      ],
+      "image": "media/05-enclosure-interior-embedded.jpg",
+      "caption": "Installed HAT on the Pi.",
+      "sheet": 1,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "FAN",
+      "name": "Enclosure cooling",
+      "model": "5 V fan load(s)",
+      "category": "Control",
+      "location": "Main electrical enclosure",
+      "power": "PD1 auxiliary 5 V and return",
+      "role": "Cools the enclosure.",
+      "specs": [],
+      "notes": [
+        "Fan quantity and exact power-board header positions are untraced."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "logic",
+      "manual": "",
+      "quantity": null
+    },
+    {
+      "id": "DX",
+      "name": "X stepper driver",
+      "model": "DM542-labelled driver",
+      "category": "Motion",
+      "location": "Top driver",
+      "power": "24 V actuator rail",
+      "role": "Drives the X gantry stepper.",
+      "specs": [
+        [
+          "Control",
+          "STEP / DIR / ENA from NG1"
+        ],
+        [
+          "Physical DIP positions",
+          "1 up, 2 down, 3 up, 4 down, 5 up, 6 up, 7 down, 8 down"
+        ]
+      ],
+      "notes": [
+        "Units are mounted upside-down: use the printed terminal labels.",
+        "Exact driver variant, DIP ON orientation/current setting and motor coil mapping need checking."
+      ],
+      "image": "media/05-driver-terminal-detail-embedded.jpg",
+      "caption": "Installed driver terminal detail.",
+      "sheet": 2,
+      "domain": "actuator",
+      "manual": "../Manufacturer%20references/dm542e-official.pdf",
+      "quantity": 1
+    },
+    {
+      "id": "MX",
+      "name": "X stepper motor",
+      "model": "NEMA 23",
+      "category": "Motion",
+      "location": "X gantry axis",
+      "power": "From DX motor outputs",
+      "role": "Moves the X axis.",
+      "specs": [
+        [
+          "Reported holding torque",
+          "1.3 N·m"
+        ],
+        [
+          "Observed cable colours",
+          "Black / green / blue / red"
+        ]
+      ],
+      "notes": [
+        "A+/A−/B+/B− colour mapping is untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/rechecked-016-Nema_23_-_57BYGH56-401A-iso.png",
+      "caption": "Shared motor-envelope CAD reference; match the axis rating.",
+      "sheet": 2,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "DY1",
+      "name": "Y1 stepper driver",
+      "model": "DM542-labelled driver",
+      "category": "Motion",
+      "location": "Middle driver / left axis",
+      "power": "24 V actuator rail",
+      "role": "Drives the Y1 gantry stepper.",
+      "specs": [
+        [
+          "Control",
+          "STEP / DIR / ENA from NG1"
+        ],
+        [
+          "Physical DIP positions",
+          "1 up, 2 down, 3 up, 4 down, 5 up, 6 up, 7 down, 8 down"
+        ]
+      ],
+      "notes": [
+        "Units are mounted upside-down: use the printed terminal labels.",
+        "Exact driver variant, DIP ON orientation/current setting and motor coil mapping need checking."
+      ],
+      "image": "media/05-driver-terminal-detail-embedded.jpg",
+      "caption": "Installed driver terminal detail.",
+      "sheet": 2,
+      "domain": "actuator",
+      "manual": "../Manufacturer%20references/dm542e-official.pdf",
+      "quantity": 1
+    },
+    {
+      "id": "MY1",
+      "name": "Y1 stepper motor",
+      "model": "NEMA 23 / 57BYGH56-401A",
+      "category": "Motion",
+      "location": "Y1 gantry axis",
+      "power": "From DY1 motor outputs",
+      "role": "Moves the Y1 axis.",
+      "specs": [
+        [
+          "Reported holding torque",
+          "1.9 N·m"
+        ],
+        [
+          "Observed cable colours",
+          "Black / green / blue / red"
+        ]
+      ],
+      "notes": [
+        "A+/A−/B+/B− colour mapping is untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/rechecked-016-Nema_23_-_57BYGH56-401A-iso.png",
+      "caption": "Shared motor-envelope CAD reference; match the axis rating.",
+      "sheet": 2,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "DY2",
+      "name": "Y2 stepper driver",
+      "model": "DM542-labelled driver",
+      "category": "Motion",
+      "location": "Bottom driver / right axis",
+      "power": "24 V actuator rail",
+      "role": "Drives the Y2 gantry stepper.",
+      "specs": [
+        [
+          "Control",
+          "STEP / DIR / ENA from NG1"
+        ],
+        [
+          "Physical DIP positions",
+          "1 up, 2 down, 3 up, 4 down, 5 up, 6 up, 7 down, 8 down"
+        ]
+      ],
+      "notes": [
+        "Units are mounted upside-down: use the printed terminal labels.",
+        "Exact driver variant, DIP ON orientation/current setting and motor coil mapping need checking."
+      ],
+      "image": "media/05-driver-terminal-detail-embedded.jpg",
+      "caption": "Installed driver terminal detail.",
+      "sheet": 2,
+      "domain": "actuator",
+      "manual": "../Manufacturer%20references/dm542e-official.pdf",
+      "quantity": 1
+    },
+    {
+      "id": "MY2",
+      "name": "Y2 stepper motor",
+      "model": "NEMA 23 / 57BYGH56-401A",
+      "category": "Motion",
+      "location": "Y2 gantry axis",
+      "power": "From DY2 motor outputs",
+      "role": "Moves the Y2 axis.",
+      "specs": [
+        [
+          "Reported holding torque",
+          "1.9 N·m"
+        ],
+        [
+          "Observed cable colours",
+          "Black / green / blue / red"
+        ]
+      ],
+      "notes": [
+        "A+/A−/B+/B− colour mapping is untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/rechecked-016-Nema_23_-_57BYGH56-401A-iso.png",
+      "caption": "Shared motor-envelope CAD reference; match the axis rating.",
+      "sheet": 2,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "LX",
+      "name": "X left limit",
+      "model": "Omron V-155-1C25 microswitch",
+      "category": "Motion",
+      "location": "Gantry travel end",
+      "power": "NG1 D8 / light-blue signal",
+      "role": "Reports the homing endpoint.",
+      "specs": [
+        [
+          "Firmware input",
+          "INPUT_PULLUP; pressed state LOW"
+        ]
+      ],
+      "notes": [
+        "Physical COM/NO/NC selection and return wire path require tracing."
+      ],
+      "image": "../Mechanical%20catalog/views/123-Omron_V-155-1C25_MircoSwitch-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 2,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "LY1",
+      "name": "Y1 left-bottom limit",
+      "model": "Omron V-155-1C25 microswitch",
+      "category": "Motion",
+      "location": "Gantry travel end",
+      "power": "NG1 D9 / light-blue signal",
+      "role": "Reports the homing endpoint.",
+      "specs": [
+        [
+          "Firmware input",
+          "INPUT_PULLUP; pressed state LOW"
+        ]
+      ],
+      "notes": [
+        "Physical COM/NO/NC selection and return wire path require tracing."
+      ],
+      "image": "../Mechanical%20catalog/views/123-Omron_V-155-1C25_MircoSwitch-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 2,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "LY2",
+      "name": "Y2 right-bottom limit",
+      "model": "Omron V-155-1C25 microswitch",
+      "category": "Motion",
+      "location": "Gantry travel end",
+      "power": "NG1 D10 / light-blue signal",
+      "role": "Reports the homing endpoint.",
+      "specs": [
+        [
+          "Firmware input",
+          "INPUT_PULLUP; pressed state LOW"
+        ]
+      ],
+      "notes": [
+        "Physical COM/NO/NC selection and return wire path require tracing."
+      ],
+      "image": "../Mechanical%20catalog/views/123-Omron_V-155-1C25_MircoSwitch-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 2,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "X1",
+      "name": "Dosing module connector",
+      "model": "Single-row 12-position Molex-style connector",
+      "category": "Hydroponics",
+      "location": "Side of dosing enclosure",
+      "power": "12 V load pair + 5 V logic pair + seven signals",
+      "role": "Disconnectable harness between the main enclosure and tank module.",
+      "specs": [
+        [
+          "View",
+          "Wire-entry side; thick-black end is position 1"
+        ],
+        [
+          "Unused position",
+          "5"
+        ],
+        [
+          "Numbering",
+          "Drawing positions, not verified manufacturer cavity numbers"
+        ]
+      ],
+      "notes": [
+        "The mating face mirrors the wire-entry view.",
+        "D5 white / D4 light-orange is adopted in Rev J and still needs continuity verification."
+      ],
+      "image": "media/01-connector-detail-embedded.jpg",
+      "caption": "Installed wire-entry view.",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "RDOSE",
+      "name": "Dosing relay board",
+      "model": "Four-channel optocoupler relay module",
+      "category": "Hydroponics",
+      "location": "Dosing enclosure",
+      "power": "NH1 5 V logic; DC1 12 V load distribution",
+      "role": "Switches the water, fertilizer A, fertilizer B and acid pump functions.",
+      "specs": [],
+      "notes": [
+        "Firmware active levels are known. Actual COM/NO/NC contacts and physical channel numbering are not traced.",
+        "The main water path includes a rotary PWM controller; its exact terminal sequence with the relay is untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/105-4ch_optocoupler_relay_board-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PWM1",
+      "name": "Main-pump speed control",
+      "model": "Rotary PWM controller",
+      "category": "Hydroponics",
+      "location": "Dosing module",
+      "power": "12 V main-pump load path",
+      "role": "Adjusts circulation-pump output.",
+      "specs": [],
+      "notes": [
+        "Its exact input/output order relative to the water relay contacts is untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/125-PWM_Controller-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "LEVEL",
+      "name": "Water-level interface",
+      "model": "Reservoir level sensor",
+      "category": "Hydroponics",
+      "location": "Reservoir / dosing module",
+      "power": "NH1 5 V logic via X1",
+      "role": "Reads reservoir level on NH1 A0.",
+      "specs": [],
+      "notes": [
+        "Interface VCC/GND/OUT are functional labels; exact board terminals and interface variant need checking."
+      ],
+      "image": "../Mechanical%20catalog/views/136-Water_Level_Sensor-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "EC",
+      "name": "Conductivity interface",
+      "model": "SPL-62 probe / EC interface",
+      "category": "Hydroponics",
+      "location": "Reservoir / dosing module",
+      "power": "NH1 5 V logic via X1",
+      "role": "Reads conductivity on NH1 A1.",
+      "specs": [],
+      "notes": [
+        "Interface VCC/GND/OUT are functional labels; exact board terminals and interface variant need checking."
+      ],
+      "image": "../Mechanical%20catalog/views/131-Suplin_SPL-62-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PH",
+      "name": "pH interface",
+      "model": "PH-4502C and probe",
+      "category": "Hydroponics",
+      "location": "Reservoir / dosing module",
+      "power": "NH1 5 V logic via X1",
+      "role": "Reads pH on NH1 A2.",
+      "specs": [],
+      "notes": [
+        "Interface VCC/GND/OUT are functional labels; exact board terminals and interface variant need checking."
+      ],
+      "image": "../Mechanical%20catalog/views/124-PH-4502C-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "logic",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PW",
+      "name": "Circulation pump",
+      "model": "DP-521 12 V diaphragm pump",
+      "category": "Hydroponics",
+      "location": "Tank-mounted dosing module",
+      "power": "12 V load through X1 / relay path",
+      "role": "Circulates solution.",
+      "specs": [],
+      "notes": [
+        "Pump switching contact terminals remain untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/109-DP521_Water_Pump-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PA",
+      "name": "Fertilizer A pump",
+      "model": "Kamoer KPP 12 V peristaltic pump",
+      "category": "Hydroponics",
+      "location": "Tank-mounted dosing module",
+      "power": "12 V load through X1 / relay path",
+      "role": "Doses fertilizer A.",
+      "specs": [],
+      "notes": [
+        "Pump switching contact terminals remain untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/144-peristaltic_pump_KPP_from_kamoer-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PB",
+      "name": "Fertilizer B pump",
+      "model": "Kamoer KPP 12 V peristaltic pump",
+      "category": "Hydroponics",
+      "location": "Tank-mounted dosing module",
+      "power": "12 V load through X1 / relay path",
+      "role": "Doses fertilizer B.",
+      "specs": [],
+      "notes": [
+        "Pump switching contact terminals remain untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/144-peristaltic_pump_KPP_from_kamoer-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PACID",
+      "name": "Acid pump",
+      "model": "Kamoer KPP 12 V peristaltic pump",
+      "category": "Hydroponics",
+      "location": "Tank-mounted dosing module",
+      "power": "12 V load through X1 / relay path",
+      "role": "Doses pH-down acid.",
+      "specs": [],
+      "notes": [
+        "Pump switching contact terminals remain untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/144-peristaltic_pump_KPP_from_kamoer-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 3,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "DIM1",
+      "name": "Grow-light dimmer",
+      "model": "Rotary PWM dimmer",
+      "category": "Lighting",
+      "location": "Main electrical enclosure",
+      "power": "DC2 5 V lighting supply",
+      "role": "Adjusts the LED load brightness.",
+      "specs": [],
+      "notes": [
+        "Load input/output terminal mapping is untraced."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "RLIGHT",
+      "name": "Lighting relay box",
+      "model": "Rear lighting switching module",
+      "category": "Lighting",
+      "location": "Behind the machine frame",
+      "power": "Load: DC2 5 V; logic: NH1 5 V",
+      "role": "Switches the LED load under NH1 D9 control.",
+      "specs": [
+        [
+          "Firmware ON level",
+          "LOW"
+        ],
+        [
+          "Control wire",
+          "White"
+        ]
+      ],
+      "notes": [
+        "NH1 supplies relay logic only. LED load power comes from DC2 through DIM1.",
+        "Load contacts, switched side and logic-ground wire colour are untraced."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "LED1",
+      "name": "Grow-light strips",
+      "model": "5 V LED lighting group",
+      "category": "Lighting",
+      "location": "Four growing tiers",
+      "power": "DC2 → DIM1 → RLIGHT load route",
+      "role": "Provides growing illumination.",
+      "specs": [],
+      "notes": [
+        "Individual strip interconnections and current draw are not traced."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 4
+    },
+    {
+      "id": "ARM1",
+      "name": "Robotic arm controller",
+      "model": "Hiwonder Serial Bus Servo Controller",
+      "category": "Arm",
+      "location": "Separate arm control box",
+      "power": "DC1 12 V branch via local switch",
+      "role": "Runs stored .rob action groups commanded directly by Pi UART.",
+      "specs": [
+        [
+          "Identified product",
+          "SKU 21090003"
+        ],
+        [
+          "Manufacturer input range",
+          "6–12 V"
+        ],
+        [
+          "Host UART",
+          "9600 baud"
+        ],
+        [
+          "Header, top to bottom",
+          "GND / TX / RX / 5V"
+        ]
+      ],
+      "notes": [
+        "Header orientation: component-side reference; micro-USB at top.",
+        "Serial-header 5 V has no Pi connection in the drawing set.",
+        "Servo rail voltage, installed sockets, servo IDs and exact cable contacts remain untraced."
+      ],
+      "image": "../Manufacturer%20references/controller-interface-excerpt.png",
+      "caption": "Hiwonder board-interface reference.",
+      "sheet": 8,
+      "domain": "actuator",
+      "manual": "https://wiki.hiwonder.com/projects/Bus-Servo-Controller/en/latest/docs/1.Bus_Servo_Controller_User_Manual.html",
+      "quantity": 1
+    },
+    {
+      "id": "SWARM",
+      "name": "Arm local switch",
+      "model": "Controller / arm-box ON/OFF switch",
+      "category": "Arm",
+      "location": "Arm control box",
+      "power": "12 V arm-controller branch",
+      "role": "Turns the arm controller off or on.",
+      "specs": [],
+      "notes": [
+        "Support the arm links before removing power.",
+        "Whether this switch also isolates the spray branch is not established."
+      ],
+      "image": "media/03-arm-and-moving-cables-embedded.jpg",
+      "caption": "Installed arm and local enclosure.",
+      "sheet": 4,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "SERVOCHAIN",
+      "name": "Joint and gripper bus",
+      "model": "3 × HTS-35H + 1 × HX-12H",
+      "category": "Arm",
+      "location": "Arm joints / gripper",
+      "power": "Controller servo bus",
+      "role": "Three articulated joints and the gripper share the recorded three-wire daisy chain.",
+      "specs": [
+        [
+          "Recorded lead colours",
+          "Yellow / red / black"
+        ],
+        [
+          "Order",
+          "Servo-ID order and socket choice untraced"
+        ]
+      ],
+      "notes": [
+        "Do not equate the upstream 12 V controller feed with a measured servo-rail voltage."
+      ],
+      "image": "../Mechanical%20catalog/views/112-240_Servo_Motor_HTS-35H-iso.png",
+      "caption": "Joint servo CAD reference; the group also includes the HX-12H gripper.",
+      "sheet": 8,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 4
+    },
+    {
+      "id": "BASESERVO",
+      "name": "Base rotary servo",
+      "model": "Hiwonder HX-35M / HX-35HM",
+      "category": "Arm",
+      "location": "Arm base turntable",
+      "power": "Separate lead from ARM1",
+      "role": "Rotates the arm base.",
+      "specs": [
+        [
+          "Recorded lead",
+          "Three black conductors"
+        ]
+      ],
+      "notes": [
+        "Individual power/signal contacts and servo rail voltage are untraced."
+      ],
+      "image": "../Mechanical%20catalog/views/009-HX-35HM-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 8,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "RSPRAY",
+      "name": "Spray switching module",
+      "model": "Arm-box relay / switch module",
+      "category": "Arm",
+      "location": "Arm control box",
+      "power": "12 V load branch; logic supply untraced",
+      "role": "Controls the spray pump from NH1 D10.",
+      "specs": [
+        [
+          "Control",
+          "Yellow wire; firmware ON = HIGH"
+        ]
+      ],
+      "notes": [
+        "Logic VCC/GND, relay contacts and interaction with the arm local switch require tracing."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "PS",
+      "name": "Spray pump",
+      "model": "12 V miniature diaphragm pump",
+      "category": "Arm",
+      "location": "Robotic arm",
+      "power": "Arm-box 12 V switched spray path",
+      "role": "Feeds the foliar spray nozzle.",
+      "specs": [],
+      "notes": [],
+      "image": "../Mechanical%20catalog/views/138-Water_pump_12v-iso.png",
+      "caption": "CAD reference.",
+      "sheet": 4,
+      "domain": "actuator",
+      "manual": "",
+      "quantity": 1
+    },
+    {
+      "id": "ACIN",
+      "name": "Wall supply and fused plug",
+      "model": "UK fused three-pin plug",
+      "category": "Power",
+      "location": "Wall socket / PSU input",
+      "power": "AC mains input",
+      "role": "Feeds the single main DC supply.",
+      "specs": [],
+      "notes": [
+        "L/N/PE terminations, fuse rating, cable size and earth route are untraced."
+      ],
+      "image": "",
+      "caption": "",
+      "sheet": 4,
+      "domain": "raw",
+      "manual": "",
+      "quantity": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "AC00",
+      "a": "ACIN",
+      "ap": "AC supply bundle",
+      "b": "PSU1",
+      "bp": "AC input bundle",
+      "colour": "unknown",
+      "kind": "mains",
+      "net": "AC_INPUT",
+      "status": "terminal-check",
+      "note": "Functional mains feed only. L/N/PE terminals and protective-earth route are not assigned.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P01P",
+      "a": "PSU1",
+      "ap": "24 V output +",
+      "b": "PD1",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_RAW",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P01R",
+      "a": "PSU1",
+      "ap": "24 V output return",
+      "b": "PD1",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_RAW_RETURN",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P02P",
+      "a": "PSU1",
+      "ap": "24 V output +",
+      "b": "DC2",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_RAW",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P02R",
+      "a": "PSU1",
+      "ap": "24 V output return",
+      "b": "DC2",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_RAW_RETURN",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P03P",
+      "a": "PSU1",
+      "ap": "24 V output +",
+      "b": "ES1",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_RAW",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P03R",
+      "a": "PSU1",
+      "ap": "24 V output return",
+      "b": "ES1",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_RAW_RETURN",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P04P",
+      "a": "ES1",
+      "ap": "actuator output +",
+      "b": "DX",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_ACT",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P04R",
+      "a": "ES1",
+      "ap": "actuator output return",
+      "b": "DX",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_ACT_RETURN",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P05P",
+      "a": "ES1",
+      "ap": "actuator output +",
+      "b": "DY1",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_ACT",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P05R",
+      "a": "ES1",
+      "ap": "actuator output return",
+      "b": "DY1",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_ACT_RETURN",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P06P",
+      "a": "ES1",
+      "ap": "actuator output +",
+      "b": "DY2",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_ACT",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P06R",
+      "a": "ES1",
+      "ap": "actuator output return",
+      "b": "DY2",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_ACT_RETURN",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P07P",
+      "a": "ES1",
+      "ap": "actuator output +",
+      "b": "DC1",
+      "bp": "input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "24V_ACT",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P07R",
+      "a": "ES1",
+      "ap": "actuator output return",
+      "b": "DC1",
+      "bp": "input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "24V_ACT_RETURN",
+      "status": "terminal-check",
+      "note": "Known branch via the quick-connector distribution. ES1 switched conductor(s) and actual contact poles are untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "U01",
+      "a": "PD1",
+      "ap": "USB-C output",
+      "b": "PI1",
+      "bp": "USB-C power",
+      "colour": "teal",
+      "kind": "usb",
+      "net": "PI_POWER",
+      "status": "recorded",
+      "note": "Power connection only; reported PD1 output 5 V / 5 A.",
+      "via": "",
+      "scope": "control",
+      "domain": "logic"
+    },
+    {
+      "id": "P08P",
+      "a": "PD1",
+      "ap": "auxiliary 5 V +",
+      "b": "FAN",
+      "bp": "supply +",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_FAN",
+      "status": "terminal-check",
+      "note": "Fan quantity and exact header positions untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P08R",
+      "a": "PD1",
+      "ap": "auxiliary 5 V return",
+      "b": "FAN",
+      "bp": "supply return",
+      "colour": "black",
+      "kind": "return",
+      "net": "5V_FAN_RETURN",
+      "status": "terminal-check",
+      "note": "Fan quantity and exact header positions untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "U02",
+      "a": "PI1",
+      "ap": "USB host",
+      "b": "NG1",
+      "bp": "USB-C",
+      "colour": "teal",
+      "kind": "usb",
+      "net": "U02",
+      "status": "recorded",
+      "note": "One cable carries data, 5 V and ground. Physical Pi USB socket identity is not assigned.",
+      "via": "",
+      "scope": "control",
+      "domain": "logic"
+    },
+    {
+      "id": "U03",
+      "a": "PI1",
+      "ap": "USB host",
+      "b": "NH1",
+      "bp": "USB-C",
+      "colour": "teal",
+      "kind": "usb",
+      "net": "U03",
+      "status": "recorded",
+      "note": "One cable carries data, 5 V and ground. Physical Pi USB socket identity is not assigned.",
+      "via": "",
+      "scope": "control",
+      "domain": "logic"
+    },
+    {
+      "id": "U04",
+      "a": "PI1",
+      "ap": "USB host",
+      "b": "CAM1",
+      "bp": "USB",
+      "colour": "teal",
+      "kind": "usb",
+      "net": "U04",
+      "status": "recorded",
+      "note": "One cable carries data, 5 V and ground. Physical Pi USB socket identity is not assigned.",
+      "via": "",
+      "scope": "control",
+      "domain": "logic"
+    },
+    {
+      "id": "U05",
+      "a": "PI1",
+      "ap": "display ribbon",
+      "b": "DISP1",
+      "bp": "ribbon",
+      "colour": "teal",
+      "kind": "ribbon",
+      "net": "DISPLAY",
+      "status": "terminal-check",
+      "note": "Ribbon connection recorded; separate screen power route and exact ribbon pinout untraced.",
+      "via": "",
+      "scope": "control",
+      "domain": "logic"
+    },
+    {
+      "id": "P09P",
+      "a": "DC2",
+      "ap": "5 V output +",
+      "b": "DIM1",
+      "bp": "load input +",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_LIGHT_LOAD",
+      "status": "terminal-check",
+      "note": "Functional pair route; DIM1 terminals untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P09R",
+      "a": "DC2",
+      "ap": "5 V output return",
+      "b": "DIM1",
+      "bp": "load input return",
+      "colour": "black",
+      "kind": "return",
+      "net": "5V_LIGHT_LOAD_RETURN",
+      "status": "terminal-check",
+      "note": "Functional pair route; DIM1 terminals untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P10P",
+      "a": "DIM1",
+      "ap": "load output +",
+      "b": "RLIGHT",
+      "bp": "load path +",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_DIMMED",
+      "status": "terminal-check",
+      "note": "Functional pair route; dimmer terminals, relay load contacts and switched side untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P10R",
+      "a": "DIM1",
+      "ap": "load output return",
+      "b": "RLIGHT",
+      "bp": "load path return",
+      "colour": "black",
+      "kind": "return",
+      "net": "5V_DIMMED_RETURN",
+      "status": "terminal-check",
+      "note": "Functional pair route; dimmer terminals, relay load contacts and switched side untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P11P",
+      "a": "RLIGHT",
+      "ap": "load output +",
+      "b": "LED1",
+      "bp": "load +",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_LED",
+      "status": "terminal-check",
+      "note": "Functional load pair; contacts and individual strip interconnections untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "P11R",
+      "a": "RLIGHT",
+      "ap": "load output return",
+      "b": "LED1",
+      "bp": "load return",
+      "colour": "black",
+      "kind": "return",
+      "net": "5V_LED_RETURN",
+      "status": "terminal-check",
+      "note": "Functional load pair; contacts and individual strip interconnections untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "raw"
+    },
+    {
+      "id": "H01",
+      "a": "NH1",
+      "ap": "5V",
+      "b": "RLIGHT",
+      "bp": "logic VCC",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_HYDRO",
+      "status": "recorded",
+      "note": "Corrected supply: hydroponics Nano 5 V, not gantry Nano.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "H02",
+      "a": "NH1",
+      "ap": "D9",
+      "b": "RLIGHT",
+      "bp": "IN",
+      "colour": "white",
+      "kind": "signal",
+      "net": "LIGHT_CONTROL",
+      "status": "recorded",
+      "note": "Firmware ON = LOW.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "H03",
+      "a": "NH1",
+      "ap": "GND net",
+      "b": "RLIGHT",
+      "bp": "logic GND",
+      "colour": "unknown",
+      "kind": "return",
+      "net": "HYDRO_GND",
+      "status": "terminal-check",
+      "note": "Logic reference route and conductor colour require tracing; do not infer a load-return bond.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "P12P",
+      "a": "DC1",
+      "ap": "12 V output +",
+      "b": "X1",
+      "bp": "position 2",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_LOAD",
+      "status": "recorded",
+      "note": "X1 position 2 red positive; position 1 thick-black return.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P12R",
+      "a": "DC1",
+      "ap": "12 V output return",
+      "b": "X1",
+      "bp": "position 1",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_LOAD_RETURN",
+      "status": "recorded",
+      "note": "X1 position 2 red positive; position 1 thick-black return.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P13P",
+      "a": "DC1",
+      "ap": "12 V output +",
+      "b": "SWARM",
+      "bp": "arm-box branch +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_LOAD",
+      "status": "terminal-check",
+      "note": "Arm box distribution supplies ARM1 and spray load. Exact switch contact route untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P13R",
+      "a": "DC1",
+      "ap": "12 V output return",
+      "b": "SWARM",
+      "bp": "arm-box branch return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_LOAD_RETURN",
+      "status": "terminal-check",
+      "note": "Arm box distribution supplies ARM1 and spray load. Exact switch contact route untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P14P",
+      "a": "SWARM",
+      "ap": "controller output +",
+      "b": "ARM1",
+      "bp": "power terminal +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_ARM",
+      "status": "terminal-check",
+      "note": "ARM1 photo view: left screw +, right screw −. Local switch removes arm-controller power; exact contact terminals untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P14R",
+      "a": "SWARM",
+      "ap": "controller output return",
+      "b": "ARM1",
+      "bp": "power terminal return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_ARM_RETURN",
+      "status": "terminal-check",
+      "note": "ARM1 photo view: left screw +, right screw −. Local switch removes arm-controller power; exact contact terminals untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P15P",
+      "a": "DC1",
+      "ap": "12 V arm-box branch +",
+      "b": "RSPRAY",
+      "bp": "load supply +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_LOAD",
+      "status": "terminal-check",
+      "note": "Spray branch within arm-box distribution; local arm-switch effect on this branch is unknown.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P15R",
+      "a": "DC1",
+      "ap": "12 V arm-box branch return",
+      "b": "RSPRAY",
+      "bp": "load supply return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_LOAD_RETURN",
+      "status": "terminal-check",
+      "note": "Spray branch within arm-box distribution; local arm-switch effect on this branch is unknown.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P16P",
+      "a": "RSPRAY",
+      "ap": "switched load +",
+      "b": "PS",
+      "bp": "pump +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_SPRAY",
+      "status": "terminal-check",
+      "note": "Functional spray-power route; relay contact terminals untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "P16R",
+      "a": "RSPRAY",
+      "ap": "switched load return",
+      "b": "PS",
+      "bp": "pump return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_SPRAY_RETURN",
+      "status": "terminal-check",
+      "note": "Functional spray-power route; relay contact terminals untraced.",
+      "via": "",
+      "scope": "power",
+      "domain": "actuator"
+    },
+    {
+      "id": "A01",
+      "a": "PI1",
+      "ap": "27 / GPIO0 TX",
+      "b": "ARM1",
+      "bp": "RX",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "UART_RX",
+      "status": "recorded",
+      "note": "Preserve the installed GPIO0/GPIO1 UART assignment.",
+      "via": "",
+      "scope": "arm",
+      "domain": "logic"
+    },
+    {
+      "id": "A02",
+      "a": "PI1",
+      "ap": "28 / GPIO1 RX",
+      "b": "ARM1",
+      "bp": "TX",
+      "colour": "purple",
+      "kind": "signal",
+      "net": "UART_TX",
+      "status": "recorded",
+      "note": "Recorded UART1 route; 9600 baud. ARM1 TX electrical level unmeasured.",
+      "via": "",
+      "scope": "arm",
+      "domain": "logic"
+    },
+    {
+      "id": "A03",
+      "a": "PI1",
+      "ap": "25 / GND",
+      "b": "ARM1",
+      "bp": "GND",
+      "colour": "grey",
+      "kind": "return",
+      "net": "UART_GND",
+      "status": "recorded",
+      "note": "Preserve the installed GPIO0/GPIO1 UART assignment.",
+      "via": "",
+      "scope": "arm",
+      "domain": "logic"
+    },
+    {
+      "id": "A04",
+      "a": "ARM1",
+      "ap": "three-pin servo bus",
+      "b": "SERVOCHAIN",
+      "bp": "daisy-chain bus",
+      "colour": "yellow / red / black",
+      "kind": "servo",
+      "net": "SERVO_CHAIN",
+      "status": "terminal-check",
+      "note": "Four-servo group is recorded. Cable-contact assignment, socket and ID order are untraced; no internal chain order is invented.",
+      "via": "",
+      "scope": "arm",
+      "domain": "actuator"
+    },
+    {
+      "id": "A05",
+      "a": "ARM1",
+      "ap": "base servo socket",
+      "b": "BASESERVO",
+      "bp": "three-wire lead",
+      "colour": "black × 3",
+      "kind": "servo",
+      "net": "BASE_SERVO",
+      "status": "terminal-check",
+      "note": "Separate three-black-wire lead. Individual contact mapping untraced.",
+      "via": "",
+      "scope": "arm",
+      "domain": "actuator"
+    },
+    {
+      "id": "A06",
+      "a": "NH1",
+      "ap": "D10",
+      "b": "RSPRAY",
+      "bp": "IN",
+      "colour": "yellow",
+      "kind": "signal",
+      "net": "SPRAY_CONTROL",
+      "status": "recorded",
+      "note": "Firmware ON = HIGH. Relay logic VCC/GND are not established.",
+      "via": "",
+      "scope": "arm",
+      "domain": "logic"
+    },
+    {
+      "id": "DXS",
+      "a": "NG1",
+      "ap": "D2",
+      "b": "DX",
+      "bp": "PUL+",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "DX_PUL+",
+      "status": "recorded",
+      "note": "X step pulse.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DXD",
+      "a": "NG1",
+      "ap": "D3",
+      "b": "DX",
+      "bp": "DIR+",
+      "colour": "purple",
+      "kind": "signal",
+      "net": "DX_DIR+",
+      "status": "recorded",
+      "note": "X direction.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DXE",
+      "a": "NG1",
+      "ap": "A0",
+      "b": "DX",
+      "bp": "ENA+",
+      "colour": "yellow",
+      "kind": "signal",
+      "net": "DX_ENA+",
+      "status": "recorded",
+      "note": "Firmware enable LOW = enabled.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DXG0",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DX",
+      "bp": "PUL−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DXG1",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DX",
+      "bp": "DIR−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DXG2",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DX",
+      "bp": "ENA−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DXM",
+      "a": "DX",
+      "ap": "A+ / A− / B+ / B−",
+      "b": "MX",
+      "bp": "motor lead",
+      "colour": "black / green / blue / red",
+      "kind": "motor",
+      "net": "DX_MOTOR",
+      "status": "terminal-check",
+      "note": "Observed cable sequence only; coil-pair and A+/A−/B+/B− assignment untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "actuator"
+    },
+    {
+      "id": "DY1S",
+      "a": "NG1",
+      "ap": "D4",
+      "b": "DY1",
+      "bp": "PUL+",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "DY1_PUL+",
+      "status": "recorded",
+      "note": "Y1 step pulse.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY1D",
+      "a": "NG1",
+      "ap": "D5",
+      "b": "DY1",
+      "bp": "DIR+",
+      "colour": "purple",
+      "kind": "signal",
+      "net": "DY1_DIR+",
+      "status": "recorded",
+      "note": "Y1 direction.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY1E",
+      "a": "NG1",
+      "ap": "A1",
+      "b": "DY1",
+      "bp": "ENA+",
+      "colour": "yellow",
+      "kind": "signal",
+      "net": "DY1_ENA+",
+      "status": "recorded",
+      "note": "Firmware enable LOW = enabled.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY1G0",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DY1",
+      "bp": "PUL−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY1G1",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DY1",
+      "bp": "DIR−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY1G2",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DY1",
+      "bp": "ENA−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY1M",
+      "a": "DY1",
+      "ap": "A+ / A− / B+ / B−",
+      "b": "MY1",
+      "bp": "motor lead",
+      "colour": "black / green / blue / red",
+      "kind": "motor",
+      "net": "DY1_MOTOR",
+      "status": "terminal-check",
+      "note": "Observed cable sequence only; coil-pair and A+/A−/B+/B− assignment untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "actuator"
+    },
+    {
+      "id": "DY2S",
+      "a": "NG1",
+      "ap": "D6",
+      "b": "DY2",
+      "bp": "PUL+",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "DY2_PUL+",
+      "status": "recorded",
+      "note": "Y2 step pulse.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY2D",
+      "a": "NG1",
+      "ap": "D7",
+      "b": "DY2",
+      "bp": "DIR+",
+      "colour": "purple",
+      "kind": "signal",
+      "net": "DY2_DIR+",
+      "status": "recorded",
+      "note": "Y2 direction.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY2E",
+      "a": "NG1",
+      "ap": "A2",
+      "b": "DY2",
+      "bp": "ENA+",
+      "colour": "yellow",
+      "kind": "signal",
+      "net": "DY2_ENA+",
+      "status": "recorded",
+      "note": "Firmware enable LOW = enabled.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY2G0",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DY2",
+      "bp": "PUL−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY2G1",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DY2",
+      "bp": "DIR−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY2G2",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "DY2",
+      "bp": "ENA−",
+      "colour": "black",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "recorded",
+      "note": "Black returns join shared orange lever connectors. This is signal ground; no separate DC power-return bond is inferred.",
+      "via": "Shared orange lever connectors",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "DY2M",
+      "a": "DY2",
+      "ap": "A+ / A− / B+ / B−",
+      "b": "MY2",
+      "bp": "motor lead",
+      "colour": "black / green / blue / red",
+      "kind": "motor",
+      "net": "DY2_MOTOR",
+      "status": "terminal-check",
+      "note": "Observed cable sequence only; coil-pair and A+/A−/B+/B− assignment untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "actuator"
+    },
+    {
+      "id": "LXS",
+      "a": "NG1",
+      "ap": "D8",
+      "b": "LX",
+      "bp": "signal contact",
+      "colour": "light blue",
+      "kind": "signal",
+      "net": "LX_INPUT",
+      "status": "terminal-check",
+      "note": "Firmware pull-up input; pressed state LOW. Actual contact terminal untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "LXG",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "LX",
+      "bp": "return contact",
+      "colour": "unknown",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "terminal-check",
+      "note": "Switch return route and COM/NO/NC selection untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "LY1S",
+      "a": "NG1",
+      "ap": "D9",
+      "b": "LY1",
+      "bp": "signal contact",
+      "colour": "light blue",
+      "kind": "signal",
+      "net": "LY1_INPUT",
+      "status": "terminal-check",
+      "note": "Firmware pull-up input; pressed state LOW. Actual contact terminal untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "LY1G",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "LY1",
+      "bp": "return contact",
+      "colour": "unknown",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "terminal-check",
+      "note": "Switch return route and COM/NO/NC selection untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "LY2S",
+      "a": "NG1",
+      "ap": "D10",
+      "b": "LY2",
+      "bp": "signal contact",
+      "colour": "light blue",
+      "kind": "signal",
+      "net": "LY2_INPUT",
+      "status": "terminal-check",
+      "note": "Firmware pull-up input; pressed state LOW. Actual contact terminal untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "LY2G",
+      "a": "NG1",
+      "ap": "GND net",
+      "b": "LY2",
+      "bp": "return contact",
+      "colour": "unknown",
+      "kind": "return",
+      "net": "GANTRY_SIGNAL_GND",
+      "status": "terminal-check",
+      "note": "Switch return route and COM/NO/NC selection untraced.",
+      "via": "",
+      "scope": "gantry",
+      "domain": "logic"
+    },
+    {
+      "id": "T01",
+      "a": "NH1",
+      "ap": "A4 / SDA",
+      "b": "RTC1",
+      "bp": "SDA",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "RTC_SDA",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "T02",
+      "a": "NH1",
+      "ap": "A5 / SCL",
+      "b": "RTC1",
+      "bp": "SCL",
+      "colour": "green",
+      "kind": "signal",
+      "net": "RTC_SCL",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "T03",
+      "a": "NH1",
+      "ap": "5V",
+      "b": "RTC1",
+      "bp": "VCC",
+      "colour": "red",
+      "kind": "power",
+      "net": "RTC_VCC",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "T04",
+      "a": "NH1",
+      "ap": "GND net",
+      "b": "RTC1",
+      "bp": "GND",
+      "colour": "black",
+      "kind": "return",
+      "net": "RTC_GND",
+      "status": "recorded",
+      "note": "",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X03",
+      "a": "NH1",
+      "ap": "GND net",
+      "b": "X1",
+      "bp": "position 3",
+      "colour": "brown",
+      "kind": "return",
+      "net": "HYDRO_GND",
+      "status": "recorded",
+      "note": "Thin brown logic return, separate from thick-black position 1 load return.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X04",
+      "a": "NH1",
+      "ap": "5V",
+      "b": "X1",
+      "bp": "position 4",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_HYDRO",
+      "status": "recorded",
+      "note": "Thin red logic supply.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X06",
+      "a": "NH1",
+      "ap": "A0",
+      "b": "X1",
+      "bp": "position 6",
+      "colour": "yellow",
+      "kind": "signal",
+      "net": "LEVEL",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X06B",
+      "a": "X1",
+      "ap": "position 6",
+      "b": "LEVEL",
+      "bp": "OUT",
+      "colour": "yellow",
+      "kind": "signal",
+      "net": "LEVEL",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X07",
+      "a": "NH1",
+      "ap": "A1",
+      "b": "X1",
+      "bp": "position 7",
+      "colour": "light blue",
+      "kind": "signal",
+      "net": "EC",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X07B",
+      "a": "X1",
+      "ap": "position 7",
+      "b": "EC",
+      "bp": "OUT",
+      "colour": "light blue",
+      "kind": "signal",
+      "net": "EC",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X08",
+      "a": "NH1",
+      "ap": "A2",
+      "b": "X1",
+      "bp": "position 8",
+      "colour": "grey",
+      "kind": "signal",
+      "net": "PH",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X08B",
+      "a": "X1",
+      "ap": "position 8",
+      "b": "PH",
+      "bp": "OUT",
+      "colour": "grey",
+      "kind": "signal",
+      "net": "PH",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X09",
+      "a": "NH1",
+      "ap": "D5",
+      "b": "X1",
+      "bp": "position 9",
+      "colour": "white",
+      "kind": "signal",
+      "net": "WATER",
+      "status": "colour-check",
+      "note": "Adopted Rev J colour assignment; continuity still pending. Firmware ON = LOW.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X09B",
+      "a": "X1",
+      "ap": "position 9",
+      "b": "RDOSE",
+      "bp": "WATER IN",
+      "colour": "white",
+      "kind": "signal",
+      "net": "WATER",
+      "status": "colour-check",
+      "note": "Adopted Rev J colour assignment; continuity still pending. Firmware ON = LOW. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X10",
+      "a": "NH1",
+      "ap": "D4",
+      "b": "X1",
+      "bp": "position 10",
+      "colour": "light orange",
+      "kind": "signal",
+      "net": "FERT_A",
+      "status": "colour-check",
+      "note": "Adopted Rev J colour assignment; continuity still pending. Firmware ON = HIGH.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X10B",
+      "a": "X1",
+      "ap": "position 10",
+      "b": "RDOSE",
+      "bp": "FERT A IN",
+      "colour": "light orange",
+      "kind": "signal",
+      "net": "FERT_A",
+      "status": "colour-check",
+      "note": "Adopted Rev J colour assignment; continuity still pending. Firmware ON = HIGH. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X11",
+      "a": "NH1",
+      "ap": "D3",
+      "b": "X1",
+      "bp": "position 11",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "FERT_B",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Firmware ON = HIGH.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X11B",
+      "a": "X1",
+      "ap": "position 11",
+      "b": "RDOSE",
+      "bp": "FERT B IN",
+      "colour": "orange",
+      "kind": "signal",
+      "net": "FERT_B",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Firmware ON = HIGH. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X12",
+      "a": "NH1",
+      "ap": "D2",
+      "b": "X1",
+      "bp": "position 12",
+      "colour": "purple",
+      "kind": "signal",
+      "net": "ACID",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Firmware ON = HIGH.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "X12B",
+      "a": "X1",
+      "ap": "position 12",
+      "b": "RDOSE",
+      "bp": "ACID IN",
+      "colour": "purple",
+      "kind": "signal",
+      "net": "ACID",
+      "status": "recorded",
+      "note": "Recorded end-to-end signal colour. Firmware ON = HIGH. Endpoint names are functional, not verified screw-terminal numbers.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L1P",
+      "a": "X1",
+      "ap": "position 4",
+      "b": "LEVEL",
+      "bp": "logic VCC",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_HYDRO",
+      "status": "terminal-check",
+      "note": "Functional 5 V logic distribution; exact interface terminals untraced.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L1G",
+      "a": "X1",
+      "ap": "position 3",
+      "b": "LEVEL",
+      "bp": "logic GND",
+      "colour": "brown",
+      "kind": "return",
+      "net": "HYDRO_GND",
+      "status": "terminal-check",
+      "note": "Logic return from X1. Do not add an unverified 12 V return bond.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L2P",
+      "a": "X1",
+      "ap": "position 4",
+      "b": "EC",
+      "bp": "logic VCC",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_HYDRO",
+      "status": "terminal-check",
+      "note": "Functional 5 V logic distribution; exact interface terminals untraced.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L2G",
+      "a": "X1",
+      "ap": "position 3",
+      "b": "EC",
+      "bp": "logic GND",
+      "colour": "brown",
+      "kind": "return",
+      "net": "HYDRO_GND",
+      "status": "terminal-check",
+      "note": "Logic return from X1. Do not add an unverified 12 V return bond.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L3P",
+      "a": "X1",
+      "ap": "position 4",
+      "b": "PH",
+      "bp": "logic VCC",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_HYDRO",
+      "status": "terminal-check",
+      "note": "Functional 5 V logic distribution; exact interface terminals untraced.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L3G",
+      "a": "X1",
+      "ap": "position 3",
+      "b": "PH",
+      "bp": "logic GND",
+      "colour": "brown",
+      "kind": "return",
+      "net": "HYDRO_GND",
+      "status": "terminal-check",
+      "note": "Logic return from X1. Do not add an unverified 12 V return bond.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L4P",
+      "a": "X1",
+      "ap": "position 4",
+      "b": "RDOSE",
+      "bp": "logic VCC",
+      "colour": "red",
+      "kind": "power",
+      "net": "5V_HYDRO",
+      "status": "terminal-check",
+      "note": "Functional 5 V logic distribution; exact interface terminals untraced.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "L4G",
+      "a": "X1",
+      "ap": "position 3",
+      "b": "RDOSE",
+      "bp": "logic GND",
+      "colour": "brown",
+      "kind": "return",
+      "net": "HYDRO_GND",
+      "status": "terminal-check",
+      "note": "Logic return from X1. Do not add an unverified 12 V return bond.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "logic"
+    },
+    {
+      "id": "D01P",
+      "a": "X1",
+      "ap": "position 2",
+      "b": "RDOSE",
+      "bp": "12 V load distribution",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_LOAD",
+      "status": "terminal-check",
+      "note": "Load-feed function; actual relay COM/NO/NC terminations untraced.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "D01R",
+      "a": "X1",
+      "ap": "position 1",
+      "b": "RDOSE",
+      "bp": "pump return distribution",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_LOAD_RETURN",
+      "status": "terminal-check",
+      "note": "Load return distribution; no physical relay-terminal assignment is implied.",
+      "via": "",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PWLP",
+      "a": "RDOSE",
+      "ap": "WATER load path +",
+      "b": "PW",
+      "bp": "pump +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_PW",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced. Includes rotary PWM controller; exact terminal order untraced.",
+      "via": "Water relay and PWM1, terminal order untraced",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PWLR",
+      "a": "RDOSE",
+      "ap": "WATER load path return",
+      "b": "PW",
+      "bp": "pump return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_PW_RETURN",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced. Includes rotary PWM controller; exact terminal order untraced.",
+      "via": "Water relay and PWM1, terminal order untraced",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PALP",
+      "a": "RDOSE",
+      "ap": "FERT A load path +",
+      "b": "PA",
+      "bp": "pump +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_PA",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced.",
+      "via": "FERT A relay channel",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PALR",
+      "a": "RDOSE",
+      "ap": "FERT A load path return",
+      "b": "PA",
+      "bp": "pump return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_PA_RETURN",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced.",
+      "via": "FERT A relay channel",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PBLP",
+      "a": "RDOSE",
+      "ap": "FERT B load path +",
+      "b": "PB",
+      "bp": "pump +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_PB",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced.",
+      "via": "FERT B relay channel",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PBLR",
+      "a": "RDOSE",
+      "ap": "FERT B load path return",
+      "b": "PB",
+      "bp": "pump return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_PB_RETURN",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced.",
+      "via": "FERT B relay channel",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PACIDLP",
+      "a": "RDOSE",
+      "ap": "ACID load path +",
+      "b": "PACID",
+      "bp": "pump +",
+      "colour": "red",
+      "kind": "power",
+      "net": "12V_PACID",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced.",
+      "via": "ACID relay channel",
+      "scope": "hydro",
+      "domain": "actuator"
+    },
+    {
+      "id": "PACIDLR",
+      "a": "RDOSE",
+      "ap": "ACID load path return",
+      "b": "PACID",
+      "bp": "pump return",
+      "colour": "black",
+      "kind": "return",
+      "net": "12V_PACID_RETURN",
+      "status": "terminal-check",
+      "note": "Functional load route; contact terminals untraced.",
+      "via": "ACID relay channel",
+      "scope": "hydro",
+      "domain": "actuator"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "title": "Connected system",
+      "subtitle": "Known power and control routes in one view. Select a device or wire bundle for the individual connections.",
+      "width": 1900,
+      "height": 1260,
+      "nodes": [
+        {
+          "id": "PSU1",
+          "x": 55,
+          "y": 80,
+          "w": 260,
+          "h": 95,
+          "title": "Main DC power supply",
+          "subtitle": "24 V switched-mode supply",
+          "ports": [],
+          "members": [
+            "PSU1"
+          ]
+        },
+        {
+          "id": "PD1",
+          "x": 55,
+          "y": 290,
+          "w": 260,
+          "h": 95,
+          "title": "Pi power module",
+          "subtitle": "Wheeltec P23C",
+          "ports": [],
+          "members": [
+            "PD1"
+          ]
+        },
+        {
+          "id": "DC2",
+          "x": 55,
+          "y": 530,
+          "w": 260,
+          "h": 95,
+          "title": "5 V load converter",
+          "subtitle": "SZBK07 adjustable buck converter",
+          "ports": [],
+          "members": [
+            "DC2"
+          ]
+        },
+        {
+          "id": "ES1",
+          "x": 55,
+          "y": 800,
+          "w": 260,
+          "h": 95,
+          "title": "Emergency-stop control",
+          "subtitle": "Twist-release pushbutton",
+          "ports": [],
+          "members": [
+            "ES1"
+          ]
+        },
+        {
+          "id": "PI1",
+          "x": 510,
+          "y": 290,
+          "w": 260,
+          "h": 95,
+          "title": "Raspberry Pi 5",
+          "subtitle": "Raspberry Pi 5",
+          "ports": [],
+          "members": [
+            "PI1"
+          ]
+        },
+        {
+          "id": "NH1",
+          "x": 975,
+          "y": 190,
+          "w": 260,
+          "h": 95,
+          "title": "Hydroponics Nano",
+          "subtitle": "Arduino Nano USB-C clone",
+          "ports": [],
+          "members": [
+            "NH1"
+          ]
+        },
+        {
+          "id": "NG1",
+          "x": 975,
+          "y": 420,
+          "w": 260,
+          "h": 95,
+          "title": "Gantry Nano",
+          "subtitle": "Arduino Nano USB-C clone",
+          "ports": [],
+          "members": [
+            "NG1"
+          ]
+        },
+        {
+          "id": "DC1",
+          "x": 510,
+          "y": 910,
+          "w": 260,
+          "h": 95,
+          "title": "12 V load converter",
+          "subtitle": "SZBK07 adjustable buck converter",
+          "ports": [],
+          "members": [
+            "DC1"
+          ]
+        },
+        {
+          "id": "X1",
+          "x": 975,
+          "y": 870,
+          "w": 260,
+          "h": 95,
+          "title": "Dosing module connector",
+          "subtitle": "Single-row 12-position Molex-style connector",
+          "ports": [],
+          "members": [
+            "X1"
+          ]
+        },
+        {
+          "id": "ARM1",
+          "x": 1435,
+          "y": 1080,
+          "w": 260,
+          "h": 95,
+          "title": "Arm controller, servos and spray",
+          "subtitle": "Hiwonder Serial Bus Servo Controller",
+          "ports": [],
+          "members": [
+            "ARM1",
+            "SWARM",
+            "SERVOCHAIN",
+            "BASESERVO",
+            "RSPRAY",
+            "PS"
+          ]
+        },
+        {
+          "id": "RTC1",
+          "x": 1435,
+          "y": 65,
+          "w": 260,
+          "h": 95,
+          "title": "Real-time clock",
+          "subtitle": "DS3231 module",
+          "ports": [],
+          "members": [
+            "RTC1"
+          ]
+        },
+        {
+          "id": "CAM1",
+          "x": 510,
+          "y": 60,
+          "w": 260,
+          "h": 95,
+          "title": "USB webcam",
+          "subtitle": "Logitech C920",
+          "ports": [],
+          "members": [
+            "CAM1"
+          ]
+        },
+        {
+          "id": "DISP1",
+          "x": 510,
+          "y": 540,
+          "w": 260,
+          "h": 95,
+          "title": "Touchscreen",
+          "subtitle": "Raspberry Pi touchscreen",
+          "ports": [],
+          "members": [
+            "DISP1"
+          ]
+        },
+        {
+          "id": "DIM1",
+          "x": 510,
+          "y": 670,
+          "w": 260,
+          "h": 95,
+          "title": "Grow-light dimmer",
+          "subtitle": "Rotary PWM dimmer",
+          "ports": [],
+          "members": [
+            "DIM1"
+          ]
+        },
+        {
+          "id": "RLIGHT",
+          "x": 975,
+          "y": 670,
+          "w": 260,
+          "h": 95,
+          "title": "Lighting relay box",
+          "subtitle": "Rear lighting switching module",
+          "ports": [],
+          "members": [
+            "RLIGHT"
+          ]
+        },
+        {
+          "id": "LED1",
+          "x": 1435,
+          "y": 670,
+          "w": 260,
+          "h": 95,
+          "title": "Grow-light strips",
+          "subtitle": "5 V LED lighting group",
+          "ports": [],
+          "members": [
+            "LED1"
+          ]
+        },
+        {
+          "id": "DRIVES",
+          "x": 1435,
+          "y": 420,
+          "w": 260,
+          "h": 95,
+          "title": "Gantry motor channels",
+          "subtitle": "3 drivers / 3 motors / 3 limit switches",
+          "ports": [],
+          "members": [
+            "DX",
+            "DY1",
+            "DY2",
+            "MX",
+            "MY1",
+            "MY2",
+            "LX",
+            "LY1",
+            "LY2"
+          ]
+        },
+        {
+          "id": "FAN",
+          "x": 55,
+          "y": 420,
+          "w": 260,
+          "h": 80,
+          "title": "Enclosure cooling",
+          "subtitle": "5 V fan load(s)",
+          "ports": [],
+          "members": [
+            "FAN"
+          ]
+        },
+        {
+          "id": "ACIN",
+          "x": 55,
+          "y": 1100,
+          "w": 260,
+          "h": 95,
+          "title": "Wall supply and fused plug",
+          "subtitle": "UK fused three-pin plug",
+          "ports": [],
+          "members": [
+            "ACIN"
+          ]
+        },
+        {
+          "id": "DOSING",
+          "x": 1435,
+          "y": 870,
+          "w": 260,
+          "h": 95,
+          "title": "Sensors and four pump paths",
+          "subtitle": "pH / EC / level / water / A / B / acid",
+          "ports": [],
+          "members": [
+            "LEVEL",
+            "EC",
+            "PH",
+            "RDOSE",
+            "PWM1",
+            "PW",
+            "PA",
+            "PB",
+            "PACID"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "OVAC",
+          "a": "ACIN",
+          "b": "PSU1",
+          "connections": [
+            "AC00"
+          ],
+          "label": "AC input bundle · terminals untraced",
+          "kind": "mains",
+          "colour": "unknown",
+          "route": [
+            [
+              20,
+              1147
+            ],
+            [
+              20,
+              127
+            ]
+          ]
+        },
+        {
+          "id": "OVFAN",
+          "a": "PD1",
+          "b": "FAN",
+          "connections": [
+            "P08P",
+            "P08R"
+          ],
+          "label": "5 V + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV1",
+          "a": "PSU1",
+          "b": "PD1",
+          "connections": [
+            "P01P",
+            "P01R"
+          ],
+          "label": "24 V raw + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV2",
+          "a": "PSU1",
+          "b": "DC2",
+          "connections": [
+            "P02P",
+            "P02R"
+          ],
+          "label": "24 V raw + return",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              340,
+              127
+            ],
+            [
+              340,
+              577
+            ]
+          ]
+        },
+        {
+          "id": "OV3",
+          "a": "PSU1",
+          "b": "ES1",
+          "connections": [
+            "P03P",
+            "P03R"
+          ],
+          "label": "24 V raw + return",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              370,
+              127
+            ],
+            [
+              370,
+              847
+            ]
+          ]
+        },
+        {
+          "id": "OV4",
+          "a": "PD1",
+          "b": "PI1",
+          "connections": [
+            "U01"
+          ],
+          "label": "USB-C · 5 V power",
+          "kind": "usb",
+          "colour": "teal",
+          "route": null
+        },
+        {
+          "id": "OV5",
+          "a": "PI1",
+          "b": "NH1",
+          "connections": [
+            "U03"
+          ],
+          "label": "USB · power + data",
+          "kind": "usb",
+          "colour": "teal",
+          "route": null
+        },
+        {
+          "id": "OV6",
+          "a": "PI1",
+          "b": "NG1",
+          "connections": [
+            "U02"
+          ],
+          "label": "USB · power + data",
+          "kind": "usb",
+          "colour": "teal",
+          "route": null
+        },
+        {
+          "id": "OV7",
+          "a": "PI1",
+          "b": "CAM1",
+          "connections": [
+            "U04"
+          ],
+          "label": "USB webcam",
+          "kind": "usb",
+          "colour": "teal",
+          "route": null
+        },
+        {
+          "id": "OV8",
+          "a": "PI1",
+          "b": "DISP1",
+          "connections": [
+            "U05"
+          ],
+          "label": "Display ribbon",
+          "kind": "usb",
+          "colour": "teal",
+          "route": null
+        },
+        {
+          "id": "OV9",
+          "a": "DC2",
+          "b": "DIM1",
+          "connections": [
+            "P09P",
+            "P09R"
+          ],
+          "label": "5 V lighting + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV10",
+          "a": "DIM1",
+          "b": "RLIGHT",
+          "connections": [
+            "P10P",
+            "P10R"
+          ],
+          "label": "PWM load pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV11",
+          "a": "RLIGHT",
+          "b": "LED1",
+          "connections": [
+            "P11P",
+            "P11R"
+          ],
+          "label": "Switched load pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV12",
+          "a": "NH1",
+          "b": "RLIGHT",
+          "connections": [
+            "H01",
+            "H02",
+            "H03"
+          ],
+          "label": "D9 + hydro 5 V logic / GND",
+          "kind": "signal",
+          "colour": "red",
+          "route": [
+            [
+              1275,
+              237
+            ],
+            [
+              1275,
+              625
+            ],
+            [
+              1105,
+              625
+            ]
+          ]
+        },
+        {
+          "id": "OV13",
+          "a": "NH1",
+          "b": "RTC1",
+          "connections": [
+            "T01",
+            "T02",
+            "T03",
+            "T04"
+          ],
+          "label": "I2C + 5 V / GND",
+          "kind": "signal",
+          "colour": "orange",
+          "route": null
+        },
+        {
+          "id": "OV14",
+          "a": "NG1",
+          "b": "DRIVES",
+          "connections": [
+            "DXS",
+            "DXD",
+            "DXE",
+            "DY1S",
+            "DY1D",
+            "DY1E",
+            "DY2S",
+            "DY2D",
+            "DY2E",
+            "DXG0",
+            "DXG1",
+            "DXG2",
+            "DY1G0",
+            "DY1G1",
+            "DY1G2",
+            "DY2G0",
+            "DY2G1",
+            "DY2G2",
+            "LXS",
+            "LXG",
+            "LY1S",
+            "LY1G",
+            "LY2S",
+            "LY2G"
+          ],
+          "label": "STEP / DIR / ENA + signal returns",
+          "kind": "signal",
+          "colour": "orange",
+          "route": null
+        },
+        {
+          "id": "OV15",
+          "a": "ES1",
+          "b": "DRIVES",
+          "connections": [
+            "P04P",
+            "P04R",
+            "P05P",
+            "P05R",
+            "P06P",
+            "P06R"
+          ],
+          "label": "24 V actuator + returns",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              390,
+              847
+            ],
+            [
+              390,
+              1210
+            ],
+            [
+              1820,
+              1210
+            ],
+            [
+              1820,
+              468
+            ]
+          ]
+        },
+        {
+          "id": "OV16",
+          "a": "ES1",
+          "b": "DC1",
+          "connections": [
+            "P07P",
+            "P07R"
+          ],
+          "label": "24 V actuator pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV17",
+          "a": "DC1",
+          "b": "X1",
+          "connections": [
+            "P12P",
+            "P12R"
+          ],
+          "label": "12 V load + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "OV18",
+          "a": "NH1",
+          "b": "X1",
+          "connections": [
+            "X03",
+            "X04",
+            "X06",
+            "X07",
+            "X08",
+            "X09",
+            "X10",
+            "X11",
+            "X12"
+          ],
+          "label": "7 signals + 5 V logic / GND",
+          "kind": "signal",
+          "colour": "brown",
+          "route": [
+            [
+              1310,
+              237
+            ],
+            [
+              1310,
+              810
+            ],
+            [
+              1105,
+              810
+            ]
+          ]
+        },
+        {
+          "id": "OV19",
+          "a": "X1",
+          "b": "DOSING",
+          "connections": [
+            "X06B",
+            "X07B",
+            "X08B",
+            "X09B",
+            "X10B",
+            "X11B",
+            "X12B",
+            "L1P",
+            "L1G",
+            "L2P",
+            "L2G",
+            "L3P",
+            "L3G",
+            "L4P",
+            "L4G",
+            "D01P",
+            "D01R"
+          ],
+          "label": "Sensor / relay / load harness",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": null
+        },
+        {
+          "id": "OV20",
+          "a": "DC1",
+          "b": "ARM1",
+          "connections": [
+            "P13P",
+            "P13R",
+            "P14P",
+            "P14R",
+            "P15P",
+            "P15R",
+            "P16P",
+            "P16R"
+          ],
+          "label": "12 V arm / spray branches",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              640,
+              1150
+            ],
+            [
+              1435,
+              1150
+            ]
+          ]
+        },
+        {
+          "id": "OV21",
+          "a": "PI1",
+          "b": "ARM1",
+          "connections": [
+            "A01",
+            "A02",
+            "A03"
+          ],
+          "label": "UART pins 27 / 28 / 25",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              805,
+              337
+            ],
+            [
+              805,
+              1170
+            ],
+            [
+              1390,
+              1170
+            ]
+          ]
+        },
+        {
+          "id": "OV22",
+          "a": "NH1",
+          "b": "ARM1",
+          "connections": [
+            "A06"
+          ],
+          "label": "D10 spray control",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": [
+            [
+              1340,
+              237
+            ],
+            [
+              1340,
+              1050
+            ],
+            [
+              1565,
+              1050
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gantry",
+      "title": "Gantry connections",
+      "subtitle": "Logical pin links. Use drawing E05 for physical header positions; driver motor coils and switch contacts remain untraced.",
+      "width": 1690,
+      "height": 1270,
+      "nodes": [
+        {
+          "id": "NG1",
+          "x": 45,
+          "y": 90,
+          "w": 300,
+          "h": 1035,
+          "title": "Gantry Nano",
+          "subtitle": "Arduino Nano USB-C clone",
+          "ports": [
+            {
+              "name": "D2",
+              "y": 105,
+              "side": "r"
+            },
+            {
+              "name": "D3",
+              "y": 140,
+              "side": "r"
+            },
+            {
+              "name": "A0",
+              "y": 175,
+              "side": "r"
+            },
+            {
+              "name": "D4",
+              "y": 340,
+              "side": "r"
+            },
+            {
+              "name": "D5",
+              "y": 375,
+              "side": "r"
+            },
+            {
+              "name": "A1",
+              "y": 410,
+              "side": "r"
+            },
+            {
+              "name": "D6",
+              "y": 575,
+              "side": "r"
+            },
+            {
+              "name": "D7",
+              "y": 610,
+              "side": "r"
+            },
+            {
+              "name": "A2",
+              "y": 645,
+              "side": "r"
+            },
+            {
+              "name": "D8",
+              "y": 765,
+              "side": "r"
+            },
+            {
+              "name": "D9",
+              "y": 805,
+              "side": "r"
+            },
+            {
+              "name": "D10",
+              "y": 845,
+              "side": "r"
+            },
+            {
+              "name": "GND net",
+              "y": 915,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "NG1"
+          ]
+        },
+        {
+          "id": "DX",
+          "x": 770,
+          "y": 80,
+          "w": 320,
+          "h": 210,
+          "title": "X stepper driver",
+          "subtitle": "24 V actuator supply; see Power",
+          "ports": [
+            {
+              "name": "PUL+",
+              "y": 70,
+              "side": "l"
+            },
+            {
+              "name": "DIR+",
+              "y": 105,
+              "side": "l"
+            },
+            {
+              "name": "ENA+",
+              "y": 140,
+              "side": "l"
+            },
+            {
+              "name": "signal returns",
+              "y": 175,
+              "side": "l"
+            },
+            {
+              "name": "motor outputs",
+              "y": 105,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "DX"
+          ]
+        },
+        {
+          "id": "MX",
+          "x": 1310,
+          "y": 140,
+          "w": 290,
+          "h": 95,
+          "title": "X stepper motor",
+          "subtitle": "NEMA 23",
+          "ports": [],
+          "members": [
+            "MX"
+          ]
+        },
+        {
+          "id": "DY1",
+          "x": 770,
+          "y": 315,
+          "w": 320,
+          "h": 210,
+          "title": "Y1 stepper driver",
+          "subtitle": "24 V actuator supply; see Power",
+          "ports": [
+            {
+              "name": "PUL+",
+              "y": 70,
+              "side": "l"
+            },
+            {
+              "name": "DIR+",
+              "y": 105,
+              "side": "l"
+            },
+            {
+              "name": "ENA+",
+              "y": 140,
+              "side": "l"
+            },
+            {
+              "name": "signal returns",
+              "y": 175,
+              "side": "l"
+            },
+            {
+              "name": "motor outputs",
+              "y": 105,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "DY1"
+          ]
+        },
+        {
+          "id": "MY1",
+          "x": 1310,
+          "y": 375,
+          "w": 290,
+          "h": 95,
+          "title": "Y1 stepper motor",
+          "subtitle": "NEMA 23 / 57BYGH56-401A",
+          "ports": [],
+          "members": [
+            "MY1"
+          ]
+        },
+        {
+          "id": "DY2",
+          "x": 770,
+          "y": 550,
+          "w": 320,
+          "h": 210,
+          "title": "Y2 stepper driver",
+          "subtitle": "24 V actuator supply; see Power",
+          "ports": [
+            {
+              "name": "PUL+",
+              "y": 70,
+              "side": "l"
+            },
+            {
+              "name": "DIR+",
+              "y": 105,
+              "side": "l"
+            },
+            {
+              "name": "ENA+",
+              "y": 140,
+              "side": "l"
+            },
+            {
+              "name": "signal returns",
+              "y": 175,
+              "side": "l"
+            },
+            {
+              "name": "motor outputs",
+              "y": 105,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "DY2"
+          ]
+        },
+        {
+          "id": "MY2",
+          "x": 1310,
+          "y": 610,
+          "w": 290,
+          "h": 95,
+          "title": "Y2 stepper motor",
+          "subtitle": "NEMA 23 / 57BYGH56-401A",
+          "ports": [],
+          "members": [
+            "MY2"
+          ]
+        },
+        {
+          "id": "LX",
+          "x": 770,
+          "y": 1050,
+          "w": 255,
+          "h": 100,
+          "title": "X left limit",
+          "subtitle": "Omron V-155-1C25 microswitch",
+          "ports": [],
+          "members": [
+            "LX"
+          ]
+        },
+        {
+          "id": "LY1",
+          "x": 1055,
+          "y": 1050,
+          "w": 255,
+          "h": 100,
+          "title": "Y1 left-bottom limit",
+          "subtitle": "Omron V-155-1C25 microswitch",
+          "ports": [],
+          "members": [
+            "LY1"
+          ]
+        },
+        {
+          "id": "LY2",
+          "x": 1340,
+          "y": 1050,
+          "w": 255,
+          "h": 100,
+          "title": "Y2 right-bottom limit",
+          "subtitle": "Omron V-155-1C25 microswitch",
+          "ports": [],
+          "members": [
+            "LY2"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "DXS",
+          "a": "NG1:D2",
+          "b": "DX:PUL+",
+          "connections": [
+            "DXS"
+          ],
+          "label": "D2 → PUL+",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              440,
+              195
+            ],
+            [
+              440,
+              150
+            ]
+          ]
+        },
+        {
+          "id": "DXD",
+          "a": "NG1:D3",
+          "b": "DX:DIR+",
+          "connections": [
+            "DXD"
+          ],
+          "label": "D3 → DIR+",
+          "kind": "signal",
+          "colour": "purple",
+          "route": [
+            [
+              495,
+              230
+            ],
+            [
+              495,
+              185
+            ]
+          ]
+        },
+        {
+          "id": "DXE",
+          "a": "NG1:A0",
+          "b": "DX:ENA+",
+          "connections": [
+            "DXE"
+          ],
+          "label": "A0 → ENA+",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": [
+            [
+              550,
+              265
+            ],
+            [
+              550,
+              220
+            ]
+          ]
+        },
+        {
+          "id": "DXR",
+          "a": "NG1:GND net",
+          "b": "DX:signal returns",
+          "connections": [
+            "DXG0",
+            "DXG1",
+            "DXG2"
+          ],
+          "label": "PUL− / DIR− / ENA− · black",
+          "kind": "return",
+          "colour": "black",
+          "route": [
+            [
+              645,
+              1005
+            ],
+            [
+              645,
+              255
+            ]
+          ]
+        },
+        {
+          "id": "DXM",
+          "a": "DX:motor outputs",
+          "b": "MX",
+          "connections": [
+            "DXM"
+          ],
+          "label": "Motor coil cable",
+          "kind": "motor",
+          "colour": "black / green / blue / red",
+          "route": null
+        },
+        {
+          "id": "DY1S",
+          "a": "NG1:D4",
+          "b": "DY1:PUL+",
+          "connections": [
+            "DY1S"
+          ],
+          "label": "D4 → PUL+",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              440,
+              430
+            ],
+            [
+              440,
+              385
+            ]
+          ]
+        },
+        {
+          "id": "DY1D",
+          "a": "NG1:D5",
+          "b": "DY1:DIR+",
+          "connections": [
+            "DY1D"
+          ],
+          "label": "D5 → DIR+",
+          "kind": "signal",
+          "colour": "purple",
+          "route": [
+            [
+              495,
+              465
+            ],
+            [
+              495,
+              420
+            ]
+          ]
+        },
+        {
+          "id": "DY1E",
+          "a": "NG1:A1",
+          "b": "DY1:ENA+",
+          "connections": [
+            "DY1E"
+          ],
+          "label": "A1 → ENA+",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": [
+            [
+              550,
+              500
+            ],
+            [
+              550,
+              455
+            ]
+          ]
+        },
+        {
+          "id": "DY1R",
+          "a": "NG1:GND net",
+          "b": "DY1:signal returns",
+          "connections": [
+            "DY1G0",
+            "DY1G1",
+            "DY1G2"
+          ],
+          "label": "PUL− / DIR− / ENA− · black",
+          "kind": "return",
+          "colour": "black",
+          "route": [
+            [
+              645,
+              1005
+            ],
+            [
+              645,
+              490
+            ]
+          ]
+        },
+        {
+          "id": "DY1M",
+          "a": "DY1:motor outputs",
+          "b": "MY1",
+          "connections": [
+            "DY1M"
+          ],
+          "label": "Motor coil cable",
+          "kind": "motor",
+          "colour": "black / green / blue / red",
+          "route": null
+        },
+        {
+          "id": "DY2S",
+          "a": "NG1:D6",
+          "b": "DY2:PUL+",
+          "connections": [
+            "DY2S"
+          ],
+          "label": "D6 → PUL+",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              440,
+              665
+            ],
+            [
+              440,
+              620
+            ]
+          ]
+        },
+        {
+          "id": "DY2D",
+          "a": "NG1:D7",
+          "b": "DY2:DIR+",
+          "connections": [
+            "DY2D"
+          ],
+          "label": "D7 → DIR+",
+          "kind": "signal",
+          "colour": "purple",
+          "route": [
+            [
+              495,
+              700
+            ],
+            [
+              495,
+              655
+            ]
+          ]
+        },
+        {
+          "id": "DY2E",
+          "a": "NG1:A2",
+          "b": "DY2:ENA+",
+          "connections": [
+            "DY2E"
+          ],
+          "label": "A2 → ENA+",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": [
+            [
+              550,
+              735
+            ],
+            [
+              550,
+              690
+            ]
+          ]
+        },
+        {
+          "id": "DY2R",
+          "a": "NG1:GND net",
+          "b": "DY2:signal returns",
+          "connections": [
+            "DY2G0",
+            "DY2G1",
+            "DY2G2"
+          ],
+          "label": "PUL− / DIR− / ENA− · black",
+          "kind": "return",
+          "colour": "black",
+          "route": [
+            [
+              645,
+              1005
+            ],
+            [
+              645,
+              725
+            ]
+          ]
+        },
+        {
+          "id": "DY2M",
+          "a": "DY2:motor outputs",
+          "b": "MY2",
+          "connections": [
+            "DY2M"
+          ],
+          "label": "Motor coil cable",
+          "kind": "motor",
+          "colour": "black / green / blue / red",
+          "route": null
+        },
+        {
+          "id": "LXS",
+          "a": "NG1:D8",
+          "b": "LX",
+          "connections": [
+            "LXS",
+            "LXG"
+          ],
+          "label": "D8 · light blue / return ?",
+          "kind": "signal",
+          "colour": "light blue",
+          "route": [
+            [
+              570,
+              855
+            ],
+            [
+              570,
+              1000
+            ],
+            [
+              900,
+              1000
+            ]
+          ]
+        },
+        {
+          "id": "LY1S",
+          "a": "NG1:D9",
+          "b": "LY1",
+          "connections": [
+            "LY1S",
+            "LY1G"
+          ],
+          "label": "D9 · light blue / return ?",
+          "kind": "signal",
+          "colour": "light blue",
+          "route": [
+            [
+              600,
+              895
+            ],
+            [
+              600,
+              1015
+            ],
+            [
+              1185,
+              1015
+            ]
+          ]
+        },
+        {
+          "id": "LY2S",
+          "a": "NG1:D10",
+          "b": "LY2",
+          "connections": [
+            "LY2S",
+            "LY2G"
+          ],
+          "label": "D10 · light blue / return ?",
+          "kind": "signal",
+          "colour": "light blue",
+          "route": [
+            [
+              630,
+              935
+            ],
+            [
+              630,
+              1030
+            ],
+            [
+              1470,
+              1030
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hydro",
+      "title": "Hydroponics and dosing harness",
+      "subtitle": "Wire-entry connector positions. D5 white / D4 light orange are the adopted Rev J assignments, still awaiting continuity verification.",
+      "width": 1940,
+      "height": 1290,
+      "nodes": [
+        {
+          "id": "NH1",
+          "x": 35,
+          "y": 105,
+          "w": 300,
+          "h": 680,
+          "title": "Hydroponics Nano",
+          "subtitle": "Arduino Nano USB-C clone",
+          "ports": [
+            {
+              "name": "5V",
+              "y": 95,
+              "side": "r"
+            },
+            {
+              "name": "GND net",
+              "y": 130,
+              "side": "r"
+            },
+            {
+              "name": "A0",
+              "y": 225,
+              "side": "r"
+            },
+            {
+              "name": "A1",
+              "y": 265,
+              "side": "r"
+            },
+            {
+              "name": "A2",
+              "y": 305,
+              "side": "r"
+            },
+            {
+              "name": "D5",
+              "y": 345,
+              "side": "r"
+            },
+            {
+              "name": "D4",
+              "y": 385,
+              "side": "r"
+            },
+            {
+              "name": "D3",
+              "y": 425,
+              "side": "r"
+            },
+            {
+              "name": "D2",
+              "y": 465,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "NH1"
+          ]
+        },
+        {
+          "id": "X1",
+          "x": 660,
+          "y": 95,
+          "w": 260,
+          "h": 650,
+          "title": "Dosing module connector",
+          "subtitle": "Wire-entry: black end at position 1",
+          "ports": [
+            {
+              "name": "position 1",
+              "label": "1",
+              "y": 105,
+              "side": "l"
+            },
+            {
+              "name": "position 2",
+              "label": "2",
+              "y": 145,
+              "side": "l"
+            },
+            {
+              "name": "position 3",
+              "label": "3",
+              "y": 185,
+              "side": "l"
+            },
+            {
+              "name": "position 4",
+              "label": "4",
+              "y": 225,
+              "side": "l"
+            },
+            {
+              "name": "position 5",
+              "label": "5 · empty",
+              "y": 265,
+              "side": "l"
+            },
+            {
+              "name": "position 6",
+              "label": "6",
+              "y": 305,
+              "side": "l"
+            },
+            {
+              "name": "position 7",
+              "label": "7",
+              "y": 345,
+              "side": "l"
+            },
+            {
+              "name": "position 8",
+              "label": "8",
+              "y": 385,
+              "side": "l"
+            },
+            {
+              "name": "position 9",
+              "label": "9",
+              "y": 425,
+              "side": "l"
+            },
+            {
+              "name": "position 10",
+              "label": "10",
+              "y": 465,
+              "side": "l"
+            },
+            {
+              "name": "position 11",
+              "label": "11",
+              "y": 505,
+              "side": "l"
+            },
+            {
+              "name": "position 12",
+              "label": "12",
+              "y": 545,
+              "side": "l"
+            },
+            {
+              "name": "module 3",
+              "label": "3",
+              "y": 185,
+              "side": "r"
+            },
+            {
+              "name": "module 4",
+              "label": "4",
+              "y": 225,
+              "side": "r"
+            },
+            {
+              "name": "module 6",
+              "label": "6",
+              "y": 305,
+              "side": "r"
+            },
+            {
+              "name": "module 7",
+              "label": "7",
+              "y": 345,
+              "side": "r"
+            },
+            {
+              "name": "module 8",
+              "label": "8",
+              "y": 385,
+              "side": "r"
+            },
+            {
+              "name": "module 9",
+              "label": "9",
+              "y": 425,
+              "side": "r"
+            },
+            {
+              "name": "module 10",
+              "label": "10",
+              "y": 465,
+              "side": "r"
+            },
+            {
+              "name": "module 11",
+              "label": "11",
+              "y": 505,
+              "side": "r"
+            },
+            {
+              "name": "module 12",
+              "label": "12",
+              "y": 545,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "X1"
+          ]
+        },
+        {
+          "id": "LEVEL",
+          "x": 1130,
+          "y": 80,
+          "w": 330,
+          "h": 150,
+          "title": "Water-level interface",
+          "subtitle": "Reservoir level sensor",
+          "ports": [
+            {
+              "name": "OUT",
+              "y": 60,
+              "side": "l"
+            },
+            {
+              "name": "logic VCC",
+              "y": 90,
+              "side": "l"
+            },
+            {
+              "name": "logic GND",
+              "y": 120,
+              "side": "l"
+            }
+          ],
+          "members": [
+            "LEVEL"
+          ]
+        },
+        {
+          "id": "EC",
+          "x": 1130,
+          "y": 250,
+          "w": 330,
+          "h": 150,
+          "title": "Conductivity interface",
+          "subtitle": "SPL-62 probe / EC interface",
+          "ports": [
+            {
+              "name": "OUT",
+              "y": 60,
+              "side": "l"
+            },
+            {
+              "name": "logic VCC",
+              "y": 90,
+              "side": "l"
+            },
+            {
+              "name": "logic GND",
+              "y": 120,
+              "side": "l"
+            }
+          ],
+          "members": [
+            "EC"
+          ]
+        },
+        {
+          "id": "PH",
+          "x": 1130,
+          "y": 420,
+          "w": 330,
+          "h": 150,
+          "title": "pH interface",
+          "subtitle": "PH-4502C and probe",
+          "ports": [
+            {
+              "name": "OUT",
+              "y": 60,
+              "side": "l"
+            },
+            {
+              "name": "logic VCC",
+              "y": 90,
+              "side": "l"
+            },
+            {
+              "name": "logic GND",
+              "y": 120,
+              "side": "l"
+            }
+          ],
+          "members": [
+            "PH"
+          ]
+        },
+        {
+          "id": "RDOSE",
+          "x": 1130,
+          "y": 640,
+          "w": 330,
+          "h": 370,
+          "title": "Dosing relay board",
+          "subtitle": "Contact terminals / PWM order untraced",
+          "ports": [
+            {
+              "name": "WATER IN",
+              "y": 70,
+              "side": "l"
+            },
+            {
+              "name": "FERT A IN",
+              "y": 110,
+              "side": "l"
+            },
+            {
+              "name": "FERT B IN",
+              "y": 150,
+              "side": "l"
+            },
+            {
+              "name": "ACID IN",
+              "y": 190,
+              "side": "l"
+            },
+            {
+              "name": "logic VCC",
+              "y": 230,
+              "side": "l"
+            },
+            {
+              "name": "logic GND",
+              "y": 265,
+              "side": "l"
+            },
+            {
+              "name": "12 V load",
+              "y": 300,
+              "side": "l"
+            },
+            {
+              "name": "load return",
+              "y": 335,
+              "side": "l"
+            },
+            {
+              "name": "WATER load",
+              "y": 70,
+              "side": "r"
+            },
+            {
+              "name": "FERT A load",
+              "y": 150,
+              "side": "r"
+            },
+            {
+              "name": "FERT B load",
+              "y": 230,
+              "side": "r"
+            },
+            {
+              "name": "ACID load",
+              "y": 310,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "RDOSE"
+          ]
+        },
+        {
+          "id": "DC1",
+          "x": 35,
+          "y": 930,
+          "w": 300,
+          "h": 170,
+          "title": "12 V load converter",
+          "subtitle": "SZBK07 adjustable buck converter",
+          "ports": [
+            {
+              "name": "+12 V",
+              "y": 85,
+              "side": "r"
+            },
+            {
+              "name": "0V12",
+              "y": 120,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "DC1"
+          ]
+        },
+        {
+          "id": "PW",
+          "x": 1590,
+          "y": 610,
+          "w": 300,
+          "h": 110,
+          "title": "Circulation pump",
+          "subtitle": "DP-521 12 V diaphragm pump",
+          "ports": [],
+          "members": [
+            "PW"
+          ]
+        },
+        {
+          "id": "PA",
+          "x": 1590,
+          "y": 760,
+          "w": 300,
+          "h": 110,
+          "title": "Fertilizer A pump",
+          "subtitle": "Kamoer KPP 12 V peristaltic pump",
+          "ports": [],
+          "members": [
+            "PA"
+          ]
+        },
+        {
+          "id": "PB",
+          "x": 1590,
+          "y": 910,
+          "w": 300,
+          "h": 110,
+          "title": "Fertilizer B pump",
+          "subtitle": "Kamoer KPP 12 V peristaltic pump",
+          "ports": [],
+          "members": [
+            "PB"
+          ]
+        },
+        {
+          "id": "PACID",
+          "x": 1590,
+          "y": 1060,
+          "w": 300,
+          "h": 110,
+          "title": "Acid pump",
+          "subtitle": "Kamoer KPP 12 V peristaltic pump",
+          "ports": [],
+          "members": [
+            "PACID"
+          ]
+        },
+        {
+          "id": "RTC1",
+          "x": 35,
+          "y": 1120,
+          "w": 300,
+          "h": 95,
+          "title": "Real-time clock",
+          "subtitle": "DS3231 module",
+          "ports": [],
+          "members": [
+            "RTC1"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "X03",
+          "a": "NH1:GND net",
+          "b": "X1:position 3",
+          "connections": [
+            "X03"
+          ],
+          "label": "GND net · brown",
+          "kind": "signal",
+          "colour": "brown",
+          "route": [
+            [
+              440,
+              235
+            ],
+            [
+              440,
+              280
+            ]
+          ]
+        },
+        {
+          "id": "X04",
+          "a": "NH1:5V",
+          "b": "X1:position 4",
+          "connections": [
+            "X04"
+          ],
+          "label": "5V · red",
+          "kind": "signal",
+          "colour": "red",
+          "route": [
+            [
+              480,
+              200
+            ],
+            [
+              480,
+              320
+            ]
+          ]
+        },
+        {
+          "id": "X06",
+          "a": "NH1:A0",
+          "b": "X1:position 6",
+          "connections": [
+            "X06"
+          ],
+          "label": "A0 · yellow",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": [
+            [
+              440,
+              330
+            ],
+            [
+              440,
+              400
+            ]
+          ]
+        },
+        {
+          "id": "X07",
+          "a": "NH1:A1",
+          "b": "X1:position 7",
+          "connections": [
+            "X07"
+          ],
+          "label": "A1 · light blue",
+          "kind": "signal",
+          "colour": "light blue",
+          "route": [
+            [
+              480,
+              370
+            ],
+            [
+              480,
+              440
+            ]
+          ]
+        },
+        {
+          "id": "X08",
+          "a": "NH1:A2",
+          "b": "X1:position 8",
+          "connections": [
+            "X08"
+          ],
+          "label": "A2 · grey",
+          "kind": "signal",
+          "colour": "grey",
+          "route": [
+            [
+              520,
+              410
+            ],
+            [
+              520,
+              480
+            ]
+          ]
+        },
+        {
+          "id": "X09",
+          "a": "NH1:D5",
+          "b": "X1:position 9",
+          "connections": [
+            "X09"
+          ],
+          "label": "D5 · white",
+          "kind": "signal",
+          "colour": "white",
+          "route": [
+            [
+              440,
+              450
+            ],
+            [
+              440,
+              520
+            ]
+          ]
+        },
+        {
+          "id": "X10",
+          "a": "NH1:D4",
+          "b": "X1:position 10",
+          "connections": [
+            "X10"
+          ],
+          "label": "D4 · light orange",
+          "kind": "signal",
+          "colour": "light orange",
+          "route": [
+            [
+              480,
+              490
+            ],
+            [
+              480,
+              560
+            ]
+          ]
+        },
+        {
+          "id": "X11",
+          "a": "NH1:D3",
+          "b": "X1:position 11",
+          "connections": [
+            "X11"
+          ],
+          "label": "D3 · orange",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              520,
+              530
+            ],
+            [
+              520,
+              600
+            ]
+          ]
+        },
+        {
+          "id": "X12",
+          "a": "NH1:D2",
+          "b": "X1:position 12",
+          "connections": [
+            "X12"
+          ],
+          "label": "D2 · purple",
+          "kind": "signal",
+          "colour": "purple",
+          "route": [
+            [
+              440,
+              570
+            ],
+            [
+              440,
+              640
+            ]
+          ]
+        },
+        {
+          "id": "HSLEVEL",
+          "a": "X1:module 6",
+          "b": "LEVEL:OUT",
+          "connections": [
+            "X06B"
+          ],
+          "label": "Analog OUT",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": null
+        },
+        {
+          "id": "H5LEVEL",
+          "a": "X1:module 4",
+          "b": "LEVEL:logic VCC",
+          "connections": [
+            "L1P"
+          ],
+          "label": "5 V from X1.4",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1010,
+              320
+            ],
+            [
+              1010,
+              170
+            ]
+          ]
+        },
+        {
+          "id": "HGLEVEL",
+          "a": "X1:module 3",
+          "b": "LEVEL:logic GND",
+          "connections": [
+            "L1G"
+          ],
+          "label": "Logic GND from X1.3",
+          "kind": "return",
+          "colour": "brown",
+          "route": [
+            [
+              980,
+              280
+            ],
+            [
+              980,
+              200
+            ]
+          ]
+        },
+        {
+          "id": "HSEC",
+          "a": "X1:module 7",
+          "b": "EC:OUT",
+          "connections": [
+            "X07B"
+          ],
+          "label": "Analog OUT",
+          "kind": "signal",
+          "colour": "light blue",
+          "route": null
+        },
+        {
+          "id": "H5EC",
+          "a": "X1:module 4",
+          "b": "EC:logic VCC",
+          "connections": [
+            "L2P"
+          ],
+          "label": "5 V from X1.4",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1010,
+              320
+            ],
+            [
+              1010,
+              340
+            ]
+          ]
+        },
+        {
+          "id": "HGEC",
+          "a": "X1:module 3",
+          "b": "EC:logic GND",
+          "connections": [
+            "L2G"
+          ],
+          "label": "Logic GND from X1.3",
+          "kind": "return",
+          "colour": "brown",
+          "route": [
+            [
+              980,
+              280
+            ],
+            [
+              980,
+              370
+            ]
+          ]
+        },
+        {
+          "id": "HSPH",
+          "a": "X1:module 8",
+          "b": "PH:OUT",
+          "connections": [
+            "X08B"
+          ],
+          "label": "Analog OUT",
+          "kind": "signal",
+          "colour": "grey",
+          "route": null
+        },
+        {
+          "id": "H5PH",
+          "a": "X1:module 4",
+          "b": "PH:logic VCC",
+          "connections": [
+            "L3P"
+          ],
+          "label": "5 V from X1.4",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1010,
+              320
+            ],
+            [
+              1010,
+              510
+            ]
+          ]
+        },
+        {
+          "id": "HGPH",
+          "a": "X1:module 3",
+          "b": "PH:logic GND",
+          "connections": [
+            "L3G"
+          ],
+          "label": "Logic GND from X1.3",
+          "kind": "return",
+          "colour": "brown",
+          "route": [
+            [
+              980,
+              280
+            ],
+            [
+              980,
+              540
+            ]
+          ]
+        },
+        {
+          "id": "HR9",
+          "a": "X1:module 9",
+          "b": "RDOSE:WATER IN",
+          "connections": [
+            "X09B"
+          ],
+          "label": "WATER · white",
+          "kind": "signal",
+          "colour": "white",
+          "route": [
+            [
+              1000,
+              520
+            ],
+            [
+              1000,
+              670
+            ]
+          ]
+        },
+        {
+          "id": "HR10",
+          "a": "X1:module 10",
+          "b": "RDOSE:FERT A IN",
+          "connections": [
+            "X10B"
+          ],
+          "label": "FERT_A · light orange",
+          "kind": "signal",
+          "colour": "light orange",
+          "route": [
+            [
+              1026,
+              560
+            ],
+            [
+              1026,
+              707
+            ]
+          ]
+        },
+        {
+          "id": "HR11",
+          "a": "X1:module 11",
+          "b": "RDOSE:FERT B IN",
+          "connections": [
+            "X11B"
+          ],
+          "label": "FERT_B · orange",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              1052,
+              600
+            ],
+            [
+              1052,
+              744
+            ]
+          ]
+        },
+        {
+          "id": "HR12",
+          "a": "X1:module 12",
+          "b": "RDOSE:ACID IN",
+          "connections": [
+            "X12B"
+          ],
+          "label": "ACID · purple",
+          "kind": "signal",
+          "colour": "purple",
+          "route": [
+            [
+              1078,
+              640
+            ],
+            [
+              1078,
+              781
+            ]
+          ]
+        },
+        {
+          "id": "HRLOGP",
+          "a": "X1:module 4",
+          "b": "RDOSE:logic VCC",
+          "connections": [
+            "L4P"
+          ],
+          "label": "5 V logic from X1.4",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1010,
+              320
+            ],
+            [
+              1010,
+              870
+            ]
+          ]
+        },
+        {
+          "id": "HRLOGG",
+          "a": "X1:module 3",
+          "b": "RDOSE:logic GND",
+          "connections": [
+            "L4G"
+          ],
+          "label": "Logic GND from X1.3",
+          "kind": "return",
+          "colour": "brown",
+          "route": [
+            [
+              980,
+              280
+            ],
+            [
+              980,
+              905
+            ]
+          ]
+        },
+        {
+          "id": "HXPOWERP",
+          "a": "DC1:+12 V",
+          "b": "X1:position 2",
+          "connections": [
+            "P12P"
+          ],
+          "label": "12 V load · red",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              580,
+              1015
+            ],
+            [
+              580,
+              240
+            ]
+          ]
+        },
+        {
+          "id": "HXPOWERR",
+          "a": "DC1:0V12",
+          "b": "X1:position 1",
+          "connections": [
+            "P12R"
+          ],
+          "label": "12 V return · black",
+          "kind": "return",
+          "colour": "black",
+          "route": [
+            [
+              550,
+              1050
+            ],
+            [
+              550,
+              200
+            ]
+          ]
+        },
+        {
+          "id": "HRLOADP",
+          "a": "X1:position 2",
+          "b": "RDOSE:12 V load",
+          "connections": [
+            "D01P"
+          ],
+          "label": "12 V pump load distribution",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              590,
+              240
+            ],
+            [
+              590,
+              1015
+            ],
+            [
+              1080,
+              1015
+            ],
+            [
+              1080,
+              940
+            ]
+          ]
+        },
+        {
+          "id": "HRLOADR",
+          "a": "X1:position 1",
+          "b": "RDOSE:load return",
+          "connections": [
+            "D01R"
+          ],
+          "label": "Pump return distribution",
+          "kind": "return",
+          "colour": "black",
+          "route": [
+            [
+              525,
+              200
+            ],
+            [
+              525,
+              1040
+            ],
+            [
+              1110,
+              1040
+            ],
+            [
+              1110,
+              975
+            ]
+          ]
+        },
+        {
+          "id": "HPPW",
+          "a": "RDOSE:WATER load",
+          "b": "PW",
+          "connections": [
+            "PWLP",
+            "PWLR"
+          ],
+          "label": "12 V pair · relay + PWM route ?",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1510,
+              735
+            ],
+            [
+              1510,
+              665
+            ]
+          ]
+        },
+        {
+          "id": "HPPA",
+          "a": "RDOSE:FERT A load",
+          "b": "PA",
+          "connections": [
+            "PALP",
+            "PALR"
+          ],
+          "label": "12 V pair · contacts untraced",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1525,
+              735
+            ],
+            [
+              1525,
+              815
+            ]
+          ]
+        },
+        {
+          "id": "HPPB",
+          "a": "RDOSE:FERT B load",
+          "b": "PB",
+          "connections": [
+            "PBLP",
+            "PBLR"
+          ],
+          "label": "12 V pair · contacts untraced",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1540,
+              735
+            ],
+            [
+              1540,
+              965
+            ]
+          ]
+        },
+        {
+          "id": "HPPACID",
+          "a": "RDOSE:ACID load",
+          "b": "PACID",
+          "connections": [
+            "PACIDLP",
+            "PACIDLR"
+          ],
+          "label": "12 V pair · contacts untraced",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              1555,
+              735
+            ],
+            [
+              1555,
+              1115
+            ]
+          ]
+        },
+        {
+          "id": "HRTC",
+          "a": "NH1",
+          "b": "RTC1",
+          "connections": [
+            "T01",
+            "T02",
+            "T03",
+            "T04"
+          ],
+          "label": "A4 / A5 + 5 V / GND",
+          "kind": "signal",
+          "colour": "orange",
+          "route": [
+            [
+              375,
+              820
+            ],
+            [
+              375,
+              1168
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "title": "Pi UART and arm box",
+      "subtitle": "Host UART is separate from the servo bus. The arm box receives 12 V; actual servo-rail voltage and cable contacts remain untraced.",
+      "width": 1690,
+      "height": 1070,
+      "nodes": [
+        {
+          "id": "PI1",
+          "x": 50,
+          "y": 90,
+          "w": 330,
+          "h": 260,
+          "title": "Raspberry Pi 5",
+          "subtitle": "Raspberry Pi 5",
+          "ports": [
+            {
+              "name": "27 / GPIO0 TX",
+              "y": 100,
+              "side": "r"
+            },
+            {
+              "name": "28 / GPIO1 RX",
+              "y": 150,
+              "side": "r"
+            },
+            {
+              "name": "25 / GND",
+              "y": 200,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "PI1"
+          ]
+        },
+        {
+          "id": "ARM1",
+          "x": 790,
+          "y": 90,
+          "w": 350,
+          "h": 340,
+          "title": "Robotic arm controller",
+          "subtitle": "Hiwonder Serial Bus Servo Controller",
+          "ports": [
+            {
+              "name": "RX",
+              "y": 100,
+              "side": "l"
+            },
+            {
+              "name": "TX",
+              "y": 150,
+              "side": "l"
+            },
+            {
+              "name": "GND",
+              "y": 200,
+              "side": "l"
+            },
+            {
+              "name": "power input",
+              "label": "Power + / return",
+              "y": 295,
+              "side": "l"
+            },
+            {
+              "name": "servo chain",
+              "y": 110,
+              "side": "r"
+            },
+            {
+              "name": "base lead",
+              "y": 245,
+              "side": "r"
+            }
+          ],
+          "members": [
+            "ARM1"
+          ]
+        },
+        {
+          "id": "SERVOCHAIN",
+          "x": 1310,
+          "y": 90,
+          "w": 320,
+          "h": 135,
+          "title": "Joint and gripper bus",
+          "subtitle": "3 × HTS-35H + 1 × HX-12H",
+          "ports": [],
+          "members": [
+            "SERVOCHAIN"
+          ]
+        },
+        {
+          "id": "BASESERVO",
+          "x": 1310,
+          "y": 310,
+          "w": 320,
+          "h": 125,
+          "title": "Base rotary servo",
+          "subtitle": "Hiwonder HX-35M / HX-35HM",
+          "ports": [],
+          "members": [
+            "BASESERVO"
+          ]
+        },
+        {
+          "id": "DC1",
+          "x": 50,
+          "y": 550,
+          "w": 330,
+          "h": 95,
+          "title": "12 V load converter",
+          "subtitle": "SZBK07 adjustable buck converter",
+          "ports": [],
+          "members": [
+            "DC1"
+          ]
+        },
+        {
+          "id": "SWARM",
+          "x": 430,
+          "y": 550,
+          "w": 280,
+          "h": 95,
+          "title": "Arm local switch",
+          "subtitle": "Controller / arm-box ON/OFF switch",
+          "ports": [],
+          "members": [
+            "SWARM"
+          ]
+        },
+        {
+          "id": "RSPRAY",
+          "x": 800,
+          "y": 700,
+          "w": 340,
+          "h": 95,
+          "title": "Spray switching module",
+          "subtitle": "Arm-box relay / switch module",
+          "ports": [],
+          "members": [
+            "RSPRAY"
+          ]
+        },
+        {
+          "id": "PS",
+          "x": 1310,
+          "y": 700,
+          "w": 320,
+          "h": 95,
+          "title": "Spray pump",
+          "subtitle": "12 V miniature diaphragm pump",
+          "ports": [],
+          "members": [
+            "PS"
+          ]
+        },
+        {
+          "id": "NH1",
+          "x": 50,
+          "y": 920,
+          "w": 330,
+          "h": 95,
+          "title": "Hydroponics Nano",
+          "subtitle": "Arduino Nano USB-C clone",
+          "ports": [],
+          "members": [
+            "NH1"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "A01",
+          "a": "PI1:27 / GPIO0 TX",
+          "b": "ARM1:RX",
+          "connections": [
+            "A01"
+          ],
+          "label": "27 / GPIO0 TX → RX · orange",
+          "kind": "signal",
+          "colour": "orange",
+          "route": null
+        },
+        {
+          "id": "A02",
+          "a": "PI1:28 / GPIO1 RX",
+          "b": "ARM1:TX",
+          "connections": [
+            "A02"
+          ],
+          "label": "28 / GPIO1 RX → TX · purple",
+          "kind": "signal",
+          "colour": "purple",
+          "route": null
+        },
+        {
+          "id": "A03",
+          "a": "PI1:25 / GND",
+          "b": "ARM1:GND",
+          "connections": [
+            "A03"
+          ],
+          "label": "25 / GND → GND · grey",
+          "kind": "signal",
+          "colour": "grey",
+          "route": null
+        },
+        {
+          "id": "ASERV",
+          "a": "ARM1:servo chain",
+          "b": "SERVOCHAIN",
+          "connections": [
+            "A04"
+          ],
+          "label": "Yellow / red / black bus",
+          "kind": "servo",
+          "colour": "yellow / red / black",
+          "route": null
+        },
+        {
+          "id": "ABASE",
+          "a": "ARM1:base lead",
+          "b": "BASESERVO",
+          "connections": [
+            "A05"
+          ],
+          "label": "Separate 3-black-wire lead",
+          "kind": "servo",
+          "colour": "black × 3",
+          "route": null
+        },
+        {
+          "id": "APOWER1",
+          "a": "DC1",
+          "b": "SWARM",
+          "connections": [
+            "P13P",
+            "P13R"
+          ],
+          "label": "12 V arm-box pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "APOWER2",
+          "a": "SWARM",
+          "b": "ARM1:power input",
+          "connections": [
+            "P14P",
+            "P14R"
+          ],
+          "label": "Local switch → controller",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              740,
+              597
+            ],
+            [
+              740,
+              455
+            ],
+            [
+              965,
+              455
+            ]
+          ]
+        },
+        {
+          "id": "ASPPOWER",
+          "a": "DC1",
+          "b": "RSPRAY",
+          "connections": [
+            "P15P",
+            "P15R"
+          ],
+          "label": "12 V spray branch · switch effect ?",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              215,
+              870
+            ],
+            [
+              970,
+              870
+            ]
+          ]
+        },
+        {
+          "id": "ASPUMP",
+          "a": "RSPRAY",
+          "b": "PS",
+          "connections": [
+            "P16P",
+            "P16R"
+          ],
+          "label": "12 V load pair · contacts ?",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "ASIG",
+          "a": "NH1",
+          "b": "RSPRAY",
+          "connections": [
+            "A06"
+          ],
+          "label": "D10 yellow · active HIGH",
+          "kind": "signal",
+          "colour": "yellow",
+          "route": [
+            [
+              500,
+              970
+            ],
+            [
+              500,
+              750
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Power distribution",
+      "subtitle": "Supply and matching returns are shown together. Functional interruption blocks do not assign unknown switch poles or relay contacts.",
+      "width": 1870,
+      "height": 1360,
+      "nodes": [
+        {
+          "id": "PSU1",
+          "x": 35,
+          "y": 70,
+          "w": 260,
+          "h": 95,
+          "title": "Main DC power supply",
+          "subtitle": "24 V switched-mode supply",
+          "ports": [],
+          "members": [
+            "PSU1"
+          ]
+        },
+        {
+          "id": "PD1",
+          "x": 470,
+          "y": 70,
+          "w": 260,
+          "h": 95,
+          "title": "Pi power module",
+          "subtitle": "Wheeltec P23C",
+          "ports": [],
+          "members": [
+            "PD1"
+          ]
+        },
+        {
+          "id": "PI1",
+          "x": 940,
+          "y": 70,
+          "w": 260,
+          "h": 95,
+          "title": "Raspberry Pi 5",
+          "subtitle": "Raspberry Pi 5",
+          "ports": [],
+          "members": [
+            "PI1"
+          ]
+        },
+        {
+          "id": "FAN",
+          "x": 1430,
+          "y": 70,
+          "w": 260,
+          "h": 95,
+          "title": "Enclosure cooling",
+          "subtitle": "5 V fan load(s)",
+          "ports": [],
+          "members": [
+            "FAN"
+          ]
+        },
+        {
+          "id": "DC2",
+          "x": 470,
+          "y": 325,
+          "w": 260,
+          "h": 95,
+          "title": "5 V load converter",
+          "subtitle": "SZBK07 adjustable buck converter",
+          "ports": [],
+          "members": [
+            "DC2"
+          ]
+        },
+        {
+          "id": "DIM1",
+          "x": 940,
+          "y": 325,
+          "w": 260,
+          "h": 95,
+          "title": "Grow-light dimmer",
+          "subtitle": "Rotary PWM dimmer",
+          "ports": [],
+          "members": [
+            "DIM1"
+          ]
+        },
+        {
+          "id": "RLIGHT",
+          "x": 1430,
+          "y": 325,
+          "w": 260,
+          "h": 95,
+          "title": "Lighting relay box",
+          "subtitle": "Rear lighting switching module",
+          "ports": [],
+          "members": [
+            "RLIGHT"
+          ]
+        },
+        {
+          "id": "LED1",
+          "x": 1430,
+          "y": 530,
+          "w": 260,
+          "h": 95,
+          "title": "Grow-light strips",
+          "subtitle": "5 V LED lighting group",
+          "ports": [],
+          "members": [
+            "LED1"
+          ]
+        },
+        {
+          "id": "ES1",
+          "x": 35,
+          "y": 760,
+          "w": 260,
+          "h": 95,
+          "title": "Emergency-stop control",
+          "subtitle": "Twist-release pushbutton",
+          "ports": [],
+          "members": [
+            "ES1"
+          ]
+        },
+        {
+          "id": "DC1",
+          "x": 470,
+          "y": 1010,
+          "w": 260,
+          "h": 95,
+          "title": "12 V load converter",
+          "subtitle": "SZBK07 adjustable buck converter",
+          "ports": [],
+          "members": [
+            "DC1"
+          ]
+        },
+        {
+          "id": "X1",
+          "x": 940,
+          "y": 1010,
+          "w": 260,
+          "h": 95,
+          "title": "Dosing module connector",
+          "subtitle": "Single-row 12-position Molex-style connector",
+          "ports": [],
+          "members": [
+            "X1"
+          ]
+        },
+        {
+          "id": "SWARM",
+          "x": 940,
+          "y": 1210,
+          "w": 260,
+          "h": 95,
+          "title": "Arm local switch",
+          "subtitle": "Controller / arm-box ON/OFF switch",
+          "ports": [],
+          "members": [
+            "SWARM"
+          ]
+        },
+        {
+          "id": "ARM1",
+          "x": 1430,
+          "y": 1210,
+          "w": 260,
+          "h": 95,
+          "title": "Robotic arm controller",
+          "subtitle": "Hiwonder Serial Bus Servo Controller",
+          "ports": [],
+          "members": [
+            "ARM1"
+          ]
+        },
+        {
+          "id": "RSPRAY",
+          "x": 1430,
+          "y": 1010,
+          "w": 260,
+          "h": 95,
+          "title": "Spray switching module",
+          "subtitle": "Arm-box relay / switch module",
+          "ports": [],
+          "members": [
+            "RSPRAY"
+          ]
+        },
+        {
+          "id": "ACIN",
+          "x": 35,
+          "y": 440,
+          "w": 260,
+          "h": 95,
+          "title": "Wall supply and fused plug",
+          "subtitle": "UK fused three-pin plug",
+          "ports": [],
+          "members": [
+            "ACIN"
+          ]
+        },
+        {
+          "id": "DRIVES",
+          "x": 940,
+          "y": 760,
+          "w": 260,
+          "h": 95,
+          "title": "Three DM542 driver supplies",
+          "subtitle": "DX / DY1 / DY2",
+          "ports": [],
+          "members": [
+            "DX",
+            "DY1",
+            "DY2"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "PAC",
+          "a": "ACIN",
+          "b": "PSU1",
+          "connections": [
+            "AC00"
+          ],
+          "label": "AC input · L/N/PE untraced",
+          "kind": "mains",
+          "colour": "unknown",
+          "route": null
+        },
+        {
+          "id": "PP1",
+          "a": "PSU1",
+          "b": "PD1",
+          "connections": [
+            "P01P",
+            "P01R"
+          ],
+          "label": "Raw 24 V + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP2",
+          "a": "PD1",
+          "b": "PI1",
+          "connections": [
+            "U01"
+          ],
+          "label": "USB-C · 5 V supply",
+          "kind": "usb",
+          "colour": "teal",
+          "route": null
+        },
+        {
+          "id": "PP3",
+          "a": "PD1",
+          "b": "FAN",
+          "connections": [
+            "P08P",
+            "P08R"
+          ],
+          "label": "Auxiliary 5 V pair",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              600,
+              220
+            ],
+            [
+              1560,
+              220
+            ]
+          ]
+        },
+        {
+          "id": "PP4",
+          "a": "PSU1",
+          "b": "DC2",
+          "connections": [
+            "P02P",
+            "P02R"
+          ],
+          "label": "Raw 24 V + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP5",
+          "a": "DC2",
+          "b": "DIM1",
+          "connections": [
+            "P09P",
+            "P09R"
+          ],
+          "label": "5 V lighting pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP6",
+          "a": "DIM1",
+          "b": "RLIGHT",
+          "connections": [
+            "P10P",
+            "P10R"
+          ],
+          "label": "Dimmer → relay load route ?",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP7",
+          "a": "RLIGHT",
+          "b": "LED1",
+          "connections": [
+            "P11P",
+            "P11R"
+          ],
+          "label": "LED load pair / contacts ?",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP8",
+          "a": "PSU1",
+          "b": "ES1",
+          "connections": [
+            "P03P",
+            "P03R"
+          ],
+          "label": "Raw 24 V + return",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP9",
+          "a": "ES1",
+          "b": "DRIVES",
+          "connections": [
+            "P04P",
+            "P04R",
+            "P05P",
+            "P05R",
+            "P06P",
+            "P06R"
+          ],
+          "label": "Actuator 24 V / returns",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP10",
+          "a": "ES1",
+          "b": "DC1",
+          "connections": [
+            "P07P",
+            "P07R"
+          ],
+          "label": "Actuator 24 V pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP11",
+          "a": "DC1",
+          "b": "X1",
+          "connections": [
+            "P12P",
+            "P12R"
+          ],
+          "label": "12 V dosing-load pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP12",
+          "a": "DC1",
+          "b": "SWARM",
+          "connections": [
+            "P13P",
+            "P13R"
+          ],
+          "label": "12 V arm-box pair",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP13",
+          "a": "SWARM",
+          "b": "ARM1",
+          "connections": [
+            "P14P",
+            "P14R"
+          ],
+          "label": "Controller supply via local switch",
+          "kind": "power",
+          "colour": "red",
+          "route": null
+        },
+        {
+          "id": "PP14",
+          "a": "DC1",
+          "b": "RSPRAY",
+          "connections": [
+            "P15P",
+            "P15R"
+          ],
+          "label": "12 V spray supply pair",
+          "kind": "power",
+          "colour": "red",
+          "route": [
+            [
+              600,
+              1140
+            ],
+            [
+              1560,
+              1140
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "verification": [
+    {
+      "id": "V01",
+      "title": "AC input and earth",
+      "detail": "PSU model, L/N/PE, plug fuse, cable size and protective-earth route."
+    },
+    {
+      "id": "V02",
+      "title": "E-stop contacts",
+      "detail": "Which conductors are switched; poles and contact terminals."
+    },
+    {
+      "id": "V03",
+      "title": "Drivers and motors",
+      "detail": "Installed DM542 variant, DIP orientation/current table and motor coil mapping."
+    },
+    {
+      "id": "V04",
+      "title": "Limit switches",
+      "detail": "Signal contact, COM/NO/NC selection and return route."
+    },
+    {
+      "id": "V05",
+      "title": "Molex harness",
+      "detail": "D5 white / D4 light-orange continuity; mating orientation and cavity numbering."
+    },
+    {
+      "id": "V06",
+      "title": "Dosing contacts",
+      "detail": "Physical relay channels/contacts and main-pump PWM terminal order."
+    },
+    {
+      "id": "V07",
+      "title": "Lighting",
+      "detail": "DIM1/RLIGHT load contacts, switched return and logic-ground conductor."
+    },
+    {
+      "id": "V08",
+      "title": "Arm interfaces",
+      "detail": "Controller TX level, servo rail voltage, sockets, IDs and chain order."
+    },
+    {
+      "id": "V09",
+      "title": "Spray",
+      "detail": "Logic VCC/GND, pump contacts and interaction with the arm local switch."
+    },
+    {
+      "id": "V10",
+      "title": "Peripherals",
+      "detail": "Sensor interfaces, fan count/header and touchscreen power."
+    }
+  ],
+  "manuals": [
+    [
+      "Electrical handover",
+      "../GrowTech-Wall-Electrical-Handover.docx"
+    ],
+    [
+      "Rev J schematic set",
+      "../GrowTech-Wall-Electrical-RevJ.pdf"
+    ],
+    [
+      "Arduino Nano pinout",
+      "../Manufacturer%20references/arduino-nano-official.pdf"
+    ],
+    [
+      "DM542E family manual — match installed variant",
+      "../Manufacturer%20references/dm542e-official.pdf"
+    ],
+    [
+      "Hiwonder controller manual",
+      "https://wiki.hiwonder.com/projects/Bus-Servo-Controller/en/latest/docs/1.Bus_Servo_Controller_User_Manual.html"
+    ],
+    [
+      "Raspberry Pi hardware documentation",
+      "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    ],
+    [
+      "Pi RP1 peripheral pin functions",
+      "https://datasheets.raspberrypi.com/rp1/rp1-peripherals.pdf"
+    ]
+  ],
+  "sheetTitles": [
+    "Connected power and control overview",
+    "Gantry drivers, signals and limits",
+    "Molex and hydroponics",
+    "Power distribution and lighting",
+    "Physical header positions",
+    "Connection schedule and verification",
+    "Field photographs and connector reference",
+    "Hiwonder controller and UART header"
+  ],
+  "date": "2026-11-08",
+  "baseline": "Owner-supplied electrical handover and GTW-E01–E08 Rev J. Firmware establishes pin roles; hidden physical contacts remain unresolved."
+}

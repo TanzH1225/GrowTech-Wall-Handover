@@ -1,0 +1,6 @@
+# Preserve imported bytes, including the captured source line endings.
+* -text
+*.pt -filter -diff -merge
+*.rob -filter -diff -merge
+*.docx -filter -diff -merge
+*.pdf -filter -diff -merge
