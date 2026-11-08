@@ -4,5 +4,6 @@
   "bytes": 273995519,
   "files": 113,
   "extract_into": "repository root; archive contains CAD library/",
-  "included": "Current owner-arranged Assembly, FAB and Standard, extra EB files, print exports, and retained GTW003C.zip. Session lock files excluded."
+  "included": "Current owner-arranged Assembly, FAB and Standard, extra EB files, print exports, and retained GTW003C.zip. Session lock files excluded.",
+  "status": "Optional initial Release archive retained for existing download links. Current native CAD is directly included in the clone; this archive/helper is unnecessary for normal use."
 }

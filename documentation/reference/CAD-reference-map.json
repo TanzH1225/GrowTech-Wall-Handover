@@ -22,6 +22,8 @@
     "parts": 82,
     "root_assembly_inside_archive": "Assembly/GTW003C.SLDASM",
     "CRC_checked": true,
-    "owner_report": "All CAD references repaired; owner will open the archive manually later."
+    "owner_report": "All CAD references repaired; owner will open the archive manually later.",
+    "included_in_git": false,
+    "note": "Historical source archive metadata only. The arranged native Assembly/FAB/Standard files are included directly in Git."
   }
 }

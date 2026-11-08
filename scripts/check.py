@@ -38,6 +38,12 @@ def check_assets():
     for path in (ROOT / "source code").rglob("*.py"):
         ast.parse(path.read_text(encoding="utf-8-sig"), filename=str(path))
     print(f"Verified {len(assets)} source/model/action assets; Python syntax passed.")
+    cad = json.loads((ROOT / "documentation/reference/CAD-assets.json").read_text())
+    for item in cad:
+        path = ROOT / item["path"]
+        if path.stat().st_size != item["bytes"] or hashlib.sha256(path.read_bytes()).hexdigest() != item["sha256"]:
+            raise AssertionError(f"CAD differs from the owner-arranged library: {item['path']}")
+    print(f"Verified {len(cad)} native CAD and print-export assets.")
 
 
 def check_links():

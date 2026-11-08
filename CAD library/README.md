@@ -1,7 +1,9 @@
 # CAD library
 
-Download [GrowTech-Wall-CAD-Library.zip](https://github.com/TanzH1225/GrowTech-Wall-Handover/releases/download/handover-v1.0.0/GrowTech-Wall-CAD-Library.zip) and extract it into the repository root, or run `python scripts/fetch_cad.py --extract` from the root.
+The native CAD is included in this checkout. Keep these folders together:
 
-The ZIP contains the complete current owner-arranged library. Keep Assembly, FAB and Standard together. Extracted native files are ignored by Git; the Release asset is the shared CAD copy.
+- [Assembly](Assembly/): open [GTW003C.SLDASM](Assembly/GTW003C.SLDASM) for the full system.
+- [FAB](FAB/): fabrication parts, print exports and electrical-box mounts/covers.
+- [Standard](Standard/): standard and purchased components.
 
-SHA-256: `61cc755033e68791a1c739660a1b9afdf5c258d7430d92fb46409dfea501af94`
+Use the [mechanical catalogue](../documentation/Mechanical%20catalog/Mechanical-CAD-Review.html) for previews, functions, materials and suppliers. The original `GTW003C.zip` is excluded from Git because its native contents are already arranged here.

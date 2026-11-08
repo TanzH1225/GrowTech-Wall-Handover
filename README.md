@@ -1,6 +1,6 @@
 # GrowTech Wall handover
 
-Mechanical, electrical and programming handover for the GrowTech Wall prototype, with interactive catalogues, source code, Nano firmware, the active vision model and saved robotic-arm actions.
+Mechanical, electrical and programming handover for the GrowTech Wall prototype, with interactive catalogues, source code, Nano firmware, the active vision model and saved robotic-arm actions and native CAD.
 
 ## Clone and start
 
@@ -35,17 +35,15 @@ After cloning, open **[documentation/START-HERE.html](documentation/START-HERE.h
 | [Current source and startup](documentation/programming/Source-selection-and-startup.html) | Source selection, model path and startup |
 | [Original project report](documentation/reference/Project%20reports/KIG3011_Sem%202_Report_G21.docx) | Original design and experiment context |
 
-## CAD download
+## CAD library
 
-**[Download the current CAD library](https://github.com/TanzH1225/GrowTech-Wall-Handover/releases/download/handover-v1.0.0/GrowTech-Wall-CAD-Library.zip)** from this repository's [Release](https://github.com/TanzH1225/GrowTech-Wall-Handover/releases/tag/handover-v1.0.0). It is a separate asset so ordinary code clones do not need Git LFS or the CAD archive.
+The complete arranged native CAD library is included in a normal clone:
 
-To download, verify and extract it automatically into this checkout:
+- [Assembly](CAD%20library/Assembly/): full system and subassemblies; open `GTW003C.SLDASM` for the complete system.
+- [FAB](CAD%20library/FAB/): fabrication models, print exports and electrical-box mounts/covers.
+- [Standard](CAD%20library/Standard/): purchased and standard components.
 
-```sh
-python scripts/fetch_cad.py --extract
-```
-
-Alternatively, extract the downloaded ZIP into this repository root, preserving its `CAD library/` folder. Native CAD links then resolve to the arranged Assembly, FAB and Standard files. The [CAD access page](CAD%20library/README.html) explains the local file links. The archive SHA-256 is `61cc755033e68791a1c739660a1b9afdf5c258d7430d92fb46409dfea501af94`.
+Keep the folder structure together so assembly references and catalogue links can resolve. `GTW003C.zip` is excluded from Git; the unpacked native files are the shared CAD copy. No separate CAD download or Git LFS is required. The largest CAD file is below GitHub's 100 MiB per-file limit.
 
 ## Current source
 

@@ -9,6 +9,4 @@ venv/
 *.log
 node_modules/
 /release-assets/
-/CAD library/*
-!/CAD library/README.html
-!/CAD library/README.md
+/CAD library/GTW003C.zip

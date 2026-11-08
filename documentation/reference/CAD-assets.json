@@ -290,11 +290,6 @@
     "sha256": "58b28b44d0c4ff00bd6074b0020d4b6828613a23224e4beb36097454a5adafde"
   },
   {
-    "path": "CAD library/GTW003C.zip",
-    "bytes": 133457690,
-    "sha256": "ebfce4a69f8f30a633d21f7176c86435125dc35b3f986299d9e7e54b78c0ddd7"
-  },
-  {
     "path": "CAD library/Standard/250ml Bottle.SLDPRT",
     "bytes": 145427,
     "sha256": "163f20edbc6cffaf6e74804065660b26b705adc6e2025a165366acc29c53d715"
@@ -350,7 +345,7 @@
     "sha256": "eac5e318a68da90eb8d68d92f9a4bcbcfee2fe0edf706cac57111d27def3d422"
   },
   {
-    "path": "CAD library/Standard/HX-35HM/HX-35HM\u00e4\u00b8\u2030\u00e7\u00bb\u00b4\u00e5\u203a\u00be\u00e7\u00ba\u00b8/HX-35HM.SLDASM",
+    "path": "CAD library/Standard/HX-35HM/HX-35HM\u4e09\u7ef4\u56fe\u7eb8/HX-35HM.SLDASM",
     "bytes": 6609146,
     "sha256": "450bf5d0aedf45cbeff3125f654266ae7170f047cc9af36a1de18fe234806a0c"
   },
@@ -440,7 +435,7 @@
     "sha256": "1e9e85f39406cdc3f738bbe08440b837861abaad7e8d2225b70eda8fd8da12f7"
   },
   {
-    "path": "CAD library/Standard/p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID \u00c3\u2014 9 OD \u00c3\u2014 3 W  \u00e2\u20ac\u201d  603-ZZ.SLDPRT",
+    "path": "CAD library/Standard/p  BEARING, METRIC 600 MINIATURE SERIES, DOUBLE-SHIELDED  3mm ID \u00d7 9 OD \u00d7 3 W  \u2014  603-ZZ.SLDPRT",
     "bytes": 2135542,
     "sha256": "4e7922e23557ba31b45adbcee9fae051e719bd3a450d2d6241e3b6530b1325d7"
   },

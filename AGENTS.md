@@ -6,4 +6,4 @@ The current entry points are listed in README.md. Source names and layout are pr
 
 Changes to physical behavior require a separate prototype test record. Desk tests are not hardware validation. Read the relevant programming and electrical handovers before modifying an interface. The arm controller is commanded directly by the Pi, not by either Nano.
 
-Keep report generators, authoring caches, credentials, virtual environments and local CAD extraction outside commits. Do not publish new archives or releases unless explicitly requested by the owner.
+Keep report generators, authoring caches, credentials, virtual environments and temporary archives outside commits. Native CAD under CAD library/Assembly, FAB and Standard is tracked; preserve its names, layout and references. GTW003C.zip is excluded. Do not publish new archives or releases unless explicitly requested by the owner.
