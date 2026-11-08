@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 193,
-      "sha256": "1757eb2f7d675c196f5030c2f7d29db9b008aff6d13da8294c684b4f8dcaf64e"
+      "bytes": 214,
+      "sha256": "31de215b0f5c436b91251ab24bf59b0a4dbeda84b76f5c0d76633a6c48ea525a"
     },
     {
       "path": ".github/workflows/desk-check.yml",
@@ -24,8 +24,8 @@
     },
     {
       "path": "CAD library/README.html",
-      "bytes": 1750,
-      "sha256": "344c51c84f6e60aaae2a100ea4af9eb3403bebe13c10214e0f0ab9fbcb6c4b56"
+      "bytes": 1774,
+      "sha256": "a724d64d8129ed7b33ab7ce5ee2b1c2a4809a0f2b0dfc9ef3213b766bc95191c"
     },
     {
       "path": "CAD library/README.md",
@@ -2149,8 +2149,8 @@
     },
     {
       "path": "scripts/check.py",
-      "bytes": 4288,
-      "sha256": "60c14c0aac1a7c821f6dd4b398a95d0327aef87eb4e314eeac94a7b275c81906"
+      "bytes": 4363,
+      "sha256": "053b2ac06bbe61dfbc245a2b4cb23ab7295360e13b740e7744d520b0404f9ab0"
     },
     {
       "path": "scripts/fetch_cad.py",
@@ -2288,11 +2288,6 @@
       "sha256": "b0c94f485a040a194f985c6d7eb5c575607b99ec886ca0fbbdc9891efa22c813"
     },
     {
-      "path": "source code/Raspberry Pi/GUI/refactored/__pycache__/app.cpython-312.pyc",
-      "bytes": 5750,
-      "sha256": "5718255af8bc385e27f7212587d951e1ed1a51f93b8677e1b55a1b11c79fa30e"
-    },
-    {
       "path": "source code/Raspberry Pi/GUI/refactored/app.py",
       "bytes": 4863,
       "sha256": "5067a171248942aa906c61e2dc43c73efcadb9ce128123cd880567370020792c"
@@ -2301,21 +2296,6 @@
       "path": "source code/Raspberry Pi/GUI/refactored/comm/__init__.py",
       "bytes": 51,
       "sha256": "fc68cc9b2341a34fdd1300ceb523a2bc7c1cb1cb6afb47709b0554e18686f65d"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/comm/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 294,
-      "sha256": "98578ad30ee078f822b9696e85de283a4552e4ebd28242dd42d9b388e1c1ec9c"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/comm/__pycache__/interfaces.cpython-312.pyc",
-      "bytes": 3031,
-      "sha256": "5594300ceb20539a1b634788c1e06666b94ad98e8ae01d180b8c9db1bc7c18e2"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/comm/__pycache__/protocols.cpython-312.pyc",
-      "bytes": 12161,
-      "sha256": "629b3e344d9b49ae90bf20239ceee0a9641ad3e515a9de93161cee89a9199524"
     },
     {
       "path": "source code/Raspberry Pi/GUI/refactored/comm/clients.py",
@@ -2348,16 +2328,6 @@
       "sha256": "d186622c7f5887a29a390e39117e2530a7e959146c39fe170407719d9bca14c6"
     },
     {
-      "path": "source code/Raspberry Pi/GUI/refactored/config/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 405,
-      "sha256": "7287a7b1a4d0319243086576e458528075883049429108dca3816691f2dd2c4a"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/config/__pycache__/settings.cpython-312.pyc",
-      "bytes": 4863,
-      "sha256": "04a32b503c5ebf23cc05e312db7e87db3d0a6115d1e3f7ed26b14df9ddb49f82"
-    },
-    {
       "path": "source code/Raspberry Pi/GUI/refactored/config/settings.py",
       "bytes": 3154,
       "sha256": "9f3b7c7b567b8e25fb5f1acbba03196bc3c2b1b7c58e1072a33b5b6f163ea434"
@@ -2366,21 +2336,6 @@
       "path": "source code/Raspberry Pi/GUI/refactored/domain/__init__.py",
       "bytes": 361,
       "sha256": "1387774a47a36afc2bc6655ea9d4a38c3f58894c35fe5d5ef5925ae7bd96e36b"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/domain/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 585,
-      "sha256": "6aa191d223609bb508a66a447b923f6edf1a00854549fec1f8ca31acf4894d08"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/domain/__pycache__/grid.cpython-312.pyc",
-      "bytes": 2231,
-      "sha256": "f60e7a0b73fc41402af0e071ed616085e250deb935120f1ee6edf9a3c68187a7"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/domain/__pycache__/models.cpython-312.pyc",
-      "bytes": 2115,
-      "sha256": "47da401379674ada968e18babd079b16be5978fb4bcfdf553631817d8c555749"
     },
     {
       "path": "source code/Raspberry Pi/GUI/refactored/domain/grid.py",
@@ -2406,41 +2361,6 @@
       "path": "source code/Raspberry Pi/GUI/refactored/services/__init__.py",
       "bytes": 72,
       "sha256": "d9cb0b897a98d7a66b8b918c4e9cc266f03f6555ecb4866a4bcde948c6ce06c7"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 319,
-      "sha256": "786d11f20194ea86a5c3007f1b9ce2de47936bd8cf183fde830d705d7941c182"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/automation.cpython-312.pyc",
-      "bytes": 10547,
-      "sha256": "f36badcff6912257ae35d9fb9e552646641ff9098fa2126c5969e027fe11e320"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/controller.cpython-312.pyc",
-      "bytes": 40605,
-      "sha256": "ff12c6132aeb4399bfb2001a83360b3de1c7eceb96d19df5f996a89fd0af743e"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/events.cpython-312.pyc",
-      "bytes": 3546,
-      "sha256": "de3b3393f48ac8afba5af34c1a414c134d04383a3a3ee88134bdc93c2b7e06b2"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/state.cpython-312.pyc",
-      "bytes": 14092,
-      "sha256": "cd43801e4b139083bc989b538facb552c7aa175f658a48676daf2ddac7da98ca"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/worker_lane.cpython-312.pyc",
-      "bytes": 4264,
-      "sha256": "cf9400b55389cf8e2f6b8441227974f4a50619a8564ab3350415fb41a9ab635d"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/services/__pycache__/workflows.cpython-312.pyc",
-      "bytes": 8530,
-      "sha256": "93c4f0bce87322051a77e32dd3273034631743cd3c9629066c19f14c559a26d6"
     },
     {
       "path": "source code/Raspberry Pi/GUI/refactored/services/automation.py",
@@ -2476,21 +2396,6 @@
       "path": "source code/Raspberry Pi/GUI/refactored/simulation/__init__.py",
       "bytes": 332,
       "sha256": "462c5a9629b616ac6221efa3f55c26bfb86eab32fef7198a6e49112d47106a84"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 548,
-      "sha256": "ac441ba18c58b7fd6b298ccda759ce5dfcf5cc69bc5e7761497e65ef2d8db883"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__pycache__/controllers.cpython-312.pyc",
-      "bytes": 18584,
-      "sha256": "b2114873846f5f8dd0de778953cacde62179d28de642597d9100d1e917fc253d"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/simulation/__pycache__/vision.cpython-312.pyc",
-      "bytes": 2619,
-      "sha256": "27f682cd8a05a2af510ef747535e2bd06325e0fdff33ab15d4284bedcd5415d0"
     },
     {
       "path": "source code/Raspberry Pi/GUI/refactored/simulation/controllers.py",
@@ -2591,21 +2496,6 @@
       "path": "source code/Raspberry Pi/GUI/refactored/utils/__init__.py",
       "bytes": 30,
       "sha256": "67386d124339118bb3f0e8ba78e7af305e0b8726b3df47f8061edec4c06e072a"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/utils/__pycache__/__init__.cpython-312.pyc",
-      "bytes": 274,
-      "sha256": "220a87ed5df9114d0aeca0c3163ee7cf317ed030dd0b19fba90c105f5be4186f"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/utils/__pycache__/errors.cpython-312.pyc",
-      "bytes": 1007,
-      "sha256": "648f4c3e89b88b5629801a5751a66282fe1e0ed72cbf30bf1797b03ec748d9ee"
-    },
-    {
-      "path": "source code/Raspberry Pi/GUI/refactored/utils/__pycache__/logging_config.cpython-312.pyc",
-      "bytes": 843,
-      "sha256": "e2b2ce5c03b840d0d09a73bba7fd3184bdab0be40494ab2a1b9ef7bb1aa72474"
     },
     {
       "path": "source code/Raspberry Pi/GUI/refactored/utils/errors.py",

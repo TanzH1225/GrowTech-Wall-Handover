@@ -15,6 +15,8 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 GUI = ROOT / "source code/Raspberry Pi/GUI/refactored"
+sys.dont_write_bytecode = True
+os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
 
 class Links(HTMLParser):

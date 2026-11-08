@@ -1,5 +1,5 @@
 # Preserve imported bytes, including the captured source line endings.
-* -text
+* -text whitespace=cr-at-eol
 *.pt -filter -diff -merge
 *.rob -filter -diff -merge
 *.docx -filter -diff -merge
