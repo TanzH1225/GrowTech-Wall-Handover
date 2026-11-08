@@ -37,6 +37,8 @@ After cloning, open **[documentation/START-HERE.html](documentation/START-HERE.h
 
 ## CAD library
 
+> **Clone the CAD library together:** Clone or download the entire repository so `CAD library/Assembly`, `CAD library/FAB` and `CAD library/Standard` are all included. Keep their names and relative folder structure unchanged. Downloading individual assemblies or separating these folders can break SOLIDWORKS part references and catalogue links.
+
 The complete arranged native CAD library is included in a normal clone:
 
 - [Assembly](CAD%20library/Assembly/): full system and subassemblies; open `GTW003C.SLDASM` for the complete system.

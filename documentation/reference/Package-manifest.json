@@ -2704,8 +2704,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5161,
-      "sha256": "effe0cc75ee5a21643a44d01ee7714b22516730668a6c08a9fafe9e1fc1a4832"
+      "bytes": 5508,
+      "sha256": "80e205796f657ce81aae5f843cfb4e384e1220fccd514fa4973c175ba6464429"
     },
     {
       "path": "scripts/check.py",
